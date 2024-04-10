@@ -1,0 +1,9 @@
+{
+  "name": "travis-ergogen-numpad",
+  "version": "2024.04.09",
+  "description": "Travis's Ergogen numpad",
+  "main": "index.js",
+  "repository": "https://github.com/github:todo",
+  "author": "Travis Hardiman <dieseltravis@users.noreply.github.com>",
+  "license": "Hippocratic-3.0"
+}
