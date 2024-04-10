@@ -271,14 +271,30 @@ pcbs:
                 outline: board
         footprints:
             mcu:
-                what: promicro
+                what: travis/ScottoKeebs-Arduino_Pro_Micro
                 where:
                     ref: matrix_col0_row5
                     shift:
                         - 5.75
                         - 0.65U
+                    rotate: 90
                 params:
-                    orientation: up
+                    value: Arduino Pro Micro
+                    P5: mux3
+                    P6: mux2
+                    P7: mux1
+                    P8: mux0
+                    P9: scrC
+                    P10: scrA
+                    P12: LED
+                    P20: row0
+                    P19: row1
+                    P18: row2
+                    P17: row3
+                    P16: row4
+                    P15: row5
+                    P14: encA
+                    P13: encC
             leds:
                 what: ceoloide/led_sk6812mini-e
                 where: meta.tags ~ /row_top/
@@ -308,6 +324,32 @@ pcbs:
                     rownet: '{{row_net}}'
                     led_this: '{{key.led_this}}'
                     led_next: '{{key.led_next}}'
+            rotary:
+                what: travis/ec11
+                params:
+                    from: col4
+                    to: enc_to
+                    A: encA
+                    B: GND
+                    C: encC
+                where:
+                    ref: matrix_col3_row5
+                    shift:
+                        - 0
+                        - 0.5U + 2
+                    rotate: -90
+            rdiode:
+                what: travis/ScottoKeebs-Diode_DO-35
+                where:
+                    ref: matrix_col3_row5
+                    shift:
+                        - '-0.5U + 1.5'
+                        - 12.5
+                    rotate: -90
+                params:
+                    side: B
+                    from: enc_to
+                    to: row5
             zero2u:
                 what: travis/ScottoKeebs-Stabilizer_MX_2u
                 where:
@@ -345,7 +387,7 @@ pcbs:
                 adjust:
                     shift:
                         - 0
-                        - -3
+                        - 0.65U
             travis:
                 what: travis/travis
                 where:
@@ -354,39 +396,54 @@ pcbs:
                             parts:
                                 - matrix_col2_row5
                                 - matrix_col3_row5
+                params:
+                    scale: 3
                 adjust:
                     shift:
-                        - 0
-                        - -3
+                        - -5
+                        - 0.65U
+            name:
+                what: ceoloide/utility_text
+                where:
+                    ref: matrix_col3_row5
+                params:
+                    face: CaskaydiaMono NFP
+                    text: travis-ergogen-numpad
+                    height: 1.2
+                    width: 1.2
+                    align: right
+                    bold: true
+                adjust:
+                    shift:
+                        - 0.5U
+                        - 1.25U
             version:
                 what: ceoloide/utility_text
                 where:
-                    ref:
-                        aggregate:
-                            parts:
-                                - matrix_col2_row5
-                                - matrix_col3_row5
+                    ref: matrix_col3_row5
                 params:
                     face: CaskaydiaMono NFP
                     text: 2024.04.07
-                    height: 1.2
-                    width: 1.2
+                    height: 1
+                    width: 1
+                    align: right
                 adjust:
                     shift:
-                        - 0
-                        - -1.25
+                        - 0.5U
+                        - 1.25U - 2
             jlcpcb:
                 what: ceoloide/utility_text
                 where:
                     ref:
                         aggregate:
                             parts:
-                                - matrix_col2_row5
-                                - matrix_col3_row5
+                                - matrix_col3_row0
+                                - matrix_col3_row2
                 params:
                     text: JLCJLCJLCJLC
                     reversible: true
                 adjust:
                     shift:
                         - 0
-                        - -8
+                        - 0
+                    rotate: 0

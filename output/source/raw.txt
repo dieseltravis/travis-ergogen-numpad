@@ -224,12 +224,40 @@ pcbs:
         outline: board
     footprints:
       mcu:
-        what: promicro #ceoloide/mcu_nice_nano
+        what: travis/ScottoKeebs-Arduino_Pro_Micro
         where: 
           ref: matrix_col0_row5
           shift: [5.75, 0.65U]
+          rotate: 90
         params:
-          orientation: "up"
+          value: "Arduino Pro Micro"
+          #orientation: "up"
+          # left
+          #P1:      # D3 TXO/PD3
+          #P2:      # D2 RXI/PD2
+          #P3: GND
+          #P3: GND
+          P5: mux3  # D1 SDA
+          P6: mux2  # D0 SCL PWM
+          P7: mux1  # D4 A6
+          P8: mux0  # C6 PWM
+          P9: scrC  # D7 A7 PWM
+          P10: scrA # E6
+          #P11:     # B4 A8
+          P12: LED  # B5 A9 PWM
+          # right
+          #P24: RAW LEDV
+          #P23: GND
+          #P22: RESET 13
+          #P21: 3.3V
+          P20: row0 # F4 A3
+          P19: row1 # F5 A2
+          P18: row2 # F6 A1
+          P17: row3 # F7 A0
+          P16: row4 # B1 SCLK
+          P15: row5 # B3 MISO
+          P14: encA # B2 MOSI
+          P13: encC # B6 A10 PWM
       leds:
         what: ceoloide/led_sk6812mini-e
         where: meta.tags ~ /row_top/
@@ -259,6 +287,28 @@ pcbs:
           rownet: "{{row_net}}"
           led_this: "{{key.led_this}}"
           led_next: "{{key.led_next}}"
+      rotary:
+        what: travis/ec11
+        params:
+          from: col4
+          to: enc_to
+          A: encA
+          B: GND
+          C: encC
+        where:
+          ref: matrix_col3_row5
+          shift: [0, 0.5U + 2]
+          rotate: -90
+      rdiode:
+        what: travis/ScottoKeebs-Diode_DO-35 #diode
+        where: 
+          ref: matrix_col3_row5
+          shift: [-0.5U + 1.5, 12.5]
+          rotate: -90
+        params:
+          side: B
+          from: enc_to
+          to: row5
       # stabs
       zero2u:
         what: travis/ScottoKeebs-Stabilizer_MX_2u
@@ -286,30 +336,47 @@ pcbs:
         params:
           scale: 2.0
         adjust:
-          shift: [0, -3]
+          shift: [0, 0.65U]
       travis:
         what: travis/travis
         where: 
           ref.aggregate.parts: [matrix_col2_row5, matrix_col3_row5]
+        params:
+          scale: 3.0
         adjust:
-          shift: [0, -3]
+          shift: [-5, 0.65U]
+      name:
+        what: ceoloide/utility_text
+        where: 
+          ref: matrix_col3_row5
+        params:
+          face: "CaskaydiaMono NFP"
+          text: "travis-ergogen-numpad"
+          height: 1.2
+          width: 1.2
+          align: "right"
+          bold: true
+        adjust:
+          shift: [0.5U, 1.25U]
       version:
         what: ceoloide/utility_text
         where: 
-          ref.aggregate.parts: [matrix_col2_row5, matrix_col3_row5]
+          ref: matrix_col3_row5
         params:
           face: "CaskaydiaMono NFP"
           text: *meta_version
-          height: 1.2
-          width: 1.2
+          height: 1.0
+          width: 1.0
+          align: "right"
         adjust:
-          shift: [0, -1.25]
+          shift: [0.5U, 1.25U - 2]
       jlcpcb:
         what: ceoloide/utility_text
         where: 
-          ref.aggregate.parts: [matrix_col2_row5, matrix_col3_row5]
+          ref.aggregate.parts: [matrix_col3_row0, matrix_col3_row2]
         params:
           text: JLCJLCJLCJLC
           reversible: true
         adjust:
-          shift: [0, -8]
+          shift: [0, 0]
+          rotate: 0
