@@ -5656,33 +5656,8 @@
     )
   )
 
-      (gr_text "JLCJLCJLCJLC"
-        (at 70.075 115.24999999999997 0)
-        (layer F.SilkS)
-        (effects
-          (font 
-            (size 1 1)
-            (thickness 0.15)
-            
-            )
-            
-          )
-      )
-      (gr_text "JLCJLCJLCJLC"
-        (at 70.075 115.24999999999997 0)
-        (layer B.SilkS)
-        (effects
-          (font 
-            (size 1 1)
-            (thickness 0.15)
-            
-            )
-            (justify  mirror)
-          )
-      )
-
       (module "ceoloide:ergogen_logo" (layer "F.Cu")
-        (at 70.075 110.24999999999997 0)
+        (at 70.07499999999999 110.24999999999997 0)
         (attr virtual)
         (fp_text reference "LOGO1" (at 9.144 0 0) (layer "F.Fab") hide
           (effects (font (size 1 1) (thickness 0.1)))
@@ -5710,7 +5685,7 @@
     
 
     (module "travis:travis" (layer "F.Cu") (tedit 0)
-    (at 70.075 110.24999999999997 0)
+    (at 90.125 110.24999999999997 0)
     (attr virtual)
     (fp_text reference "LOGO2" (at 0 -0.5 0)(layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.1)))
@@ -6524,7 +6499,7 @@
    )
 
       (gr_text "2024.04.07"
-        (at 70.075 108.49999999999997 0)
+        (at 90.125 108.49999999999997 0)
         (layer F.SilkS)
         (effects
           (font (face "CaskaydiaMono NFP")
@@ -6533,6 +6508,31 @@
             
             )
             
+          )
+      )
+
+      (gr_text "JLCJLCJLCJLC"
+        (at 90.125 115.24999999999997 0)
+        (layer F.SilkS)
+        (effects
+          (font 
+            (size 1 1)
+            (thickness 0.15)
+            
+            )
+            
+          )
+      )
+      (gr_text "JLCJLCJLCJLC"
+        (at 90.125 115.24999999999997 0)
+        (layer B.SilkS)
+        (effects
+          (font 
+            (size 1 1)
+            (thickness 0.15)
+            
+            )
+            (justify  mirror)
           )
       )
   (gr_line (start 27.474999999999998 207.525) (end 27.474999999999998 84.74999999999997) (angle 90) (layer Edge.Cuts) (width 0.15))

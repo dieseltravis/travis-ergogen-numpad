@@ -279,19 +279,10 @@ pcbs:
           shift: [0, -staby]
           rotate: 180
       # logos
-      jlcpcb:
-        what: ceoloide/utility_text
-        where: 
-          ref.aggregate.parts: [matrix_col0_row5, matrix_col3_row5]
-        params:
-          text: JLCJLCJLCJLC
-          reversible: true
-        adjust:
-          shift: [0, -8]
       ergologo:
         what: ceoloide/utility_ergogen_logo
         where: 
-          ref.aggregate.parts: [matrix_col0_row5, matrix_col3_row5]
+          ref.aggregate.parts: [matrix_col1_row5, matrix_col2_row5]
         params:
           scale: 2.0
         adjust:
@@ -299,13 +290,13 @@ pcbs:
       travis:
         what: travis/travis
         where: 
-          ref.aggregate.parts: [matrix_col0_row5, matrix_col3_row5]
+          ref.aggregate.parts: [matrix_col2_row5, matrix_col3_row5]
         adjust:
           shift: [0, -3]
       version:
         what: ceoloide/utility_text
         where: 
-          ref.aggregate.parts: [matrix_col0_row5, matrix_col3_row5]
+          ref.aggregate.parts: [matrix_col2_row5, matrix_col3_row5]
         params:
           face: "CaskaydiaMono NFP"
           text: *meta_version
@@ -313,3 +304,12 @@ pcbs:
           width: 1.2
         adjust:
           shift: [0, -1.25]
+      jlcpcb:
+        what: ceoloide/utility_text
+        where: 
+          ref.aggregate.parts: [matrix_col2_row5, matrix_col3_row5]
+        params:
+          text: JLCJLCJLCJLC
+          reversible: true
+        adjust:
+          shift: [0, -8]
