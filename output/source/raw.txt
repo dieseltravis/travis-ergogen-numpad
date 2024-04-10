@@ -1,0 +1,315 @@
+meta:
+  engine: 4.0.5
+  name: "travis-ergogen-numpad"
+  version: &meta_version "2024.04.07"
+  date: "2024-04-05"
+  author: '"Travis Hardiman"'
+  #url: TODO: https://github.com/dieseltravis/travis-ergogen-2024
+  tags: [ "ergogen", "promicro", "keyboard", "cherrymx", "hotswap", "rgb", "numpad" ]
+units:
+  pp: U + 2
+  # outer perimeter of board
+  op: U + 6
+  kp: U + 1
+  # stab Y adjust
+  staby: 0.62
+points:
+  zones:
+    matrix:
+      anchor:
+        # move the PCB into view for KiCad
+        shift: [40, -200]
+      key:
+        padding: kp
+        spread: kp
+      columns:
+        col0:
+          key:
+            column_net: col0
+          rows:
+            row0:
+              width: 2U
+              shift: [0.5kp, 0]
+              key:
+                led_next: ""
+                led_this: LED_20
+            row1:
+              shift: [-0.5kp, 0]
+              key:
+                led_next: LED_16
+                led_this: LED_15
+            row2:
+              key:
+                led_next: LED_15
+                led_this: LED_14
+            row3:
+              key:
+                led_next: LED_9
+                led_this: LED_8
+            row4:
+              key:
+                led_next: LED_8
+                led_this: LED_7
+            row5:
+              key:
+                led_next: LED_1
+                led_this: LED_0
+        col1:
+          key:
+            column_net: col1
+          rows:
+            row0:
+              skip: true
+            row1:
+              key:
+                led_next: LED_17
+                led_this: LED_16
+            row2:
+              key:
+                led_next: LED_14
+                led_this: LED_13
+            row3:
+              key:
+                led_next: LED_10
+                led_this: LED_9
+            row4:
+              key:
+                led_next: LED_7
+                led_this: LED_6
+            row5:
+              key:
+                led_next: LED_2
+                led_this: LED_1
+        col2:
+          key:
+            column_net: col2
+          rows:
+            row0:
+              key:
+                led_next: LED_20
+                led_this: LED_19
+            row1:
+              key:
+                led_next: LED_18
+                led_this: LED_17
+            row2:
+              key:
+                led_next: LED_13
+                led_this: LED_12
+            row3:
+              key:
+                led_next: LED_11
+                led_this: LED_10
+            row4:
+              key:
+                led_next: LED_6
+                led_this: LED_5
+            row5:
+              key:
+                led_next: LED_3
+                led_this: LED_2
+        col3:
+          key:
+            column_net: col3
+          rows:
+            row0:
+              shift: [0, 0.5kp]
+              rotate: 90
+              width: 2U
+              key:
+                led_next: LED_19
+                led_this: LED_18
+            row1: 
+              rotate: -90
+              shift: [1kp, -1kp]
+              skip: true
+            row2:
+              rotate: 90
+              width: 2U
+              key:
+                led_next: LED_12
+                led_this: LED_11
+            row3:
+              rotate: -90
+              shift: [0.5kp, -1kp]
+              skip: true
+            row4:
+              key:
+                led_next: LED_5
+                led_this: LED_4
+            row5:
+              key:
+                led_next: LED_4
+                led_this: LED_3
+      rows:
+        row0:
+          tags: 
+            - key
+            - row_even
+          row_net: row0
+        row1:
+          tags: 
+            - key
+            - row_odd
+          row_net: row1
+        row2:
+          tags: 
+            - key
+            - row_even
+          row_net: row2
+        row3:
+          tags: 
+            - key
+            - row_odd
+          row_net: row3
+        row4:
+          tags: 
+            - key
+            - row_even
+          row_net: row4
+        row5:
+          tags: row_top
+          row_net: row5
+          width: 3.20
+          height: 2.80
+          shift: [0, -7.5]
+outlines:
+  _raw:
+    - what: rectangle
+      where: key
+      #bound: true
+      size: [pp, pp]
+  board:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: matrix_col0_row4
+          shift: [-0.5op, kp + 20]
+        - ref: matrix_col3_row4
+          shift: [0.5op, kp + 20]
+        - ref: matrix_col2_row0
+          shift: [0.5op + kp, -0.5op]
+        - ref: matrix_col0_row0
+          shift: [-0.5kp - 0.5op, -0.5op]
+      fillet: 5
+  mcu:
+    - what: rectangle
+      where: 
+        ref: matrix_col0_row5
+        shift: [5.75, 12.5]
+      bound: false
+      size: [33.02, 17.78]
+  keys:
+    - what: rectangle
+      where: key
+      bound: false
+      size: [U - 0.5,U - 0.5]
+  leds:
+    - what: rectangle
+      where: row_top
+      bound: false
+      size: [3.20, 2.80]
+  combo:
+    - name: board
+    - operation: subtract
+      name: mcu
+    - operation: subtract
+      name: keys
+    - operation: subtract
+      name: leds
+pcbs:
+  travis_num2024:
+    outlines:
+      main:
+        outline: board
+    footprints:
+      mcu:
+        what: promicro #ceoloide/mcu_nice_nano
+        where: 
+          ref: matrix_col0_row5
+          shift: [5.75, 0.65U]
+        params:
+          orientation: "up"
+      leds:
+        what: ceoloide/led_sk6812mini-e
+        where: meta.tags ~ /row_top/
+        params:
+          P1: RAW
+          P4: "{{key.led_this}}"
+          P2: "{{key.led_next}}"
+      keymod-odd:
+        what: travis/key-module
+        where: meta.tags ~ /row_odd/
+        params:
+          U: U
+          dir: 'LTR'
+          name: "{{name}}"
+          colnet: "{{column_net}}"
+          rownet: "{{row_net}}"
+          led_this: "{{key.led_this}}"
+          led_next: "{{key.led_next}}"
+      keymod-even:
+        what: travis/key-module
+        where: meta.tags ~ /row_even/
+        params:
+          U: U
+          dir: 'RTL'
+          name: "{{name}}"
+          colnet: "{{column_net}}"
+          rownet: "{{row_net}}"
+          led_this: "{{key.led_this}}"
+          led_next: "{{key.led_next}}"
+      # stabs
+      zero2u:
+        what: travis/ScottoKeebs-Stabilizer_MX_2u
+        where:
+          ref: matrix_col0_row0
+          shift: [0, -staby]
+          rotate: 180
+      enter2u:
+        what: travis/ScottoKeebs-Stabilizer_MX_2u
+        where:
+          ref: matrix_col3_row0
+          shift: [0, -staby]
+          rotate: 180
+      plus2u:
+        what: travis/ScottoKeebs-Stabilizer_MX_2u
+        where:
+          ref: matrix_col3_row2
+          shift: [0, -staby]
+          rotate: 180
+      # logos
+      jlcpcb:
+        what: ceoloide/utility_text
+        where: 
+          ref.aggregate.parts: [matrix_col0_row5, matrix_col3_row5]
+        params:
+          text: JLCJLCJLCJLC
+          reversible: true
+        adjust:
+          shift: [0, -8]
+      ergologo:
+        what: ceoloide/utility_ergogen_logo
+        where: 
+          ref.aggregate.parts: [matrix_col0_row5, matrix_col3_row5]
+        params:
+          scale: 2.0
+        adjust:
+          shift: [0, -3]
+      travis:
+        what: travis/travis
+        where: 
+          ref.aggregate.parts: [matrix_col0_row5, matrix_col3_row5]
+        adjust:
+          shift: [0, -3]
+      version:
+        what: ceoloide/utility_text
+        where: 
+          ref.aggregate.parts: [matrix_col0_row5, matrix_col3_row5]
+        params:
+          face: "CaskaydiaMono NFP"
+          text: *meta_version
+          height: 1.2
+          width: 1.2
+        adjust:
+          shift: [0, -1.25]
