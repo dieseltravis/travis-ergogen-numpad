@@ -1,11 +1,11 @@
 
-            
+
 (kicad_pcb (version 20171130) (host pcbnew 5.1.6)
 
   (page A3)
   (title_block
-    (title travis_num2024)
-    (rev 2024.04.07)
+    (title "travis_num2024")
+    (rev "2024.04.07")
     (company "Travis Hardiman")
   )
 
@@ -92,7 +92,7 @@
       (outputdirectory ""))
   )
 
-            (net 0 "")
+  (net 0 "")
 (net 1 "RAW")
 (net 2 "GND")
 (net 3 "RST")
@@ -162,7 +162,7 @@
 (net 67 "col3")
 (net 68 "matrix_col3_row2")
 (net 69 "matrix_col3_row4")
-            
+
   (net_class Default "This is the default net class."
     (clearance 0.2)
     (trace_width 0.25)
@@ -242,7 +242,7 @@
 (add_net "matrix_col3_row4")
   )
 
-            
+  
         
       (module ProMicro (layer F.Cu) (tedit 5B307E4C)
       (at 45.75 94.86749999999998 0)
@@ -6535,7 +6535,7 @@
             
           )
       )
-            (gr_line (start 27.474999999999998 207.525) (end 27.474999999999998 84.74999999999997) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 27.474999999999998 207.525) (end 27.474999999999998 84.74999999999997) (angle 90) (layer Edge.Cuts) (width 0.15))
 (gr_line (start 32.474999999999994 79.74999999999997) (end 107.67500000000001 79.74999999999997) (angle 90) (layer Edge.Cuts) (width 0.15))
 (gr_line (start 112.67500000000001 84.74999999999997) (end 112.67500000000001 207.525) (angle 90) (layer Edge.Cuts) (width 0.15))
 (gr_line (start 107.67500000000001 212.525) (end 32.474999999999994 212.525) (angle 90) (layer Edge.Cuts) (width 0.15))
@@ -6543,7 +6543,6 @@
 (gr_arc (start 107.67500000000001 84.74999999999997) (end 112.67500000000001 84.74999999999997) (angle -90) (layer Edge.Cuts) (width 0.15))
 (gr_arc (start 107.67500000000001 207.525) (end 107.67500000000001 212.525) (angle -90) (layer Edge.Cuts) (width 0.15))
 (gr_arc (start 32.474999999999994 207.525) (end 27.474999999999994 207.525) (angle -90) (layer Edge.Cuts) (width 0.15))
-            
+
 )
 
-        
