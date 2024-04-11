@@ -1,9 +1,10 @@
 meta:
     engine: 4.0.5
     name: travis-ergogen-numpad
-    version: 2024.04.07
-    date: '2024-04-05'
+    version: 2024.04.10
+    date: '2024-04-10'
     author: Travis Hardiman
+    url: 'https://github.com/dieseltravis/travis-ergonum'
     tags:
         - ergogen
         - promicro
@@ -17,6 +18,8 @@ units:
     op: U + 6
     kp: U + 1
     staby: 0.62
+    lblsize: 1.8
+    lblshift: -2.75
 points:
     zones:
         matrix:
@@ -275,33 +278,167 @@ pcbs:
                 where:
                     ref: matrix_col0_row5
                     shift:
-                        - 5.75
+                        - 5.25
                         - 0.65U
                     rotate: 90
                 params:
                     value: Arduino Pro Micro
-                    P5: mux3
-                    P6: mux2
-                    P7: mux1
-                    P8: mux0
-                    P9: scrC
-                    P10: scrA
+                    P5: sda
+                    P6: scl
+                    P7: row0
+                    P8: row1
+                    P9: row2
+                    P10: row3
+                    P11: row4
                     P12: LED
-                    P20: row0
-                    P19: row1
-                    P18: row2
-                    P17: row3
-                    P16: row4
-                    P15: row5
+                    P20: col0
+                    P19: col1
+                    P18: col2
+                    P17: col3
                     P14: encA
                     P13: encC
+            oled:
+                what: oled
+                params:
+                    side: F
+                    SDA: sda
+                    SCL: scl
+                where:
+                    ref: matrix_col1_row5
+                    shift:
+                        - 4
+                        - 6
+                    rotate: 180
+            rgbr:
+                what: travis/RAxialL6D25P10H
+                params:
+                    from: LED
+                    to: LED_0
+                    side: B
+                    value: 470R
+                where:
+                    ref: matrix_col1_row5
+                    shift:
+                        - '-0.25U-0.5'
+                        - 1.75
+                    rotate: 180
+            cap1:
+                what: travis/CRadialD63H11P25
+                params:
+                    P1: RAW
+                    P2: GND
+                    side: B
+                    value: 6.3V 1000uF
+                where:
+                    ref: matrix_col0_row5
+                    shift:
+                        - -5
+                        - 0.65U + (6.3 / 4) - 0.25
+                    rotate: 270
             leds:
-                what: ceoloide/led_sk6812mini-e
+                what: travis/led_sk6812mini-e
                 where: meta.tags ~ /row_top/
                 params:
                     P1: RAW
                     P4: '{{key.led_this}}'
                     P2: '{{key.led_next}}'
+                    valpos:
+                        - 0
+                        - 2.25
+                    include_keepout: true
+            lblled:
+                what: ceoloide/utility_text
+                where: meta.tags ~ /row_top/
+                params:
+                    text: '{{key.led_this}}'
+                    height: 0.8
+                    width: 0.8
+                    side: B
+                    mirrored: true
+                    align: left
+                adjust:
+                    shift:
+                        - -3.8
+                        - -0.7
+            ledcaps:
+                what: travis/CDiscD47W25P5
+                params:
+                    P1: VCC
+                    P2: GND
+                    value: '104'
+                    side: B
+                    refpos:
+                        - 7.5
+                        - 0
+                    valpos:
+                        - -2.5
+                        - 0
+                where: meta.tags ~ /row_top/
+                adjust:
+                    shift:
+                        - 2.5
+                        - -3.34
+                    rotate: 180
+            lblnum:
+                what: ceoloide/utility_text
+                where:
+                    ref: matrix_col0_row5
+                params:
+                    face: CaskaydiaMono NFP
+                    text: Num
+                    height: lblsize
+                    width: lblsize
+                    align: right
+                    bold: true
+                adjust:
+                    shift:
+                        - lblshift
+                        - 0
+            lblcaps:
+                what: ceoloide/utility_text
+                where:
+                    ref: matrix_col1_row5
+                params:
+                    face: CaskaydiaMono NFP
+                    text: Caps
+                    height: lblsize
+                    width: lblsize
+                    align: right
+                    bold: true
+                adjust:
+                    shift:
+                        - lblshift
+                        - 0
+            lblscroll:
+                what: ceoloide/utility_text
+                where:
+                    ref: matrix_col2_row5
+                params:
+                    face: CaskaydiaMono NFP
+                    text: Scroll
+                    height: lblsize
+                    width: lblsize
+                    align: right
+                    bold: true
+                adjust:
+                    shift:
+                        - lblshift
+                        - 0
+            lblfun:
+                what: ceoloide/utility_text
+                where:
+                    ref: matrix_col3_row5
+                params:
+                    face: CaskaydiaMono NFP
+                    text: Fun
+                    height: lblsize
+                    width: lblsize
+                    align: right
+                    bold: true
+                adjust:
+                    shift:
+                        - lblshift
+                        - 0
             keymod-odd:
                 what: travis/key-module
                 where: meta.tags ~ /row_odd/
@@ -349,7 +486,7 @@ pcbs:
                 params:
                     side: B
                     from: enc_to
-                    to: row5
+                    to: row4
             zero2u:
                 what: travis/ScottoKeebs-Stabilizer_MX_2u
                 where:
@@ -423,7 +560,7 @@ pcbs:
                     ref: matrix_col3_row5
                 params:
                     face: CaskaydiaMono NFP
-                    text: 2024.04.07
+                    text: 2024.04.10
                     height: 1
                     width: 1
                     align: right

@@ -15,6 +15,13 @@
 #define MATRIX_ROW_PINS { F4, F5, F6, F7, B1 }
 #define MATRIX_COL_PINS { D1, D0, D4, C6 }
 
+#define OLED_DISPLAY_128X32
+//#define I2C1_SCL_PIN        GP17
+//#define I2C1_SDA_PIN        GP16
+//#define I2C_DRIVER I2CD0
+#define OLED_BRIGHTNESS 128
+#define OLED_FONT_H "keyboards/1upkeyboards/pi40/lib/glcdfont.c"
+
 #define WS2812_BYTE_ORDER WS2812_BYTE_ORDER_GRB
 
 /* Optional encoder pins */

@@ -5,7 +5,7 @@
   (page A3)
   (title_block
     (title "travis_num2024")
-    (rev "2024.04.07")
+    (rev "2024.04.10")
     (company "Travis Hardiman")
   )
 
@@ -96,69 +96,65 @@
 (net 1 "D3")
 (net 2 "D2")
 (net 3 "GND")
-(net 4 "mux3")
-(net 5 "mux2")
-(net 6 "mux1")
-(net 7 "mux0")
-(net 8 "scrC")
-(net 9 "scrA")
-(net 10 "B4")
+(net 4 "sda")
+(net 5 "scl")
+(net 6 "row0")
+(net 7 "row1")
+(net 8 "row2")
+(net 9 "row3")
+(net 10 "row4")
 (net 11 "LED")
 (net 12 "encC")
 (net 13 "encA")
-(net 14 "row5")
-(net 15 "row4")
-(net 16 "row3")
-(net 17 "row2")
-(net 18 "row1")
-(net 19 "row0")
+(net 14 "B3")
+(net 15 "B1")
+(net 16 "col3")
+(net 17 "col2")
+(net 18 "col1")
+(net 19 "col0")
 (net 20 "VCC")
 (net 21 "RST")
 (net 22 "RAW")
-(net 23 "LED_1")
-(net 24 "LED_0")
+(net 23 "LED_0")
+(net 24 "LED_1")
 (net 25 "LED_2")
 (net 26 "LED_3")
 (net 27 "LED_4")
 (net 28 "matrix_col0_row1")
-(net 29 "col0")
-(net 30 "LED_15")
-(net 31 "LED_16")
-(net 32 "matrix_col0_row3")
-(net 33 "LED_8")
-(net 34 "LED_9")
-(net 35 "matrix_col1_row1")
-(net 36 "col1")
-(net 37 "LED_17")
-(net 38 "matrix_col1_row3")
-(net 39 "LED_10")
-(net 40 "matrix_col2_row1")
-(net 41 "col2")
-(net 42 "LED_18")
-(net 43 "matrix_col2_row3")
-(net 44 "LED_11")
-(net 45 "matrix_col0_row0")
-(net 46 "LED_20")
-(net 47 "matrix_col0_row2")
-(net 48 "LED_14")
-(net 49 "matrix_col0_row4")
-(net 50 "LED_7")
-(net 51 "matrix_col1_row2")
-(net 52 "LED_13")
-(net 53 "matrix_col1_row4")
-(net 54 "LED_6")
-(net 55 "matrix_col2_row0")
-(net 56 "LED_19")
-(net 57 "matrix_col2_row2")
-(net 58 "LED_12")
-(net 59 "matrix_col2_row4")
-(net 60 "LED_5")
-(net 61 "matrix_col3_row0")
-(net 62 "col3")
-(net 63 "matrix_col3_row2")
-(net 64 "matrix_col3_row4")
-(net 65 "col4")
-(net 66 "enc_to")
+(net 29 "LED_15")
+(net 30 "LED_16")
+(net 31 "matrix_col0_row3")
+(net 32 "LED_8")
+(net 33 "LED_9")
+(net 34 "matrix_col1_row1")
+(net 35 "LED_17")
+(net 36 "matrix_col1_row3")
+(net 37 "LED_10")
+(net 38 "matrix_col2_row1")
+(net 39 "LED_18")
+(net 40 "matrix_col2_row3")
+(net 41 "LED_11")
+(net 42 "matrix_col0_row0")
+(net 43 "LED_20")
+(net 44 "matrix_col0_row2")
+(net 45 "LED_14")
+(net 46 "matrix_col0_row4")
+(net 47 "LED_7")
+(net 48 "matrix_col1_row2")
+(net 49 "LED_13")
+(net 50 "matrix_col1_row4")
+(net 51 "LED_6")
+(net 52 "matrix_col2_row0")
+(net 53 "LED_19")
+(net 54 "matrix_col2_row2")
+(net 55 "LED_12")
+(net 56 "matrix_col2_row4")
+(net 57 "LED_5")
+(net 58 "matrix_col3_row0")
+(net 59 "matrix_col3_row2")
+(net 60 "matrix_col3_row4")
+(net 61 "col4")
+(net 62 "enc_to")
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -171,44 +167,41 @@
 (add_net "D3")
 (add_net "D2")
 (add_net "GND")
-(add_net "mux3")
-(add_net "mux2")
-(add_net "mux1")
-(add_net "mux0")
-(add_net "scrC")
-(add_net "scrA")
-(add_net "B4")
+(add_net "sda")
+(add_net "scl")
+(add_net "row0")
+(add_net "row1")
+(add_net "row2")
+(add_net "row3")
+(add_net "row4")
 (add_net "LED")
 (add_net "encC")
 (add_net "encA")
-(add_net "row5")
-(add_net "row4")
-(add_net "row3")
-(add_net "row2")
-(add_net "row1")
-(add_net "row0")
+(add_net "B3")
+(add_net "B1")
+(add_net "col3")
+(add_net "col2")
+(add_net "col1")
+(add_net "col0")
 (add_net "VCC")
 (add_net "RST")
 (add_net "RAW")
-(add_net "LED_1")
 (add_net "LED_0")
+(add_net "LED_1")
 (add_net "LED_2")
 (add_net "LED_3")
 (add_net "LED_4")
 (add_net "matrix_col0_row1")
-(add_net "col0")
 (add_net "LED_15")
 (add_net "LED_16")
 (add_net "matrix_col0_row3")
 (add_net "LED_8")
 (add_net "LED_9")
 (add_net "matrix_col1_row1")
-(add_net "col1")
 (add_net "LED_17")
 (add_net "matrix_col1_row3")
 (add_net "LED_10")
 (add_net "matrix_col2_row1")
-(add_net "col2")
 (add_net "LED_18")
 (add_net "matrix_col2_row3")
 (add_net "LED_11")
@@ -229,7 +222,6 @@
 (add_net "matrix_col2_row4")
 (add_net "LED_5")
 (add_net "matrix_col3_row0")
-(add_net "col3")
 (add_net "matrix_col3_row2")
 (add_net "matrix_col3_row4")
 (add_net "col4")
@@ -239,7 +231,7 @@
   
     (module "Arduino_Pro_Micro"
     (layer "F.Cu")
-    (at 45.75 94.86749999999998 90)
+    (at 45.25 94.86749999999998 90)
 
     (attr through_hole)
     (fp_text reference "MCU1" (at 0 1.625 90) (layer "F.SilkS") hide
@@ -440,22 +432,22 @@
     (pad "2" thru_hole circle (at -7.62 -11.43 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 2 "D2"))
     (pad "3" thru_hole circle (at -7.62 -8.89 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 3 "GND"))
     (pad "4" thru_hole circle (at -7.62 -6.35 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 3 "GND"))
-    (pad "5" thru_hole circle (at -7.62 -3.81 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 4 "mux3"))
-    (pad "6" thru_hole circle (at -7.62 -1.27 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 5 "mux2"))
-    (pad "7" thru_hole circle (at -7.62 1.27 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 6 "mux1"))
-    (pad "8" thru_hole circle (at -7.62 3.81 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 7 "mux0"))
-    (pad "9" thru_hole circle (at -7.62 6.35 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 8 "scrC"))
-    (pad "10" thru_hole circle (at -7.62 8.89 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 9 "scrA"))
-    (pad "11" thru_hole circle (at -7.62 11.43 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 10 "B4"))
+    (pad "5" thru_hole circle (at -7.62 -3.81 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 4 "sda"))
+    (pad "6" thru_hole circle (at -7.62 -1.27 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 5 "scl"))
+    (pad "7" thru_hole circle (at -7.62 1.27 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 6 "row0"))
+    (pad "8" thru_hole circle (at -7.62 3.81 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 7 "row1"))
+    (pad "9" thru_hole circle (at -7.62 6.35 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 8 "row2"))
+    (pad "10" thru_hole circle (at -7.62 8.89 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 9 "row3"))
+    (pad "11" thru_hole circle (at -7.62 11.43 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 10 "row4"))
     (pad "12" thru_hole circle (at -7.62 13.97 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 11 "LED"))
     (pad "13" thru_hole circle (at 7.62 13.97 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 12 "encC"))
     (pad "14" thru_hole circle (at 7.62 11.43 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 13 "encA"))
-    (pad "15" thru_hole circle (at 7.62 8.89 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 14 "row5"))
-    (pad "16" thru_hole circle (at 7.62 6.35 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 15 "row4"))
-    (pad "17" thru_hole circle (at 7.62 3.81 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 16 "row3"))
-    (pad "18" thru_hole circle (at 7.62 1.27 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 17 "row2"))
-    (pad "19" thru_hole circle (at 7.62 -1.27 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 18 "row1"))
-    (pad "20" thru_hole circle (at 7.62 -3.81 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 19 "row0"))
+    (pad "15" thru_hole circle (at 7.62 8.89 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 14 "B3"))
+    (pad "16" thru_hole circle (at 7.62 6.35 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 15 "B1"))
+    (pad "17" thru_hole circle (at 7.62 3.81 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 16 "col3"))
+    (pad "18" thru_hole circle (at 7.62 1.27 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 17 "col2"))
+    (pad "19" thru_hole circle (at 7.62 -1.27 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 18 "col1"))
+    (pad "20" thru_hole circle (at 7.62 -3.81 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 19 "col0"))
     (pad "21" thru_hole circle (at 7.62 -6.35 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 20 "VCC"))
     (pad "22" thru_hole circle (at 7.62 -8.89 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 21 "RST"))
     (pad "23" thru_hole circle (at 7.62 -11.43 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (net 3 "GND"))
@@ -467,14 +459,98 @@
     )
   )
 
-      (module "ceoloide:led_SK6812mini-e (per-keysingle-side)" 
-        (layer B.Cu) (tedit 5F70BC98)
+        (module lib:OLED_headers (layer F.Cu) (tedit 5E1ADAC2)
+        (at 64.05 101.24999999999997 180) 
+
+                
+        (fp_text reference "OLED1" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        (fp_text value OLED (at 0 -7.3) (layer F.Fab) (effects (font (size 1 1) (thickness 0.15))))
+
+        
+        (pad 4 thru_hole oval (at 1.6 2.18 450) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+        (net 4 "sda"))
+        (pad 3 thru_hole oval (at 1.6 4.72 450) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+        (net 5 "scl"))
+        (pad 2 thru_hole oval (at 1.6 7.26 450) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+        (net 20 "VCC"))
+        (pad 1 thru_hole rect (at 1.6 9.8 450) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+        (net 3 "GND"))
+        )
+        
+
+    (module "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer B.Cu)
+    (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+    (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
+    (at 54.787499999999994 105.49999999999997 180)
+    (fp_text reference "R1" (at 5.08 -2.37) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "470R" (at 5.08 2.37) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 1.93 -1.25) (end 1.93 1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 1.93 1.25) (end 8.23 1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 8.23 1.25) (end 8.23 -1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 8.23 -1.25) (end 1.93 -1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 0 0) (end 1.93 0) (layer B.Fab) (width 0.1))
+    (fp_line (start 10.16 0) (end 8.23 0) (layer B.Fab) (width 0.1))
+    (fp_line (start 1.81 -1.37) (end 1.81 1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 1.81 1.37) (end 8.35 1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 8.35 1.37) (end 8.35 -1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 8.35 -1.37) (end 1.81 -1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 1.04 0) (end 1.81 0) (layer B.SilkS) (width 0.12))
+    (fp_line (start 9.12 0) (end 8.35 0) (layer B.SilkS) (width 0.12))
+    (fp_line (start -1.05 -1.5) (end -1.05 1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -1.05 1.5) (end 11.21 1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 11.21 1.5) (end 11.21 -1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 11.21 -1.5) (end -1.05 -1.5) (layer B.CrtYd) (width 0.05))
+    (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (net 11 "LED"))
+    (pad 2 thru_hole oval (at 10.16 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (net 23 "LED_0"))
+    (fp_text user %R (at 5.08 0) (layer B.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+(module "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" (layer B.Cu) (tedit 5BC5C9B9)
+  (descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=11mm, Non-Polar Electrolytic Capacitor")
+  (tags "C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 11mm Non-Polar Electrolytic Capacitor")
+  (at 35 93.54249999999998 270)
+  (fp_text reference "C1" (at 1.25 -4.4) (layer B.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "6.3V 1000uF" (at 1.25 4.4) (layer B.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 1.25 0) (end 4.4 0) (layer B.Fab) (width 0.1))
+  (fp_circle (center 1.25 0) (end 4.52 0) (layer B.SilkS) (width 0.12))
+  (fp_circle (center 1.25 0) (end 4.65 0) (layer B.CrtYd) (width 0.05))
+  (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (net 22 "RAW"))
+  (pad 2 thru_hole circle (at 2.5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (net 3 "GND"))
+  (fp_text user %R (at 1.25 0) (layer B.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Radial_D6.3mm_H11.0mm_P2.50mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
+
+      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+        (layer B.Cu)
         (at 40 107.24999999999997 0)
 
         (fp_text reference "LED1" (at -4.75 0 90) (layer B.SilkS) hide
-          (effects (font (size 1 1) (thickness 0.15)))
+          (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
         )
-
+        (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab")
+          (effects (font (size 0.8 0.8) (thickness 0.15)))
+        )
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -494,10 +570,11 @@
     
         (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
-        (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 23 "LED_1"))
+        (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
+        (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 24 "LED_1"))
         (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
         (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-        (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 24 "LED_0"))
+        (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 23 "LED_0"))
       
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -535,15 +612,32 @@
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
       )
     
+      (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
+        (connect_pads (clearance 0))
+        (min_thickness 0.25)
+        (keepout (tracks not_allowed) (vias not_allowed) (copperpour not_allowed))
+        (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
+        (polygon
+          (pts
+            (xy 38.000 105.400)
+            (xy 42.000 105.400)
+            (xy 42.000 109.100)
+            (xy 38.000 109.100)
+          )
+        )
+      )
+    
 
-      (module "ceoloide:led_SK6812mini-e (per-keysingle-side)" 
-        (layer B.Cu) (tedit 5F70BC98)
+      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+        (layer B.Cu)
         (at 60.05 107.24999999999997 0)
 
         (fp_text reference "LED2" (at -4.75 0 90) (layer B.SilkS) hide
-          (effects (font (size 1 1) (thickness 0.15)))
+          (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
         )
-
+        (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab")
+          (effects (font (size 0.8 0.8) (thickness 0.15)))
+        )
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -563,10 +657,11 @@
     
         (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
+        (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
         (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 25 "LED_2"))
         (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
         (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-        (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 23 "LED_1"))
+        (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 24 "LED_1"))
       
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -604,15 +699,32 @@
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
       )
     
+      (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
+        (connect_pads (clearance 0))
+        (min_thickness 0.25)
+        (keepout (tracks not_allowed) (vias not_allowed) (copperpour not_allowed))
+        (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
+        (polygon
+          (pts
+            (xy 58.050 105.400)
+            (xy 62.050 105.400)
+            (xy 62.050 109.100)
+            (xy 58.050 109.100)
+          )
+        )
+      )
+    
 
-      (module "ceoloide:led_SK6812mini-e (per-keysingle-side)" 
-        (layer B.Cu) (tedit 5F70BC98)
+      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+        (layer B.Cu)
         (at 80.1 107.24999999999997 0)
 
         (fp_text reference "LED3" (at -4.75 0 90) (layer B.SilkS) hide
-          (effects (font (size 1 1) (thickness 0.15)))
+          (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
         )
-
+        (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab")
+          (effects (font (size 0.8 0.8) (thickness 0.15)))
+        )
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -632,6 +744,7 @@
     
         (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
+        (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
         (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 26 "LED_3"))
         (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
         (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
@@ -673,15 +786,32 @@
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
       )
     
+      (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
+        (connect_pads (clearance 0))
+        (min_thickness 0.25)
+        (keepout (tracks not_allowed) (vias not_allowed) (copperpour not_allowed))
+        (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
+        (polygon
+          (pts
+            (xy 78.100 105.400)
+            (xy 82.100 105.400)
+            (xy 82.100 109.100)
+            (xy 78.100 109.100)
+          )
+        )
+      )
+    
 
-      (module "ceoloide:led_SK6812mini-e (per-keysingle-side)" 
-        (layer B.Cu) (tedit 5F70BC98)
+      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+        (layer B.Cu)
         (at 100.15 107.24999999999997 0)
 
         (fp_text reference "LED4" (at -4.75 0 90) (layer B.SilkS) hide
-          (effects (font (size 1 1) (thickness 0.15)))
+          (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
         )
-
+        (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab")
+          (effects (font (size 0.8 0.8) (thickness 0.15)))
+        )
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -701,6 +831,7 @@
     
         (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
+        (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
         (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 27 "LED_4"))
         (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
         (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
@@ -742,6 +873,265 @@
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
       )
     
+      (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
+        (connect_pads (clearance 0))
+        (min_thickness 0.25)
+        (keepout (tracks not_allowed) (vias not_allowed) (copperpour not_allowed))
+        (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
+        (polygon
+          (pts
+            (xy 98.150 105.400)
+            (xy 102.150 105.400)
+            (xy 102.150 109.100)
+            (xy 98.150 109.100)
+          )
+        )
+      )
+    
+
+      (gr_text "LED_0"
+        (at 36.2 107.94999999999997 0)
+        (layer B.SilkS)
+        (effects
+          (font 
+            (size 0.8 0.8)
+            (thickness 0.15)
+            
+            )
+            (justify left mirror)
+          )
+      )
+
+      (gr_text "LED_1"
+        (at 56.25 107.94999999999997 0)
+        (layer B.SilkS)
+        (effects
+          (font 
+            (size 0.8 0.8)
+            (thickness 0.15)
+            
+            )
+            (justify left mirror)
+          )
+      )
+
+      (gr_text "LED_2"
+        (at 76.3 107.94999999999997 0)
+        (layer B.SilkS)
+        (effects
+          (font 
+            (size 0.8 0.8)
+            (thickness 0.15)
+            
+            )
+            (justify left mirror)
+          )
+      )
+
+      (gr_text "LED_3"
+        (at 96.35000000000001 107.94999999999997 0)
+        (layer B.SilkS)
+        (effects
+          (font 
+            (size 0.8 0.8)
+            (thickness 0.15)
+            
+            )
+            (justify left mirror)
+          )
+      )
+
+    (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
+    (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
+    (tags "C Disc series Radial pin pitch 5.00mm  diameter 4.7mm width 2.5mm Capacitor")
+    (at 42.5 110.58999999999997 180)
+
+    (fp_text reference "C2" (at 7.5 0 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "104" (at -2.5 0 180) (layer B.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 0.15 -1.25) (end 0.15 1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 0.15 1.25) (end 4.85 1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 4.85 1.25) (end 4.85 -1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 4.85 -1.25) (end 0.15 -1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 0.03 -1.37) (end 4.97 -1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 0.03 1.37) (end 4.97 1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 0.03 -1.37) (end 0.03 -1.055) (layer B.SilkS) (width 0.12))
+    (fp_line (start 0.03 1.055) (end 0.03 1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 4.97 -1.37) (end 4.97 -1.055) (layer B.SilkS) (width 0.12))
+    (fp_line (start 4.97 1.055) (end 4.97 1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start -1.05 -1.5) (end -1.05 1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -1.05 1.5) (end 6.05 1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 6.05 1.5) (end 6.05 -1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 6.05 -1.5) (end -1.05 -1.5) (layer B.CrtYd) (width 0.05))
+    (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (net 20 "VCC"))
+    (pad 2 thru_hole circle (at 5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (net 3 "GND"))
+    
+    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Disc_D4.7mm_W2.5mm_P5.00mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+    (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
+    (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
+    (tags "C Disc series Radial pin pitch 5.00mm  diameter 4.7mm width 2.5mm Capacitor")
+    (at 62.55 110.58999999999997 180)
+
+    (fp_text reference "C3" (at 7.5 0 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "104" (at -2.5 0 180) (layer B.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 0.15 -1.25) (end 0.15 1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 0.15 1.25) (end 4.85 1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 4.85 1.25) (end 4.85 -1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 4.85 -1.25) (end 0.15 -1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 0.03 -1.37) (end 4.97 -1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 0.03 1.37) (end 4.97 1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 0.03 -1.37) (end 0.03 -1.055) (layer B.SilkS) (width 0.12))
+    (fp_line (start 0.03 1.055) (end 0.03 1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 4.97 -1.37) (end 4.97 -1.055) (layer B.SilkS) (width 0.12))
+    (fp_line (start 4.97 1.055) (end 4.97 1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start -1.05 -1.5) (end -1.05 1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -1.05 1.5) (end 6.05 1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 6.05 1.5) (end 6.05 -1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 6.05 -1.5) (end -1.05 -1.5) (layer B.CrtYd) (width 0.05))
+    (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (net 20 "VCC"))
+    (pad 2 thru_hole circle (at 5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (net 3 "GND"))
+    
+    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Disc_D4.7mm_W2.5mm_P5.00mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+    (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
+    (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
+    (tags "C Disc series Radial pin pitch 5.00mm  diameter 4.7mm width 2.5mm Capacitor")
+    (at 82.6 110.58999999999997 180)
+
+    (fp_text reference "C4" (at 7.5 0 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "104" (at -2.5 0 180) (layer B.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 0.15 -1.25) (end 0.15 1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 0.15 1.25) (end 4.85 1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 4.85 1.25) (end 4.85 -1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 4.85 -1.25) (end 0.15 -1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 0.03 -1.37) (end 4.97 -1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 0.03 1.37) (end 4.97 1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 0.03 -1.37) (end 0.03 -1.055) (layer B.SilkS) (width 0.12))
+    (fp_line (start 0.03 1.055) (end 0.03 1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 4.97 -1.37) (end 4.97 -1.055) (layer B.SilkS) (width 0.12))
+    (fp_line (start 4.97 1.055) (end 4.97 1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start -1.05 -1.5) (end -1.05 1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -1.05 1.5) (end 6.05 1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 6.05 1.5) (end 6.05 -1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 6.05 -1.5) (end -1.05 -1.5) (layer B.CrtYd) (width 0.05))
+    (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (net 20 "VCC"))
+    (pad 2 thru_hole circle (at 5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (net 3 "GND"))
+    
+    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Disc_D4.7mm_W2.5mm_P5.00mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+    (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
+    (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
+    (tags "C Disc series Radial pin pitch 5.00mm  diameter 4.7mm width 2.5mm Capacitor")
+    (at 102.65 110.58999999999997 180)
+
+    (fp_text reference "C5" (at 7.5 0 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "104" (at -2.5 0 180) (layer B.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 0.15 -1.25) (end 0.15 1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 0.15 1.25) (end 4.85 1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 4.85 1.25) (end 4.85 -1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 4.85 -1.25) (end 0.15 -1.25) (layer B.Fab) (width 0.1))
+    (fp_line (start 0.03 -1.37) (end 4.97 -1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 0.03 1.37) (end 4.97 1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 0.03 -1.37) (end 0.03 -1.055) (layer B.SilkS) (width 0.12))
+    (fp_line (start 0.03 1.055) (end 0.03 1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start 4.97 -1.37) (end 4.97 -1.055) (layer B.SilkS) (width 0.12))
+    (fp_line (start 4.97 1.055) (end 4.97 1.37) (layer B.SilkS) (width 0.12))
+    (fp_line (start -1.05 -1.5) (end -1.05 1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -1.05 1.5) (end 6.05 1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 6.05 1.5) (end 6.05 -1.5) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 6.05 -1.5) (end -1.05 -1.5) (layer B.CrtYd) (width 0.05))
+    (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (net 20 "VCC"))
+    (pad 2 thru_hole circle (at 5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (net 3 "GND"))
+    
+    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Disc_D4.7mm_W2.5mm_P5.00mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+      (gr_text "Num"
+        (at 37.25 107.24999999999997 0)
+        (layer F.SilkS)
+        (effects
+          (font (face "CaskaydiaMono NFP")
+            (size 1.8 1.8)
+            (thickness 0.15)
+            (bold yes)
+            )
+            (justify right)
+          )
+      )
+
+      (gr_text "Caps"
+        (at 57.3 107.24999999999997 0)
+        (layer F.SilkS)
+        (effects
+          (font (face "CaskaydiaMono NFP")
+            (size 1.8 1.8)
+            (thickness 0.15)
+            (bold yes)
+            )
+            (justify right)
+          )
+      )
+
+      (gr_text "Scroll"
+        (at 77.35 107.24999999999997 0)
+        (layer F.SilkS)
+        (effects
+          (font (face "CaskaydiaMono NFP")
+            (size 1.8 1.8)
+            (thickness 0.15)
+            (bold yes)
+            )
+            (justify right)
+          )
+      )
+
+      (gr_text "Fun"
+        (at 97.4 107.24999999999997 0)
+        (layer F.SilkS)
+        (effects
+          (font (face "CaskaydiaMono NFP")
+            (size 1.8 1.8)
+            (thickness 0.15)
+            (bold yes)
+            )
+            (justify right)
+          )
+      )
 
 (module "travis:MX" (layer F.Cu)
     (at 40 179.95 0)
@@ -769,7 +1159,7 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 29 "col0"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
     (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 28 "matrix_col0_row1"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -843,7 +1233,7 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 18 "row1"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 7 "row1"))
   (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 28 "matrix_col0_row1"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
@@ -859,10 +1249,10 @@
   (layer B.Cu)
   (at 40.0000 184.9100 0)
 
-  (fp_text reference "KLED1" (at -5.25 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED1" (at 0 -2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 -2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 -1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -887,10 +1277,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 31 "LED_16"))
+  (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 30 "LED_16"))
   (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 30 "LED_15"))
+  (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 29 "LED_15"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -929,6 +1319,9 @@
 )
 (gr_text "LED_15" (at 37.3000 185.6100 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right))
+)
+(gr_text "LED_15" (at 36.3000 185.6100 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -1060,8 +1453,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 29 "col0"))
-    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 32 "matrix_col0_row3"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
+    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 31 "matrix_col0_row3"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -1134,8 +1527,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 16 "row3"))
-  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 32 "matrix_col0_row3"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 9 "row3"))
+  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 31 "matrix_col0_row3"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -1150,10 +1543,10 @@
   (layer B.Cu)
   (at 40.0000 144.8100 0)
 
-  (fp_text reference "KLED2" (at -5.25 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED2" (at 0 -2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 -2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 -1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -1178,10 +1571,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 34 "LED_9"))
+  (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 33 "LED_9"))
   (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 33 "LED_8"))
+  (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 32 "LED_8"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -1220,6 +1613,9 @@
 )
 (gr_text "LED_8" (at 37.3000 145.5100 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right))
+)
+(gr_text "LED_8" (at 36.3000 145.5100 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -1262,14 +1658,14 @@
   (end 48.5250 139.4450) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 32) 
+  (net 31) 
 )
 (segment
   (start 45.8420 134.7700)
   (end 45.8420 136.7620)
   (width 0.25)
   (layer "B.Cu")
-  (net 32)
+  (net 31)
 )
 
 (segment
@@ -1351,8 +1747,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 36 "col1"))
-    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 35 "matrix_col1_row1"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "col1"))
+    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 34 "matrix_col1_row1"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -1425,8 +1821,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 18 "row1"))
-  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 35 "matrix_col1_row1"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 7 "row1"))
+  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 34 "matrix_col1_row1"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -1441,10 +1837,10 @@
   (layer B.Cu)
   (at 60.0500 184.9100 0)
 
-  (fp_text reference "KLED3" (at -5.25 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED3" (at 0 -2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 -2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 -1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -1469,10 +1865,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 37 "LED_17"))
+  (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 35 "LED_17"))
   (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 31 "LED_16"))
+  (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 30 "LED_16"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -1511,6 +1907,9 @@
 )
 (gr_text "LED_16" (at 57.3500 185.6100 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right))
+)
+(gr_text "LED_16" (at 56.3500 185.6100 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -1553,14 +1952,14 @@
   (end 68.5750 179.5450) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 35) 
+  (net 34) 
 )
 (segment
   (start 65.8920 174.8700)
   (end 65.8920 176.8620)
   (width 0.25)
   (layer "B.Cu")
-  (net 35)
+  (net 34)
 )
 
 (segment
@@ -1642,8 +2041,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 36 "col1"))
-    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 38 "matrix_col1_row3"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "col1"))
+    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 36 "matrix_col1_row3"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -1716,8 +2115,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 16 "row3"))
-  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 38 "matrix_col1_row3"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 9 "row3"))
+  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 36 "matrix_col1_row3"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -1732,10 +2131,10 @@
   (layer B.Cu)
   (at 60.0500 144.8100 0)
 
-  (fp_text reference "KLED4" (at -5.25 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED4" (at 0 -2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 -2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 -1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -1760,10 +2159,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 39 "LED_10"))
+  (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 37 "LED_10"))
   (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 34 "LED_9"))
+  (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 33 "LED_9"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -1802,6 +2201,9 @@
 )
 (gr_text "LED_9" (at 57.3500 145.5100 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right))
+)
+(gr_text "LED_9" (at 56.3500 145.5100 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -1844,14 +2246,14 @@
   (end 68.5750 139.4450) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 38) 
+  (net 36) 
 )
 (segment
   (start 65.8920 134.7700)
   (end 65.8920 136.7620)
   (width 0.25)
   (layer "B.Cu")
-  (net 38)
+  (net 36)
 )
 
 (segment
@@ -1933,8 +2335,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 41 "col2"))
-    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 40 "matrix_col2_row1"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
+    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 38 "matrix_col2_row1"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -2007,8 +2409,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 18 "row1"))
-  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 40 "matrix_col2_row1"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 7 "row1"))
+  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 38 "matrix_col2_row1"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -2023,10 +2425,10 @@
   (layer B.Cu)
   (at 80.1000 184.9100 0)
 
-  (fp_text reference "KLED5" (at -5.25 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED5" (at 0 -2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 -2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 -1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -2051,10 +2453,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 42 "LED_18"))
+  (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 39 "LED_18"))
   (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 37 "LED_17"))
+  (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 35 "LED_17"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -2093,6 +2495,9 @@
 )
 (gr_text "LED_17" (at 77.4000 185.6100 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right))
+)
+(gr_text "LED_17" (at 76.4000 185.6100 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -2135,14 +2540,14 @@
   (end 88.6250 179.5450) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 40) 
+  (net 38) 
 )
 (segment
   (start 85.9420 174.8700)
   (end 85.9420 176.8620)
   (width 0.25)
   (layer "B.Cu")
-  (net 40)
+  (net 38)
 )
 
 (segment
@@ -2224,8 +2629,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 41 "col2"))
-    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 43 "matrix_col2_row3"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
+    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 40 "matrix_col2_row3"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -2298,8 +2703,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 16 "row3"))
-  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 43 "matrix_col2_row3"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 9 "row3"))
+  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 40 "matrix_col2_row3"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -2314,10 +2719,10 @@
   (layer B.Cu)
   (at 80.1000 144.8100 0)
 
-  (fp_text reference "KLED6" (at -5.25 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED6" (at 0 -2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 -2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 -1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -2342,10 +2747,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 44 "LED_11"))
+  (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 41 "LED_11"))
   (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 39 "LED_10"))
+  (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 37 "LED_10"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -2384,6 +2789,9 @@
 )
 (gr_text "LED_10" (at 77.4000 145.5100 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right))
+)
+(gr_text "LED_10" (at 76.4000 145.5100 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -2426,14 +2834,14 @@
   (end 88.6250 139.4450) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 43) 
+  (net 40) 
 )
 (segment
   (start 85.9420 134.7700)
   (end 85.9420 136.7620)
   (width 0.25)
   (layer "B.Cu")
-  (net 43)
+  (net 40)
 )
 
 (segment
@@ -2515,8 +2923,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 29 "col0"))
-    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 45 "matrix_col0_row0"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
+    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 42 "matrix_col0_row0"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -2589,8 +2997,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 19 "row0"))
-  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 45 "matrix_col0_row0"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 6 "row0"))
+  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 42 "matrix_col0_row0"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -2605,10 +3013,10 @@
   (layer B.Cu)
   (at 50.0250 204.9600 180)
 
-  (fp_text reference "KLED7" (at -4.75 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED7" (at 0 2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -2636,7 +3044,7 @@
   (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 0 ""))
   (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 46 "LED_20"))
+  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 43 "LED_20"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -2675,6 +3083,9 @@
 )
 (gr_text "LED_20" (at 52.7250 204.2600 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+)
+(gr_text "LED_20" (at 53.7250 204.2600 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -2717,14 +3128,14 @@
   (end 58.5500 199.5950) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 45) 
+  (net 42) 
 )
 (segment
   (start 55.8670 194.9200)
   (end 55.8670 196.9120)
   (width 0.25)
   (layer "B.Cu")
-  (net 45)
+  (net 42)
 )
 
 (segment
@@ -2806,8 +3217,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 29 "col0"))
-    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 47 "matrix_col0_row2"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
+    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 44 "matrix_col0_row2"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -2880,8 +3291,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 17 "row2"))
-  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 47 "matrix_col0_row2"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 8 "row2"))
+  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 44 "matrix_col0_row2"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -2896,10 +3307,10 @@
   (layer B.Cu)
   (at 40.0000 164.8600 180)
 
-  (fp_text reference "KLED8" (at -4.75 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED8" (at 0 2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -2924,10 +3335,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 30 "LED_15"))
+  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 29 "LED_15"))
   (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 48 "LED_14"))
+  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 45 "LED_14"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -2966,6 +3377,9 @@
 )
 (gr_text "LED_14" (at 42.7000 164.1600 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+)
+(gr_text "LED_14" (at 43.7000 164.1600 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -3008,14 +3422,14 @@
   (end 48.5250 159.4950) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 47) 
+  (net 44) 
 )
 (segment
   (start 45.8420 154.8200)
   (end 45.8420 156.8120)
   (width 0.25)
   (layer "B.Cu")
-  (net 47)
+  (net 44)
 )
 
 (segment
@@ -3097,8 +3511,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 29 "col0"))
-    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 49 "matrix_col0_row4"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
+    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 46 "matrix_col0_row4"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -3171,8 +3585,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 15 "row4"))
-  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 49 "matrix_col0_row4"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 10 "row4"))
+  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 46 "matrix_col0_row4"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -3187,10 +3601,10 @@
   (layer B.Cu)
   (at 40.0000 124.7600 180)
 
-  (fp_text reference "KLED9" (at -4.75 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED9" (at 0 2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -3215,10 +3629,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 33 "LED_8"))
+  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 32 "LED_8"))
   (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 50 "LED_7"))
+  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 47 "LED_7"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -3257,6 +3671,9 @@
 )
 (gr_text "LED_7" (at 42.7000 124.0600 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+)
+(gr_text "LED_7" (at 43.7000 124.0600 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -3299,14 +3716,14 @@
   (end 48.5250 119.3950) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 49) 
+  (net 46) 
 )
 (segment
   (start 45.8420 114.7200)
   (end 45.8420 116.7120)
   (width 0.25)
   (layer "B.Cu")
-  (net 49)
+  (net 46)
 )
 
 (segment
@@ -3388,8 +3805,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 36 "col1"))
-    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 51 "matrix_col1_row2"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "col1"))
+    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 48 "matrix_col1_row2"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -3462,8 +3879,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 17 "row2"))
-  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 51 "matrix_col1_row2"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 8 "row2"))
+  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 48 "matrix_col1_row2"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -3478,10 +3895,10 @@
   (layer B.Cu)
   (at 60.0500 164.8600 180)
 
-  (fp_text reference "KLED10" (at -4.75 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED10" (at 0 2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -3506,10 +3923,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 48 "LED_14"))
+  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 45 "LED_14"))
   (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 52 "LED_13"))
+  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 49 "LED_13"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -3548,6 +3965,9 @@
 )
 (gr_text "LED_13" (at 62.7500 164.1600 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+)
+(gr_text "LED_13" (at 63.7500 164.1600 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -3590,14 +4010,14 @@
   (end 68.5750 159.4950) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 51) 
+  (net 48) 
 )
 (segment
   (start 65.8920 154.8200)
   (end 65.8920 156.8120)
   (width 0.25)
   (layer "B.Cu")
-  (net 51)
+  (net 48)
 )
 
 (segment
@@ -3679,8 +4099,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 36 "col1"))
-    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 53 "matrix_col1_row4"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "col1"))
+    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 50 "matrix_col1_row4"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -3753,8 +4173,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 15 "row4"))
-  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 53 "matrix_col1_row4"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 10 "row4"))
+  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 50 "matrix_col1_row4"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -3769,10 +4189,10 @@
   (layer B.Cu)
   (at 60.0500 124.7600 180)
 
-  (fp_text reference "KLED11" (at -4.75 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED11" (at 0 2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -3797,10 +4217,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 50 "LED_7"))
+  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 47 "LED_7"))
   (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 54 "LED_6"))
+  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 51 "LED_6"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -3839,6 +4259,9 @@
 )
 (gr_text "LED_6" (at 62.7500 124.0600 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+)
+(gr_text "LED_6" (at 63.7500 124.0600 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -3881,14 +4304,14 @@
   (end 68.5750 119.3950) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 53) 
+  (net 50) 
 )
 (segment
   (start 65.8920 114.7200)
   (end 65.8920 116.7120)
   (width 0.25)
   (layer "B.Cu")
-  (net 53)
+  (net 50)
 )
 
 (segment
@@ -3970,8 +4393,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 41 "col2"))
-    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 55 "matrix_col2_row0"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
+    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 52 "matrix_col2_row0"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -4044,8 +4467,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 19 "row0"))
-  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 55 "matrix_col2_row0"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 6 "row0"))
+  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 52 "matrix_col2_row0"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -4060,10 +4483,10 @@
   (layer B.Cu)
   (at 80.1000 204.9600 180)
 
-  (fp_text reference "KLED12" (at -4.75 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED12" (at 0 2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -4088,10 +4511,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 46 "LED_20"))
+  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 43 "LED_20"))
   (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 56 "LED_19"))
+  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 53 "LED_19"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -4130,6 +4553,9 @@
 )
 (gr_text "LED_19" (at 82.8000 204.2600 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+)
+(gr_text "LED_19" (at 83.8000 204.2600 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -4172,14 +4598,14 @@
   (end 88.6250 199.5950) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 55) 
+  (net 52) 
 )
 (segment
   (start 85.9420 194.9200)
   (end 85.9420 196.9120)
   (width 0.25)
   (layer "B.Cu")
-  (net 55)
+  (net 52)
 )
 
 (segment
@@ -4261,8 +4687,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 41 "col2"))
-    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 57 "matrix_col2_row2"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
+    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 54 "matrix_col2_row2"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -4335,8 +4761,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 17 "row2"))
-  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 57 "matrix_col2_row2"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 8 "row2"))
+  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 54 "matrix_col2_row2"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -4351,10 +4777,10 @@
   (layer B.Cu)
   (at 80.1000 164.8600 180)
 
-  (fp_text reference "KLED13" (at -4.75 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED13" (at 0 2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -4379,10 +4805,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 52 "LED_13"))
+  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 49 "LED_13"))
   (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 58 "LED_12"))
+  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 55 "LED_12"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -4421,6 +4847,9 @@
 )
 (gr_text "LED_12" (at 82.8000 164.1600 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+)
+(gr_text "LED_12" (at 83.8000 164.1600 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -4463,14 +4892,14 @@
   (end 88.6250 159.4950) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 57) 
+  (net 54) 
 )
 (segment
   (start 85.9420 154.8200)
   (end 85.9420 156.8120)
   (width 0.25)
   (layer "B.Cu")
-  (net 57)
+  (net 54)
 )
 
 (segment
@@ -4552,8 +4981,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 41 "col2"))
-    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 59 "matrix_col2_row4"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
+    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 56 "matrix_col2_row4"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -4626,8 +5055,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 15 "row4"))
-  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 59 "matrix_col2_row4"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 10 "row4"))
+  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 56 "matrix_col2_row4"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -4642,10 +5071,10 @@
   (layer B.Cu)
   (at 80.1000 124.7600 180)
 
-  (fp_text reference "KLED14" (at -4.75 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED14" (at 0 2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -4670,10 +5099,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 54 "LED_6"))
+  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 51 "LED_6"))
   (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 60 "LED_5"))
+  (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 57 "LED_5"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -4712,6 +5141,9 @@
 )
 (gr_text "LED_5" (at 82.8000 124.0600 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+)
+(gr_text "LED_5" (at 83.8000 124.0600 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -4754,14 +5186,14 @@
   (end 88.6250 119.3950) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 59) 
+  (net 56) 
 )
 (segment
   (start 85.9420 114.7200)
   (end 85.9420 116.7120)
   (width 0.25)
   (layer "B.Cu")
-  (net 59)
+  (net 56)
 )
 
 (segment
@@ -4843,8 +5275,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 90) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 62 "col3"))
-    (pad 2 smd rect (at 5.842 -5.08 90) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 61 "matrix_col3_row0"))
+    (pad 1 smd rect (at -7.085 -2.54 90) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "col3"))
+    (pad 2 smd rect (at 5.842 -5.08 90) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 58 "matrix_col3_row0"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -4917,8 +5349,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 360) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 19 "row0"))
-  (pad 2 thru_hole oval (at 7.62 0 360) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 61 "matrix_col3_row0"))
+  (pad 1 thru_hole rect (at 0 0 360) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 6 "row0"))
+  (pad 2 thru_hole oval (at 7.62 0 360) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 58 "matrix_col3_row0"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -4933,10 +5365,10 @@
   (layer B.Cu)
   (at 105.1100 189.9750 270)
 
-  (fp_text reference "KLED15" (at -4.75 0 180) (layer B.SilkS) 
+  (fp_text reference "KLED15" (at 0 2.2 90) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 2.25 90) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 1.25 90) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -4961,10 +5393,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 270) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 56 "LED_19"))
+  (pad 2 smd rect (at 2.70 -0.7 270) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 53 "LED_19"))
   (pad 1 smd rect (at 2.70 0.7 270) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 270) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 270) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 42 "LED_18"))
+  (pad 4 smd rect (at -2.70 0.7 270) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 39 "LED_18"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -5003,6 +5435,9 @@
 )
 (gr_text "LED_18" (at 104.4100 187.2750 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+)
+(gr_text "LED_18" (at 104.4100 186.2750 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -5045,14 +5480,14 @@
   (end 99.7450 181.4500) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 61) 
+  (net 58) 
 )
 (segment
   (start 95.0700 184.1330)
   (end 97.0620 184.1330)
   (width 0.25)
   (layer "B.Cu")
-  (net 61)
+  (net 58)
 )
 
 (segment
@@ -5134,8 +5569,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 90) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 62 "col3"))
-    (pad 2 smd rect (at 5.842 -5.08 90) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 63 "matrix_col3_row2"))
+    (pad 1 smd rect (at -7.085 -2.54 90) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "col3"))
+    (pad 2 smd rect (at 5.842 -5.08 90) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 59 "matrix_col3_row2"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -5208,8 +5643,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 360) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 17 "row2"))
-  (pad 2 thru_hole oval (at 7.62 0 360) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 63 "matrix_col3_row2"))
+  (pad 1 thru_hole rect (at 0 0 360) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 8 "row2"))
+  (pad 2 thru_hole oval (at 7.62 0 360) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 59 "matrix_col3_row2"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -5224,10 +5659,10 @@
   (layer B.Cu)
   (at 105.1100 149.8750 270)
 
-  (fp_text reference "KLED16" (at -4.75 0 180) (layer B.SilkS) 
+  (fp_text reference "KLED16" (at 0 2.2 90) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 2.25 90) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 1.25 90) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -5252,10 +5687,10 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 270) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 58 "LED_12"))
+  (pad 2 smd rect (at 2.70 -0.7 270) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 55 "LED_12"))
   (pad 1 smd rect (at 2.70 0.7 270) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 270) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-  (pad 4 smd rect (at -2.70 0.7 270) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 44 "LED_11"))
+  (pad 4 smd rect (at -2.70 0.7 270) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 41 "LED_11"))
     
   (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -5294,6 +5729,9 @@
 )
 (gr_text "LED_11" (at 104.4100 147.1750 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+)
+(gr_text "LED_11" (at 104.4100 146.1750 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right mirror))
 )
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
@@ -5336,14 +5774,14 @@
   (end 99.7450 141.3500) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 63) 
+  (net 59) 
 )
 (segment
   (start 95.0700 144.0330)
   (end 97.0620 144.0330)
   (width 0.25)
   (layer "B.Cu")
-  (net 63)
+  (net 59)
 )
 
 (segment
@@ -5425,8 +5863,8 @@
     (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 
-    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 62 "col3"))
-    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 64 "matrix_col3_row4"))
+    (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "col3"))
+    (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 60 "matrix_col3_row4"))
     
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
       (offset (xyz 0 0 0) )
@@ -5499,8 +5937,8 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 15 "row4"))
-  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 64 "matrix_col3_row4"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 10 "row4"))
+  (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 60 "matrix_col3_row4"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
@@ -5515,10 +5953,10 @@
   (layer B.Cu)
   (at 100.1500 124.7600 180)
 
-  (fp_text reference "KLED17" (at -4.75 0 90) (layer B.SilkS) 
+  (fp_text reference "KLED17" (at 0 2.2 0) (layer B.SilkS) 
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab")
+  (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.125)))
   )
 
@@ -5543,7 +5981,7 @@
   (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
   (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
 
-  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 60 "LED_5"))
+  (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 57 "LED_5"))
   (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 22 "RAW"))
   (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
   (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 27 "LED_4"))
@@ -5586,6 +6024,9 @@
 (gr_text "LED_4" (at 102.8500 124.0600 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
 )
+(gr_text "LED_4" (at 103.8500 124.0600 0) (layer B.SilkS)
+  (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right mirror))
+)
 (module "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer B.Cu)
   (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
   (tags "C Disc series Radial pin pitch 5.00mm  diameter 4.7mm width 2.5mm Capacitor")
@@ -5627,14 +6068,14 @@
   (end 108.6750 119.3950) 
   (width 0.25) 
   (layer "B.Cu") 
-  (net 64) 
+  (net 60) 
 )
 (segment
   (start 105.9920 114.7200)
   (end 105.9920 116.7120)
   (width 0.25)
   (layer "B.Cu")
-  (net 64)
+  (net 60)
 )
 
 (segment
@@ -5734,8 +6175,8 @@
             (pad A thru_hole rect (at -7.62 -2.54 -90) (size 2 2) (drill 1) (layers *.Cu *.Mask) (net 13 "encA"))
             (pad C thru_hole circle (at -7.62 -0.04) (size 2 2) (drill 1) (layers *.Cu *.Mask) (net 12 "encC"))
             (pad B thru_hole circle (at -7.62 2.46) (size 2 2) (drill 1) (layers *.Cu *.Mask) (net 3 "GND"))
-            (pad 1 thru_hole circle (at 6.88 -2.54) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (net 65 "col4"))
-            (pad 2 thru_hole circle (at 6.88 2.46) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (net 66 "enc_to"))
+            (pad 1 thru_hole circle (at 6.88 -2.54) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (net 61 "col4"))
+            (pad 2 thru_hole circle (at 6.88 2.46) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (net 62 "enc_to"))
 
             
             (pad "" thru_hole rect (at -0.12 -5.64 -90) (size 3.2 2) (drill oval 2.8 1.5) (layers *.Cu *.Mask))
@@ -5809,8 +6250,8 @@
     (fp_line (start 7.62 0) (end 5.81 0)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") )
     
-    (pad 1 thru_hole rect (at 0 0 -90) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 14 "row5"))
-    (pad 2 thru_hole oval (at 7.62 0 -90) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 66 "enc_to"))
+    (pad 1 thru_hole rect (at 0 0 -90) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 10 "row4"))
+    (pad 2 thru_hole oval (at 7.62 0 -90) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 62 "enc_to"))
 
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
       (offset (xyz 0 0 0))
@@ -6130,7 +6571,7 @@
           )
       )
 
-      (gr_text "2024.04.07"
+      (gr_text "2024.04.10"
         (at 109.67500000000001 85.43749999999997 0)
         (layer F.SilkS)
         (effects

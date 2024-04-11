@@ -4,6 +4,6 @@ CONVERT_TO = kb2040
 
 AUDIO_ENABLE = no           # Audio output
 ENCODER_ENABLE = yes        # Use rotary encoder
-CUSTOM_MATRIX = lite        # Lite custom matrix
+OLED_ENABLE = yes
 
 SRC += matrix.c

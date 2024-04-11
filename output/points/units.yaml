@@ -13,3 +13,5 @@ pp: 21.05
 op: 25.05
 kp: 20.05
 staby: 0.62
+lblsize: 1.8
+lblshift: -2.75
