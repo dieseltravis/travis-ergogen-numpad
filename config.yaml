@@ -258,6 +258,28 @@ pcbs:
           P15: row5 # B3 MISO
           P14: encA # B2 MOSI
           P13: encC # B6 A10 PWM
+      rgbr: # 470 ohm resistor
+        what: travis/RAxialL6D25P10H
+        params:
+          from: LED #P9 on Promicro
+          to: LED_0 #P2 on LED 0
+          side: B
+          value: "470R"
+        where:
+          ref: matrix_col1_row5
+          shift: [-0.5U + 1.5, 12.5]
+          rotate: 180
+      cap3: # 6.3V 1000uF
+        what: travis/CRadialD63H11P25
+        params:
+          P1: RAW
+          P2: GND
+          side: B
+          value: "6.3V 1000uF"
+        where:
+          ref: matrix_col0_row5
+          shift: [5.75, 0.65U]
+          rotate: 90
       leds:
         what: ceoloide/led_sk6812mini-e
         where: meta.tags ~ /row_top/
