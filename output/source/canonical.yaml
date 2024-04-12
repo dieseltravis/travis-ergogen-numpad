@@ -539,6 +539,21 @@ pcbs:
                     shift:
                         - -5
                         - 0.65U
+            roc:
+                what: travis/roc
+                where:
+                    ref:
+                        aggregate:
+                            parts:
+                                - matrix_col1_row5
+                                - matrix_col2_row5
+                params:
+                    side: B
+                    scale: 0.25
+                adjust:
+                    shift:
+                        - 0
+                        - 0.65U
             name:
                 what: ceoloide/utility_text
                 where:
@@ -552,7 +567,7 @@ pcbs:
                     bold: true
                 adjust:
                     shift:
-                        - 0.5U
+                        - 0.25U
                         - 1.25U
             version:
                 what: ceoloide/utility_text
@@ -566,7 +581,7 @@ pcbs:
                     align: right
                 adjust:
                     shift:
-                        - 0.5U
+                        - 0.25U
                         - 1.25U - 2
             jlcpcb:
                 what: ceoloide/utility_text
