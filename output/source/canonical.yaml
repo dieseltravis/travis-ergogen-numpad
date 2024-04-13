@@ -363,7 +363,7 @@ pcbs:
             ledcaps:
                 what: travis/CDiscD47W25P5
                 params:
-                    P1: VCC
+                    P1: RAW
                     P2: GND
                     value: '104'
                     side: B
@@ -511,6 +511,42 @@ pcbs:
                         - 0
                         - '-staby'
                     rotate: 180
+            holeTopLeft:
+                what: travis/mountinghole
+                where:
+                    ref: matrix_col0_row5
+                    shift:
+                        - '-0.5U + 0.5'
+                        - 0.5U - 0.5 + 15
+                params:
+                    pad: 1
+            holeTopRight:
+                what: travis/mountinghole
+                where:
+                    ref: matrix_col3_row5
+                    shift:
+                        - 0.5U - 0.5
+                        - 0.5U - 0.5 + 15
+                params:
+                    pad: 2
+            holeBottomRight:
+                what: travis/mountinghole
+                where:
+                    ref: matrix_col2_row0
+                    shift:
+                        - kp + 0.5U - 0.5
+                        - '-0.5U + 0.5'
+                params:
+                    pad: 3
+            holeBottomLeft:
+                what: travis/mountinghole
+                where:
+                    ref: matrix_col0_row1
+                    shift:
+                        - '-0.5U + 0.5'
+                        - '-kp - 0.5U + 0.5'
+                params:
+                    pad: 4
             ergologo:
                 what: ceoloide/utility_ergogen_logo
                 where:
@@ -549,11 +585,30 @@ pcbs:
                                 - matrix_col2_row5
                 params:
                     side: B
-                    scale: 0.25
+                    scale: 0.15
                 adjust:
                     shift:
                         - 0
                         - 0.65U
+            roclove:
+                what: ceoloide/utility_text
+                where:
+                    ref:
+                        aggregate:
+                            parts:
+                                - matrix_col1_row5
+                                - matrix_col2_row5
+                params:
+                    face: CaskaydiaMono NFP
+                    text: 'made with ♥ in #ROC'
+                    mirrored: true
+                    side: B
+                    height: 1
+                    width: 1
+                adjust:
+                    shift:
+                        - 0
+                        - 0.65U - 6
             name:
                 what: ceoloide/utility_text
                 where:
@@ -561,8 +616,8 @@ pcbs:
                 params:
                     face: CaskaydiaMono NFP
                     text: travis-ergogen-numpad
-                    height: 1.2
-                    width: 1.2
+                    height: 1.5
+                    width: 1.5
                     align: right
                     bold: true
                 adjust:
