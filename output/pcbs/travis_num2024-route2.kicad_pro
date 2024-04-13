@@ -131,7 +131,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -520,10 +520,10 @@
       "idf": "",
       "netlist": "../../../../",
       "plot": "",
-      "pos_files": "",
-      "specctra_dsn": "",
-      "step": "",
-      "svg": "",
+      "pos_files": "pos",
+      "specctra_dsn": "travis_num2024-route2.dsn",
+      "step": "travis_num2024-route2.step",
+      "svg": "./",
       "vrml": ""
     },
     "page_layout_descr_file": ""
