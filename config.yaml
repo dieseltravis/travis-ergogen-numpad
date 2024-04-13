@@ -326,7 +326,7 @@ pcbs:
         where: meta.tags ~ /row_top/
         adjust:
           shift: [2.5, -3.34]
-          rotate: 180
+          rotate: 90
       # indicator labels
       lblnum:
         what: ceoloide/utility_text
