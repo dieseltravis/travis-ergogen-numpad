@@ -137,6 +137,7 @@ points:
               shift: [0.5kp, -1kp]
               skip: true
             row4:
+              row_net: row3
               key:
                 led_next: LED_5
                 led_this: LED_4
@@ -170,9 +171,10 @@ points:
             - key
             - row_even
           row_net: row4
+          columns.col3.row_net: row3
         row5:
           tags: row_top
-          row_net: row5
+          #row_net: row5
           width: 3.20
           height: 2.80
           shift: [0, -7.5]

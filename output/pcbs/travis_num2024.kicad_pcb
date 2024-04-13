@@ -1247,7 +1247,7 @@
   (layer B.Cu)
   (at 40.0000 184.9100 0)
 
-  (fp_text reference "KLED1" (at 0 -2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_15-row1-col0" (at 0 -2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 -1.25 0) (layer "B.Fab")
@@ -1541,7 +1541,7 @@
   (layer B.Cu)
   (at 40.0000 144.8100 0)
 
-  (fp_text reference "KLED2" (at 0 -2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_8-row3-col0" (at 0 -2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 -1.25 0) (layer "B.Fab")
@@ -1835,7 +1835,7 @@
   (layer B.Cu)
   (at 60.0500 184.9100 0)
 
-  (fp_text reference "KLED3" (at 0 -2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_16-row1-col1" (at 0 -2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 -1.25 0) (layer "B.Fab")
@@ -2129,7 +2129,7 @@
   (layer B.Cu)
   (at 60.0500 144.8100 0)
 
-  (fp_text reference "KLED4" (at 0 -2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_9-row3-col1" (at 0 -2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 -1.25 0) (layer "B.Fab")
@@ -2423,7 +2423,7 @@
   (layer B.Cu)
   (at 80.1000 184.9100 0)
 
-  (fp_text reference "KLED5" (at 0 -2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_17-row1-col2" (at 0 -2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 -1.25 0) (layer "B.Fab")
@@ -2717,7 +2717,7 @@
   (layer B.Cu)
   (at 80.1000 144.8100 0)
 
-  (fp_text reference "KLED6" (at 0 -2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_10-row3-col2" (at 0 -2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 -1.25 0) (layer "B.Fab")
@@ -3011,7 +3011,7 @@
   (layer B.Cu)
   (at 50.0250 204.9600 180)
 
-  (fp_text reference "KLED7" (at 0 2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_20-row0-col0" (at 0 2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
@@ -3305,7 +3305,7 @@
   (layer B.Cu)
   (at 40.0000 164.8600 180)
 
-  (fp_text reference "KLED8" (at 0 2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_14-row2-col0" (at 0 2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
@@ -3599,7 +3599,7 @@
   (layer B.Cu)
   (at 40.0000 124.7600 180)
 
-  (fp_text reference "KLED9" (at 0 2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_7-row4-col0" (at 0 2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
@@ -3893,7 +3893,7 @@
   (layer B.Cu)
   (at 60.0500 164.8600 180)
 
-  (fp_text reference "KLED10" (at 0 2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_13-row2-col1" (at 0 2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
@@ -4187,7 +4187,7 @@
   (layer B.Cu)
   (at 60.0500 124.7600 180)
 
-  (fp_text reference "KLED11" (at 0 2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_6-row4-col1" (at 0 2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
@@ -4481,7 +4481,7 @@
   (layer B.Cu)
   (at 80.1000 204.9600 180)
 
-  (fp_text reference "KLED12" (at 0 2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_19-row0-col2" (at 0 2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
@@ -4775,7 +4775,7 @@
   (layer B.Cu)
   (at 80.1000 164.8600 180)
 
-  (fp_text reference "KLED13" (at 0 2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_12-row2-col2" (at 0 2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
@@ -5069,7 +5069,7 @@
   (layer B.Cu)
   (at 80.1000 124.7600 180)
 
-  (fp_text reference "KLED14" (at 0 2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_5-row4-col2" (at 0 2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
@@ -5363,7 +5363,7 @@
   (layer B.Cu)
   (at 105.1100 189.9750 270)
 
-  (fp_text reference "KLED15" (at 0 2.2 90) (layer B.SilkS) 
+  (fp_text reference "LED_18-row0-col3" (at 0 2.2 90) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 1.25 90) (layer "B.Fab")
@@ -5657,7 +5657,7 @@
   (layer B.Cu)
   (at 105.1100 149.8750 270)
 
-  (fp_text reference "KLED16" (at 0 2.2 90) (layer B.SilkS) 
+  (fp_text reference "LED_11-row2-col3" (at 0 2.2 90) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 1.25 90) (layer "B.Fab")
@@ -5870,10 +5870,10 @@
       (rotate (xyz 0 0 0) )
     )
 )
-(gr_text "matrix_col3_row4\ncol3 row4" (at 91.1250 110.7750 0) (layer F.SilkS)
+(gr_text "matrix_col3_row4\ncol3 row3" (at 91.1250 110.7750 0) (layer F.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify top left))
 )
-(gr_text "matrix_col3_row4\ncol3 row4" (at 91.1250 110.7750  0) (layer B.SilkS)
+(gr_text "matrix_col3_row4\ncol3 row3" (at 91.1250 110.7750  0) (layer B.SilkS)
   (effects (font (size 0.8 0.8) (thickness 0.15)) (justify top right mirror))
 )
 (module "ScottoKeebs_Components:Diode_DO-35" (layer "B.Cu")
@@ -5935,7 +5935,7 @@
   (fp_line (start 7.62 0) (end 5.81 0)
     (stroke (width 0.1) (type solid)) (layer "B.Fab") )
   
-  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 10 "row4"))
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 9 "row3"))
   (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 60 "matrix_col3_row4"))
 
   (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
@@ -5951,7 +5951,7 @@
   (layer B.Cu)
   (at 100.1500 124.7600 180)
 
-  (fp_text reference "KLED17" (at 0 2.2 0) (layer B.SilkS) 
+  (fp_text reference "LED_4-row3-col3" (at 0 2.2 0) (layer B.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (fp_text value "SK6812mini-e" (at 0 1.25 0) (layer "B.Fab")
