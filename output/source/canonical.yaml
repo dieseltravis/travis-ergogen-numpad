@@ -278,7 +278,7 @@ pcbs:
                 where:
                     ref: matrix_col0_row5
                     shift:
-                        - 5.25
+                        - 5.5
                         - 0.65U
                     rotate: 90
                 params:
@@ -376,15 +376,15 @@ pcbs:
                 where: meta.tags ~ /row_top/
                 adjust:
                     shift:
-                        - 2.5
-                        - -3.34
-                    rotate: 180
+                        - 5.5
+                        - '-3.84 + 2.0'
+                    rotate: 0
             lblnum:
                 what: ceoloide/utility_text
                 where:
                     ref: matrix_col0_row5
                 params:
-                    face: CaskaydiaMono NFP
+                    face: MesloLGM Nerd Font
                     text: Num
                     height: lblsize
                     width: lblsize
@@ -399,7 +399,7 @@ pcbs:
                 where:
                     ref: matrix_col1_row5
                 params:
-                    face: CaskaydiaMono NFP
+                    face: MesloLGM Nerd Font
                     text: Caps
                     height: lblsize
                     width: lblsize
@@ -414,7 +414,7 @@ pcbs:
                 where:
                     ref: matrix_col2_row5
                 params:
-                    face: CaskaydiaMono NFP
+                    face: MesloLGM Nerd Font
                     text: Scroll
                     height: lblsize
                     width: lblsize
@@ -429,7 +429,7 @@ pcbs:
                 where:
                     ref: matrix_col3_row5
                 params:
-                    face: CaskaydiaMono NFP
+                    face: MesloLGM Nerd Font
                     text: Fun
                     height: lblsize
                     width: lblsize
@@ -599,7 +599,7 @@ pcbs:
                                 - matrix_col1_row5
                                 - matrix_col2_row5
                 params:
-                    face: CaskaydiaMono NFP
+                    face: MesloLGM Nerd Font
                     text: 'made with ♥ in #ROC'
                     mirrored: true
                     side: B
@@ -614,7 +614,7 @@ pcbs:
                 where:
                     ref: matrix_col3_row5
                 params:
-                    face: CaskaydiaMono NFP
+                    face: MesloLGM Nerd Font
                     text: travis-ergogen-numpad
                     height: 1.5
                     width: 1.5
@@ -629,7 +629,7 @@ pcbs:
                 where:
                     ref: matrix_col3_row5
                 params:
-                    face: CaskaydiaMono NFP
+                    face: MesloLGM Nerd Font
                     text: 2024.04.10
                     height: 1
                     width: 1

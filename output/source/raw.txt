@@ -230,7 +230,7 @@ pcbs:
         what: travis/ScottoKeebs-Arduino_Pro_Micro
         where: 
           ref: matrix_col0_row5
-          shift: [5.25, 0.65U]
+          shift: [5.5, 0.65U]
           rotate: 90
         params:
           value: "Arduino Pro Micro"
@@ -325,15 +325,15 @@ pcbs:
           valpos: [-2.5, 0]
         where: meta.tags ~ /row_top/
         adjust:
-          shift: [2.5, -3.34]
-          rotate: 180
+          shift: [5.5, -3.84 + 2.0]
+          rotate: 0
       # indicator labels
       lblnum:
         what: ceoloide/utility_text
         where: 
           ref: matrix_col0_row5
         params:
-          face: "CaskaydiaMono NFP"
+          face: "MesloLGM Nerd Font"
           text: "Num"
           height: lblsize
           width: lblsize
@@ -346,7 +346,7 @@ pcbs:
         where: 
           ref: matrix_col1_row5
         params:
-          face: "CaskaydiaMono NFP"
+          face: "MesloLGM Nerd Font"
           text: "Caps"
           height: lblsize
           width: lblsize
@@ -359,7 +359,7 @@ pcbs:
         where: 
           ref: matrix_col2_row5
         params:
-          face: "CaskaydiaMono NFP"
+          face: "MesloLGM Nerd Font"
           text: "Scroll"
           height: lblsize
           width: lblsize
@@ -372,7 +372,7 @@ pcbs:
         where: 
           ref: matrix_col3_row5
         params:
-          face: "CaskaydiaMono NFP"
+          face: "MesloLGM Nerd Font"
           text: "Fun"
           height: lblsize
           width: lblsize
@@ -504,7 +504,7 @@ pcbs:
         where: 
           ref.aggregate.parts: [matrix_col1_row5, matrix_col2_row5]
         params:
-          face: "CaskaydiaMono NFP"
+          face: "MesloLGM Nerd Font"
           text: "made with ♥ in #ROC"
           mirrored: true
           side: "B"
@@ -517,7 +517,7 @@ pcbs:
         where: 
           ref: matrix_col3_row5
         params:
-          face: "CaskaydiaMono NFP"
+          face: "MesloLGM Nerd Font"
           text: "travis-ergogen-numpad"
           height: 1.5
           width: 1.5
@@ -530,7 +530,7 @@ pcbs:
         where: 
           ref: matrix_col3_row5
         params:
-          face: "CaskaydiaMono NFP"
+          face: "MesloLGM Nerd Font"
           text: *meta_version
           height: 1.0
           width: 1.0
