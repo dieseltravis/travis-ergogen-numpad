@@ -5,7 +5,7 @@
   (page A3)
   (title_block
     (title "travis_num2024")
-    (rev "2024.04.10")
+    (rev "2024.04.13")
     (company "Travis Hardiman")
   )
 
@@ -153,8 +153,7 @@
 (net 58 "matrix_col3_row0")
 (net 59 "matrix_col3_row2")
 (net 60 "matrix_col3_row4")
-(net 61 "col4")
-(net 62 "enc_to")
+(net 61 "enc_to")
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -224,7 +223,6 @@
 (add_net "matrix_col3_row0")
 (add_net "matrix_col3_row2")
 (add_net "matrix_col3_row4")
-(add_net "col4")
 (add_net "enc_to")
   )
 
@@ -6175,8 +6173,8 @@
             (pad A thru_hole rect (at -7.62 -2.54 -90) (size 2 2) (drill 1) (layers *.Cu *.Mask) (net 13 "encA"))
             (pad C thru_hole circle (at -7.62 -0.04) (size 2 2) (drill 1) (layers *.Cu *.Mask) (net 12 "encC"))
             (pad B thru_hole circle (at -7.62 2.46) (size 2 2) (drill 1) (layers *.Cu *.Mask) (net 3 "GND"))
-            (pad 1 thru_hole circle (at 6.88 -2.54) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (net 61 "col4"))
-            (pad 2 thru_hole circle (at 6.88 2.46) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (net 62 "enc_to"))
+            (pad 1 thru_hole circle (at 6.88 -2.54) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (net 16 "col3"))
+            (pad 2 thru_hole circle (at 6.88 2.46) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (net 61 "enc_to"))
 
             
             (pad "" thru_hole rect (at -0.12 -5.64 -90) (size 3.2 2) (drill oval 2.8 1.5) (layers *.Cu *.Mask))
@@ -6251,7 +6249,7 @@
       (stroke (width 0.1) (type solid)) (layer "B.Fab") )
     
     (pad 1 thru_hole rect (at 0 0 -90) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 10 "row4"))
-    (pad 2 thru_hole oval (at 7.62 0 -90) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 62 "enc_to"))
+    (pad 2 thru_hole oval (at 7.62 0 -90) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (net 61 "enc_to"))
 
     (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
       (offset (xyz 0 0 0))
@@ -6844,7 +6842,7 @@
           )
       )
 
-      (gr_text "2024.04.10"
+      (gr_text "2024.04.13"
         (at 104.91250000000001 85.43749999999997 0)
         (layer F.SilkS)
         (effects
@@ -6881,6 +6879,80 @@
             (justify  mirror)
           )
       )
+
+    (zone
+      (net 3)
+      (net_name "GND")
+      (locked no)
+      (layers "B.Cu")
+      (name "back ground")
+      (hatch edge 0.5)
+      
+      (connect_pads 
+        (clearance 0.508)
+      )
+      (min_thickness 0.25)
+      (filled_areas_thickness no)
+      (fill 
+        yes
+        (thermal_gap 0.5)
+        (thermal_bridge_width 0.5)
+        (smoothing chamfer)
+        (radius 0.5)
+        (island_removal_mode 1)
+        (island_area_min 5)
+        
+        
+        
+        
+        
+        
+        
+      )
+      (polygon
+        (pts
+          (xy 0 0) (xy 420 0) (xy 420 297) (xy 0 297) 
+        )
+      )
+    )
+    
+
+    (zone
+      (net 3)
+      (net_name "GND")
+      (locked no)
+      (layers "F.Cu")
+      (name "fore ground")
+      (hatch edge 0.5)
+      
+      (connect_pads yes
+        (clearance 0.508)
+      )
+      (min_thickness 0.25)
+      (filled_areas_thickness no)
+      (fill 
+        (mode hatch)
+        (thermal_gap 0.5)
+        (thermal_bridge_width 0.5)
+        (smoothing chamfer)
+        (radius 0.5)
+        (island_removal_mode 1)
+        (island_area_min 5)
+        (hatch_thickness 1)
+        (hatch_gap 1.5)
+        (hatch_orientation 45)
+        
+        
+        (hatch_border_algorithm hatch_thickness)
+        (hatch_min_hole_area 0.3)
+      )
+      (polygon
+        (pts
+          (xy 0 0) (xy 420 0) (xy 420 297) (xy 0 297) 
+        )
+      )
+    )
+    
   (gr_line (start 27.474999999999998 207.525) (end 27.474999999999998 84.74999999999997) (angle 90) (layer Edge.Cuts) (width 0.15))
 (gr_line (start 32.474999999999994 79.74999999999997) (end 107.67500000000001 79.74999999999997) (angle 90) (layer Edge.Cuts) (width 0.15))
 (gr_line (start 112.67500000000001 84.74999999999997) (end 112.67500000000001 207.525) (angle 90) (layer Edge.Cuts) (width 0.15))

@@ -1,8 +1,8 @@
 meta:
   engine: 4.0.5
   name: "travis-ergogen-numpad"
-  version: &meta_version "2024.04.10"
-  date: "2024-04-10"
+  version: &meta_version "2024.04.13"
+  date: "2024-04-13"
   author: "Travis Hardiman"
   url: https://github.com/dieseltravis/travis-ergonum
   tags: [ "ergogen", "promicro", "keyboard", "cherrymx", "hotswap", "rgb", "numpad" ]
@@ -406,7 +406,7 @@ pcbs:
       rotary:
         what: travis/ec11
         params:
-          from: col4
+          from: col3
           to: enc_to
           A: encA
           B: GND
@@ -537,13 +537,27 @@ pcbs:
           align: "right"
         adjust:
           shift: [0.25U, 1.25U - 2]
-      jlcpcb:
+      pcbnumber:
         what: ceoloide/utility_text
         where: 
           ref.aggregate.parts: [matrix_col3_row0, matrix_col3_row2]
         params:
           text: JLCJLCJLCJLC
+          #text: WayWayWay
           reversible: true
         adjust:
           shift: [0, 0]
           rotate: 0
+      background:
+        what: ceoloide/utility_filled_zone
+        params:
+          side: "B"
+          name: "back ground"
+      foreground:
+        what: ceoloide/utility_filled_zone
+        params:
+          side: "F"
+          name: "fore ground"
+          connect_pads: "yes"
+          fill_type: "hatch"
+          hatch_orientation: 45
