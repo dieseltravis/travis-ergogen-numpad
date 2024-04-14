@@ -1,0 +1,64 @@
+[
+  {
+    "backcolor": "#000000",
+    "name": "travis-ergonum",
+    "author": "Travis Hardiman (@dieseltravis)",
+    "radii": "5",
+    "switchMount": "cherry",
+    "switchBrand": "kailh",
+    "switchType": "PG151101D49/D09",
+    "plate": true,
+    "css": ".rotary .keycap .keyborder,\n.rotary .keycap .keytop,\n.rotary .keycap .keylabels,\n.rotary .keycap .keylabel {\n    border-radius: 100% !important;\n}"
+  },
+  [
+    {
+      "x": 3,
+      "c": "#666666",
+      "t": "#ffffff",
+      "p": "rotary",
+      "d": true
+    },
+    "◜\n◟\n◝\n◞\n\n\n⤹\n⤸\n⤺\nR\n⤻"
+  ],
+  [
+    {
+      "c": "#cccccc",
+      "t": "#000000",
+      "p": "DSA"
+    },
+    "Num Lock",
+    "/",
+    "*",
+    "-"
+  ],
+  [
+    "7\nHome",
+    "8\n↑",
+    "9\nPgUp",
+    {
+      "h": 2
+    },
+    "+"
+  ],
+  [
+    "4\n←",
+    "5",
+    "6\n→"
+  ],
+  [
+    "1\nEnd",
+    "2\n↓",
+    "3\nPgDn",
+    {
+      "h": 2
+    },
+    "Enter"
+  ],
+  [
+    {
+      "w": 2
+    },
+    "0\nIns",
+    ".\nDel"
+  ]
+]
