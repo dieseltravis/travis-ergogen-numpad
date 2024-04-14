@@ -872,3 +872,7 @@ cases:
             what: case
             name: wall
             operation: add
+    plate:
+        -
+            name: plate
+            extrude: bt
