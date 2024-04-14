@@ -1,0 +1,93 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,value,mount_type,place
+35.0,-93.5425,-90.0,bottom,C1,,C_Radial_D6.3mm_H11.0mm_P2.50mm,6.3V 1000uF,tht,True
+45.5,-109.09,0.0,bottom,C2,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+65.55,-109.09,0.0,bottom,C3,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+85.6,-109.09,0.0,bottom,C4,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+105.65,-109.09,0.0,bottom,C5,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+92.125,-94.75,-90.0,bottom,D1,,Diode_DO-35,1N4148,tht,True
+30.975,-83.225,0.0,top,HOLE1,,MountingHole_2.2mm_M2_Pad_Via,,tht,True
+109.175,-83.225,0.0,top,HOLE2,,MountingHole_2.2mm_M2_Pad_Via,,tht,True
+109.175,-209.025,0.0,top,HOLE3,,MountingHole_2.2mm_M2_Pad_Via,,tht,True
+30.975,-209.025,0.0,top,HOLE4,,MountingHole_2.2mm_M2_Pad_Via,,tht,True
+42.5,-188.25,180.0,bottom,KC1,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+57.55,-168.2,0.0,bottom,KC10,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+57.55,-128.1,0.0,bottom,KC11,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+77.6,-208.3,0.0,bottom,KC12,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+77.6,-168.2,0.0,bottom,KC13,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+77.6,-128.1,0.0,bottom,KC14,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+108.45,-192.475,90.0,bottom,KC15,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+108.45,-152.375,90.0,bottom,KC16,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+97.65,-128.1,0.0,bottom,KC17,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+42.5,-148.15,180.0,bottom,KC2,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+62.55,-188.25,180.0,bottom,KC3,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+62.55,-148.15,180.0,bottom,KC4,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+82.6,-188.25,180.0,bottom,KC5,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+82.6,-148.15,180.0,bottom,KC6,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+47.525,-208.3,0.0,bottom,KC7,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+37.5,-168.2,0.0,bottom,KC8,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+37.5,-128.1,0.0,bottom,KC9,,C_Disc_D4.7mm_W2.5mm_P5.00mm,104,tht,True
+48.525,-171.925,-90.0,bottom,KD1,,Diode_DO-35,1N4148,tht,True
+68.575,-151.875,-90.0,bottom,KD10,,Diode_DO-35,1N4148,tht,True
+68.575,-111.775,-90.0,bottom,KD11,,Diode_DO-35,1N4148,tht,True
+88.625,-191.975,-90.0,bottom,KD12,,Diode_DO-35,1N4148,tht,True
+88.625,-151.875,-90.0,bottom,KD13,,Diode_DO-35,1N4148,tht,True
+88.625,-111.775,-90.0,bottom,KD14,,Diode_DO-35,1N4148,tht,True
+92.125,-181.45,0.0,bottom,KD15,,Diode_DO-35,1N4148,tht,True
+92.125,-141.35,0.0,bottom,KD16,,Diode_DO-35,1N4148,tht,True
+108.675,-111.775,-90.0,bottom,KD17,,Diode_DO-35,1N4148,tht,True
+48.525,-131.825,-90.0,bottom,KD2,,Diode_DO-35,1N4148,tht,True
+68.575,-171.925,-90.0,bottom,KD3,,Diode_DO-35,1N4148,tht,True
+68.575,-131.825,-90.0,bottom,KD4,,Diode_DO-35,1N4148,tht,True
+88.625,-171.925,-90.0,bottom,KD5,,Diode_DO-35,1N4148,tht,True
+88.625,-131.825,-90.0,bottom,KD6,,Diode_DO-35,1N4148,tht,True
+58.55,-191.975,-90.0,bottom,KD7,,Diode_DO-35,1N4148,tht,True
+48.525,-151.875,-90.0,bottom,KD8,,Diode_DO-35,1N4148,tht,True
+48.525,-111.775,-90.0,bottom,KD9,,Diode_DO-35,1N4148,tht,True
+40.0,-179.95,0.0,top,KSW1,,MX,Kailh MX Switch Sockets,tht,True
+60.05,-159.9,0.0,top,KSW10,,MX,Kailh MX Switch Sockets,tht,True
+60.05,-119.8,0.0,top,KSW11,,MX,Kailh MX Switch Sockets,tht,True
+80.1,-200.0,0.0,top,KSW12,,MX,Kailh MX Switch Sockets,tht,True
+80.1,-159.9,0.0,top,KSW13,,MX,Kailh MX Switch Sockets,tht,True
+80.1,-119.8,0.0,top,KSW14,,MX,Kailh MX Switch Sockets,tht,True
+100.15,-189.975,90.0,top,KSW15,,MX,Kailh MX Switch Sockets,tht,True
+100.15,-149.875,90.0,top,KSW16,,MX,Kailh MX Switch Sockets,tht,True
+100.15,-119.8,0.0,top,KSW17,,MX,Kailh MX Switch Sockets,tht,True
+40.0,-139.85,0.0,top,KSW2,,MX,Kailh MX Switch Sockets,tht,True
+60.05,-179.95,0.0,top,KSW3,,MX,Kailh MX Switch Sockets,tht,True
+60.05,-139.85,0.0,top,KSW4,,MX,Kailh MX Switch Sockets,tht,True
+80.1,-179.95,0.0,top,KSW5,,MX,Kailh MX Switch Sockets,tht,True
+80.1,-139.85,0.0,top,KSW6,,MX,Kailh MX Switch Sockets,tht,True
+50.025,-200.0,0.0,top,KSW7,,MX,Kailh MX Switch Sockets,tht,True
+40.0,-159.9,0.0,top,KSW8,,MX,Kailh MX Switch Sockets,tht,True
+40.0,-119.8,0.0,top,KSW9,,MX,Kailh MX Switch Sockets,tht,True
+40.0,-107.25,0.0,bottom,LED1,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht,True
+60.05,-107.25,0.0,bottom,LED2,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht,True
+80.1,-107.25,0.0,bottom,LED3,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht,True
+100.15,-107.25,0.0,bottom,LED4,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht,True
+80.1,-144.81,0.0,bottom,LED_10-row3-col2,,led_SK6812mini-e,SK6812mini-e,tht,True
+105.11,-149.875,-90.0,bottom,LED_11-row2-col3,,led_SK6812mini-e,SK6812mini-e,tht,True
+80.1,-164.86,180.0,bottom,LED_12-row2-col2,,led_SK6812mini-e,SK6812mini-e,tht,True
+60.05,-164.86,180.0,bottom,LED_13-row2-col1,,led_SK6812mini-e,SK6812mini-e,tht,True
+40.0,-164.86,180.0,bottom,LED_14-row2-col0,,led_SK6812mini-e,SK6812mini-e,tht,True
+40.0,-184.91,0.0,bottom,LED_15-row1-col0,,led_SK6812mini-e,SK6812mini-e,tht,True
+60.05,-184.91,0.0,bottom,LED_16-row1-col1,,led_SK6812mini-e,SK6812mini-e,tht,True
+80.1,-184.91,0.0,bottom,LED_17-row1-col2,,led_SK6812mini-e,SK6812mini-e,tht,True
+105.11,-189.975,-90.0,bottom,LED_18-row0-col3,,led_SK6812mini-e,SK6812mini-e,tht,True
+80.1,-204.96,180.0,bottom,LED_19-row0-col2,,led_SK6812mini-e,SK6812mini-e,tht,True
+50.025,-204.96,180.0,bottom,LED_20-row0-col0,,led_SK6812mini-e,SK6812mini-e,tht,True
+100.15,-124.76,180.0,bottom,LED_4-row3-col3,,led_SK6812mini-e,SK6812mini-e,tht,True
+80.1,-124.76,180.0,bottom,LED_5-row4-col2,,led_SK6812mini-e,SK6812mini-e,tht,True
+60.05,-124.76,180.0,bottom,LED_6-row4-col1,,led_SK6812mini-e,SK6812mini-e,tht,True
+40.0,-124.76,180.0,bottom,LED_7-row4-col0,,led_SK6812mini-e,SK6812mini-e,tht,True
+40.0,-144.81,0.0,bottom,LED_8-row3-col0,,led_SK6812mini-e,SK6812mini-e,tht,True
+60.05,-144.81,0.0,bottom,LED_9-row3-col1,,led_SK6812mini-e,SK6812mini-e,tht,True
+70.075,-94.8675,0.0,top,LOGO1,,ergogen_logo,,tht,False
+85.125,-94.8675,0.0,top,LOGO2,,travis,,tht,False
+45.5,-94.8675,90.0,top,MCU1,,Arduino_Pro_Micro,Arduino Pro Micro,tht,True
+64.05,-101.25,180.0,top,OLED1,,OLED_headers,OLED,tht,True
+54.7875,-105.5,180.0,bottom,R1,,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,470R,tht,True
+70.075,-94.8675,0.0,bottom,ROC1,,travis,,tht,False
+100.15,-95.725,-90.0,top,ROT1,,ec11,EC11,tht,True
+50.025,-200.62,180.0,top,STAB2u1,,Stabilizer_MX_2.00u,Stabilizer_MX_2.00u,tht,False
+100.77,-189.975,-90.0,top,STAB2u2,,Stabilizer_MX_2.00u,Stabilizer_MX_2.00u,tht,False
+100.77,-149.875,-90.0,top,STAB2u3,,Stabilizer_MX_2.00u,Stabilizer_MX_2.00u,tht,False
