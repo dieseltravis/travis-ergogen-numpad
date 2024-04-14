@@ -17,7 +17,7 @@
     "svg": "for i in output/outlines/*.dxf; do npx dxf-to-svg \"$i\"; done",
     "gen": "npx ergogen . -o output --debug",
     "3d": "for i in output/cases/*.jscad; do npx @jscad/cli@1 \"$i\" -of stla; done",
-    "all": "yarn gen && yarn 3d",
+    "all": "yarn test && yarn gen && yarn 3d",
     "key": "cd key && npx ergogen . && cd ..",
     "keytest": "cd keytest && npx ergogen . && cd ..",
     "feet": "cd feet && npx ergogen . && cd ..",

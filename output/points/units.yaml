@@ -12,6 +12,12 @@ $default_autobind: 10
 pp: 21.05
 op: 25.05
 kp: 20.05
+xlp: 2
+screwSize: 1.5
+standoffSize: 3
+bt: 1
+gt: 3
+pt: 1.6
 staby: 0.62
 lblsize: 1.8
 lblshift: -2.75

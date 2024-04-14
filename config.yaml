@@ -11,6 +11,18 @@ units:
   # outer perimeter of board
   op: U + 6
   kp: U + 1
+  xlp: 2
+  # Defaults to M2 Screws
+  #screwSize: 1
+  # M2 Screw Inserts
+  screwSize: 1.5
+  standoffSize: 3.0
+  # bottom case thickness
+  bt: 1
+  # gap below pcb and case
+  gt: 3
+  # pcb thickness
+  pt: 1.6
   # stab Y adjust
   staby: 0.62
   # indicator led labels
@@ -196,6 +208,61 @@ outlines:
         - ref: matrix_col0_row0
           shift: [-0.5kp - 0.5op, -0.5op]
       fillet: 5
+  xlBoard:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: matrix_col0_row4
+          shift: [-0.5op - xlp, kp + 20 + xlp]
+        - ref: matrix_col3_row4
+          shift: [0.5op + xlp, kp + 20 + xlp]
+        - ref: matrix_col2_row0
+          shift: [0.5op + kp + xlp, -0.5op - xlp]
+        - ref: matrix_col0_row0
+          shift: [-0.5kp - 0.5op - xlp, -0.5op - xlp]
+      fillet: 5 + xlp
+  mounting:
+    - what: circle
+      radius: screwSize
+      where:
+        ref: matrix_col0_row5
+        shift: [-0.5U + 0.5, 0.5U - 0.5 + 15]
+    - what: circle
+      radius: screwSize
+      where:
+        ref: matrix_col3_row5
+        shift: [0.5U - 0.5, 0.5U - 0.5 + 15]
+    - what: circle
+      radius: screwSize
+      where:
+        ref: matrix_col2_row0
+        shift: [kp + 0.5U - 0.5, -0.5U + 0.5]
+    - what: circle
+      radius: screwSize
+      where:
+        ref: matrix_col0_row1
+        shift: [-0.5U + 0.5, -kp - 0.5U + 0.5]
+  standoff:
+    - what: circle
+      radius: standoffSize
+      where:
+        ref: matrix_col0_row5
+        shift: [-0.5U + 0.5, 0.5U - 0.5 + 15]
+    - what: circle
+      radius: standoffSize
+      where:
+        ref: matrix_col3_row5
+        shift: [0.5U - 0.5, 0.5U - 0.5 + 15]
+    - what: circle
+      radius: standoffSize
+      where:
+        ref: matrix_col2_row0
+        shift: [kp + 0.5U - 0.5, -0.5U + 0.5]
+    - what: circle
+      radius: standoffSize
+      where:
+        ref: matrix_col0_row1
+        shift: [-0.5U + 0.5, -kp - 0.5U + 0.5]
   mcu:
     - what: rectangle
       where: 
@@ -564,3 +631,42 @@ pcbs:
           connect_pads: "yes"
           fill_type: "hatch"
           hatch_orientation: 45
+cases:
+  bottom:
+    - name: board
+      extrude: bt
+  xlBottom:
+    - name: xlBoard
+      extrude: bt
+  _outerWall:
+    - name: xlBoard
+      extrude: bt + gt + pt
+  _innerWall:
+    - name: board
+      extrude: bt + gt + pt
+  wall:
+    - what: case
+      name: _outerWall
+      operation: add
+    - what: case
+      name: _innerWall
+      operation: subtract
+  _holes:
+    - name: mounting
+      extrude: bt + gt
+  _standoffs:
+    - name: standoff
+      extrude: bt + gt
+  case:
+    - what: case
+      name: _standoffs
+      operation: add
+    - what: case
+      name: _holes
+      operation: subtract
+    - what: case
+      name: xlBottom
+      operation: add   
+    - what: case
+      name: wall
+      operation: add

@@ -195,9 +195,6 @@ matrix_col0_row0:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -445,9 +442,6 @@ matrix_col0_row1:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -695,9 +689,6 @@ matrix_col0_row2:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -945,9 +936,6 @@ matrix_col0_row3:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -1028,9 +1016,6 @@ matrix_col0_row4:
             - key
             - row_even
         row_net: row4
-        columns:
-            col3:
-                row_net: row3
         key:
             led_next: LED_8
             led_this: LED_7
@@ -1198,9 +1183,6 @@ matrix_col0_row4:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -1445,9 +1427,6 @@ matrix_col0_row5:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -1695,9 +1674,6 @@ matrix_col1_row1:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -1936,9 +1912,6 @@ matrix_col1_row2:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -2177,9 +2150,6 @@ matrix_col1_row3:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -2251,9 +2221,6 @@ matrix_col1_row4:
             - key
             - row_even
         row_net: row4
-        columns:
-            col3:
-                row_net: row3
         key:
             led_next: LED_7
             led_this: LED_6
@@ -2421,9 +2388,6 @@ matrix_col1_row4:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -2659,9 +2623,6 @@ matrix_col1_row5:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -2900,9 +2861,6 @@ matrix_col2_row0:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -3143,9 +3101,6 @@ matrix_col2_row1:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -3386,9 +3341,6 @@ matrix_col2_row2:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -3629,9 +3581,6 @@ matrix_col2_row3:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -3705,9 +3654,6 @@ matrix_col2_row4:
             - key
             - row_even
         row_net: row4
-        columns:
-            col3:
-                row_net: row3
         key:
             led_next: LED_6
             led_this: LED_5
@@ -3875,9 +3821,6 @@ matrix_col2_row4:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -4115,9 +4058,6 @@ matrix_col2_row5:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -4358,9 +4298,6 @@ matrix_col3_row0:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -4613,9 +4550,6 @@ matrix_col3_row2:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -4701,9 +4635,6 @@ matrix_col3_row4:
             - key
             - row_even
         row_net: row3
-        columns:
-            col3:
-                row_net: row3
         key:
             led_next: LED_5
             led_this: LED_4
@@ -4871,9 +4802,6 @@ matrix_col3_row4:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
@@ -5123,9 +5051,6 @@ matrix_col3_row5:
                         - key
                         - row_even
                     row_net: row4
-                    columns:
-                        col3:
-                            row_net: row3
                 row5:
                     tags: row_top
                     width: 3.2
