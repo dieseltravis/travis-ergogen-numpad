@@ -5,6 +5,12 @@
 #include "keycodes.h"
 #include QMK_KEYBOARD_H
 
+enum layers {
+    _BASE = 0,
+    _FUNC,
+    _RGB
+};
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*              ◜⤺◝
      *             ⤹rot⤸
@@ -21,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * │   0   │ . │   │
      * └───────┴───┴───┘
      */
-    [0] = LAYOUT_numpad_5x4(       KC_MUTE,
+    [_BASE] = LAYOUT_numpad_5x4(   KC_MUTE,
         TG(1),   KC_PSLS, KC_PAST, KC_PMNS,
         KC_P7,   KC_P8,   KC_P9,
         KC_P4,   KC_P5,   KC_P6,   KC_PPLS,
@@ -33,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      *             ⤹rot⤸
      *              ◟⤻◞
      * ┌───┬───┬───┬───┐
-     * │TG1│ / │ * │ - │
+     * │TG2│ / │ * │ - │
      * ├───┼───┼───┼───┤
      * │Hom│ ↑ │PgU│   │
      * ├───┼───┼───┤ + │
@@ -44,14 +50,37 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * │Insert │Del│   │
      * └───────┴───┘───┘
      */
-    [1] = LAYOUT_numpad_5x4(       _______,
-        _______, _______, _______, _______,
+    [_FUNC] = LAYOUT_numpad_5x4(   _______,
+        TG(2),   _______, _______, _______,
         KC_HOME, KC_UP,   KC_PGUP,
         KC_LEFT, XXXXXXX, KC_RGHT, _______,
         KC_END,  KC_DOWN, KC_PGDN,
         KC_INS,           KC_DEL,  _______
-    )
-};
+    ),
+
+    /*              ◜⤺◝
+     *             ⤹RGB⤸
+     *              ◟⤻◞
+     * ┌───┬───┬───┬───┐
+     * │TG0│ / │ * │ - │
+     * ├───┼───┼───┼───┤
+     * │Hom│ ↑ │PgU│   │
+     * ├───┼───┼───┤ + │
+     * │ ← │   │ → │   │
+     * ├───┼───┼───┼───┤
+     * │End│ ↓ │PgD│   │
+     * ├───┴───┼───┤Ent│
+     * │Insert │Del│   │
+     * └───────┴───┘───┘
+     */
+    [_RGB] = LAYOUT_numpad_5x4(    RGB_TOG,
+        TG(0),   _______, _______, _______,
+        RGB_M_X, RGB_M_G, RGB_M_T,
+        RGB_M_SW,RGB_M_SN,RGB_M_K, RGB_SPI,
+        RGB_M_P, RGB_M_B, RGB_M_R,
+        RGB_RMOD,         RGB_MOD, RGB_SPD
+    ),
+  };
 
 
 // SSD1306 OLED driver logic
@@ -85,17 +114,14 @@ static void render_status(void) {
   // Define layers here, Have not worked out how to have text displayed for each layer. Copy down the number you see and add a case for it below
   oled_write_P(PSTR("Layer: "), false);
   switch (get_highest_layer(layer_state)) {
-    case _QWERTY:
-      oled_write_ln_P(PSTR("QWERTY"), false);
+    case _BASE:
+      oled_write_ln_P(PSTR("Base"), false);
       break;
-    case _COLEMAK:
-      oled_write_ln_P(PSTR("Colemak"), false);
-      break;
-    case _FN:
+    case _FUNC:
       oled_write_ln_P(PSTR("Function"), false);
       break;
-    case _ADJ:
-      oled_write_ln_P(PSTR("Adjust"), false);
+    case _RGB:
+      oled_write_ln_P(PSTR("RGB"), false);
       break;
     default:
       oled_write_ln_P(PSTR("Undefined"), false);

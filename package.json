@@ -24,7 +24,7 @@
     "qmk": "qmk clean && qmk compile -kb dieseltravis/travisergonum -km default",
     "qmk_config": "qmk config user.keyboard=dieseltravis/travisergonum user.keymap=default",
     "qmk_gendb": "qmk generate-compilation-database -kb dieseltravis/travisergonum -km default",
-    "qmk_cp": "cp -v ~/qmk_firmware/*.{hex,uf2,bin} ~/Projects/travis-ergogen-numpad/firmware/",
+    "qmk_cp": "cp -v ~/qmk_firmware/dieseltravis_travisergonum*.{hex,uf2,bin} ~/Projects/travis-ergogen-numpad/firmware/",
     "qmk_link": "ln -s ~/Projects/travis-ergogen-numpad/firmware/qmk ~/qmk_firmware/keyboards/dieseltravis/travisergonum",
     "qmk_all": "yarn qmk && yarn qmk_cp",
     "ps": "npx ergogen . -o output && gci output/outlines -Filter *.dxf | % { npx dxf-to-svg $_.FullName } && gci output/cases -Filter *.jscad | % { npx @jscad/cli@1 $_.FullName -of stla }"
