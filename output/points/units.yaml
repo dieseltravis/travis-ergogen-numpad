@@ -12,7 +12,9 @@ $default_autobind: 10
 pp: 21.05
 op: 25.05
 kp: 20.05
+smp: 1.2
 xlp: 2
+pw: 14
 screwSize: 1.5
 standoffSize: 3
 bt: 1

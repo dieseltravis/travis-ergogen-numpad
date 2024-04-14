@@ -11,7 +11,10 @@ units:
   # outer perimeter of board
   op: U + 6
   kp: U + 1
+  smp: 1.2
   xlp: 2
+  # plate switch width
+  pw: 14
   # Defaults to M2 Screws
   #screwSize: 1
   # M2 Screw Inserts
@@ -208,6 +211,29 @@ outlines:
         - ref: matrix_col0_row0
           shift: [-0.5kp - 0.5op, -0.5op]
       fillet: 5
+  smBoard:
+    - what: polygon
+      operation: stack
+      points:
+        # perimeter
+        # top left
+        - ref: matrix_col0_row4
+          shift: [-0.5pw - smp, 0.5pw + smp]
+        # top right
+        - ref: matrix_col3_row4
+          shift: [0.5pw + smp, 0.5pw + smp]
+        # bottom right
+        - ref: matrix_col3_row0
+          # this one's rotated
+          shift: [-0.5pw - smp, -0.5pw - smp]
+        - ref: matrix_col2_row0
+          shift: [0.5pw + smp, -0.5pw - smp]
+        # bottom left
+        - ref: matrix_col0_row0
+          shift: [-0.5pw - smp, -0.5pw - smp]
+        - ref: matrix_col0_row1
+          shift: [-0.5pw - smp, -0.5pw - smp]
+      fillet: smp
   xlBoard:
     - what: polygon
       operation: stack
@@ -275,6 +301,11 @@ outlines:
       where: key
       bound: false
       size: [U - 0.5,U - 0.5]
+  keyholes:
+    - what: rectangle
+      where: key
+      bound: false
+      size: [pw, pw]
   leds:
     - what: rectangle
       where: row_top
@@ -288,6 +319,12 @@ outlines:
       name: keys
     - operation: subtract
       name: leds
+  plate: # TODO: subtract 2U stabs
+    - name: smBoard
+    - operation: subtract
+      name: keyholes
+    - operation: subtract
+      name: mounting
 pcbs:
   travis_num2024:
     outlines:

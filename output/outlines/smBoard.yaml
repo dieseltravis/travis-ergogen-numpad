@@ -1,0 +1,121 @@
+models:
+    export:
+        models:
+            a:
+                models: {}
+                origin:
+                    - 0
+                    - 0
+            b:
+                paths:
+                    p1:
+                        type: line
+                        origin:
+                            - 31.8
+                            - -187.86671849999996
+                        end:
+                            - 31.8
+                            - -112.79999999999997
+                    p2:
+                        type: line
+                        origin:
+                            - 33
+                            - -111.59999999999997
+                        end:
+                            - 107.15
+                            - -111.59999999999997
+                    p3:
+                        type: line
+                        origin:
+                            - 108.35000000000001
+                            - -112.79999999999997
+                        end:
+                            - 108.35000000000001
+                            - -197.43335924999997
+                    p4:
+                        type: line
+                        origin:
+                            - 107.68665630000001
+                            - -198.50667184999998
+                        end:
+                            - 88.55337479999997
+                            - -208.0733126
+                    p5:
+                        type: line
+                        origin:
+                            - 88.01671849999997
+                            - -208.2
+                        end:
+                            - 42.56664075000001
+                            - -208.2
+                    p6:
+                        type: line
+                        origin:
+                            - 41.49332815000001
+                            - -207.5366563
+                        end:
+                            - 31.92668739999999
+                            - -188.40337479999994
+                origin:
+                    - 0
+                    - 0
+            fillet_0_0:
+                paths:
+                    fillet0:
+                        origin:
+                            - 33
+                            - -112.79999999999997
+                        radius: 1.2
+                        startAngle: 90
+                        endAngle: 180
+                        type: arc
+                    fillet1:
+                        origin:
+                            - 107.15
+                            - -112.79999999999997
+                        radius: 1.2
+                        startAngle: 0
+                        endAngle: 90
+                        type: arc
+                    fillet2:
+                        origin:
+                            - 107.15
+                            - -197.43335924999997
+                        radius: 1.2
+                        startAngle: 296.565051177078
+                        endAngle: 0
+                        type: arc
+                    fillet3:
+                        origin:
+                            - 88.01671849999997
+                            - -207
+                        radius: 1.2
+                        startAngle: 270
+                        endAngle: 296.565051177078
+                        type: arc
+                    fillet4:
+                        origin:
+                            - 42.56664075000001
+                            - -207
+                        radius: 1.2
+                        startAngle: 206.56505117707815
+                        endAngle: 270
+                        type: arc
+                    fillet5:
+                        origin:
+                            - 33
+                            - -187.86671849999996
+                        radius: 1.2
+                        startAngle: 180
+                        endAngle: 206.56505117707678
+                        type: arc
+                origin:
+                    - 0
+                    - 0
+        origin:
+            - 0
+            - 0
+units: mm
+origin:
+    - 0
+    - 0
