@@ -14,6 +14,7 @@ meta:
         - rgb
         - numpad
 units:
+    u: U
     pp: U + 2
     op: U + 6
     kp: U + 1
@@ -28,6 +29,11 @@ units:
     staby: 0.62
     lblsize: 1.8
     lblshift: -2.75
+    stabilizer_width: 7
+    stabilizer_height: 16
+    stabilizer_offset: 0
+    stabilizer_spacing_3u: u * ((3 - 1) / 2)
+    stabilizer_spacing_2u: 23.86 / 2
 points:
     zones:
         matrix:
@@ -48,6 +54,9 @@ points:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -138,6 +147,9 @@ points:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -150,6 +162,9 @@ points:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -209,6 +224,29 @@ outlines:
             size:
                 - pp
                 - pp
+    2u_stabilizer:
+        -
+            operation: stack
+            where: 2u_stabilizers
+            what: rectangle
+            size:
+                - stabilizer_width
+                - stabilizer_height
+            adjust:
+                shift:
+                    - stabilizer_spacing_2u
+                    - stabilizer_offset
+        -
+            operation: stack
+            where: 2u_stabilizers
+            what: rectangle
+            size:
+                - stabilizer_width
+                - stabilizer_height
+            adjust:
+                shift:
+                    - '-stabilizer_spacing_2u'
+                    - stabilizer_offset
     board:
         -
             what: polygon
@@ -420,6 +458,9 @@ outlines:
         -
             operation: subtract
             name: mounting
+        -
+            operation: stack
+            name: 2u_stabilizer
 pcbs:
     travis_num2024:
         outlines:

@@ -7,6 +7,7 @@ meta:
   url: https://github.com/dieseltravis/travis-ergonum
   tags: [ "ergogen", "promicro", "keyboard", "cherrymx", "hotswap", "rgb", "numpad" ]
 units:
+  u: U
   pp: U + 2
   # outer perimeter of board
   op: U + 6
@@ -31,6 +32,12 @@ units:
   # indicator led labels
   lblsize: 1.8
   lblshift: -2.75
+  # stabs
+  stabilizer_width: 7 
+  stabilizer_height: 16
+  stabilizer_offset: 0 # This means south stabs, use `orient` to rotate them for north facing scenarios
+  stabilizer_spacing_3u: u * ((3 - 1) / 2)
+  stabilizer_spacing_2u: 23.86 / 2 # 0.94in / 2
 points:
   zones:
     matrix:
@@ -48,6 +55,9 @@ points:
             row0:
               width: 2U
               shift: [0.5kp, 0]
+              tags:
+                - key
+                - 2u_stabilizers
               key:
                 led_next: ""
                 led_this: LED_20
@@ -134,6 +144,9 @@ points:
               shift: [0, 0.5kp]
               rotate: 90
               width: 2U
+              tags:
+                - key
+                - 2u_stabilizers
               key:
                 led_next: LED_19
                 led_this: LED_18
@@ -144,6 +157,9 @@ points:
             row2:
               rotate: 90
               width: 2U
+              tags:
+                - key
+                - 2u_stabilizers
               key:
                 led_next: LED_12
                 led_this: LED_11
@@ -198,6 +214,19 @@ outlines:
       where: key
       #bound: true
       size: [pp, pp]
+  2u_stabilizer: # This creates the stabilizer, you just need to use its name in a `where` clause of another outline
+    - operation: stack
+      where: 2u_stabilizers # Set this tag on the keys you want
+      what: rectangle
+      size: [stabilizer_width, stabilizer_height]
+      adjust:
+        shift: [stabilizer_spacing_2u, stabilizer_offset]
+    - operation: stack
+      where: 2u_stabilizers
+      what: rectangle
+      size: [stabilizer_width, stabilizer_height]
+      adjust:
+        shift: [-stabilizer_spacing_2u, stabilizer_offset]
   board:
     - what: polygon
       operation: stack
@@ -319,12 +348,14 @@ outlines:
       name: keys
     - operation: subtract
       name: leds
-  plate: # TODO: subtract 2U stabs
+  plate: # subtract 2U stabs
     - name: smBoard
     - operation: subtract
       name: keyholes
     - operation: subtract
       name: mounting
+    - operation: stack
+      name: 2u_stabilizer
 pcbs:
   travis_num2024:
     outlines:

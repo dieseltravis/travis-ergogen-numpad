@@ -16,7 +16,7 @@ matrix_col0_row0:
         rotate: 0
         adjust: {}
         width: 38.1
-        height: 18
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -26,7 +26,7 @@ matrix_col0_row0:
         column_net: col0
         tags:
             - key
-            - row_even
+            - 2u_stabilizers
         row_net: row0
         key:
             led_next: ''
@@ -45,6 +45,9 @@ matrix_col0_row0:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -138,6 +141,9 @@ matrix_col0_row0:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -150,6 +156,9 @@ matrix_col0_row0:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -212,6 +221,9 @@ matrix_col0_row0:
                     shift:
                         - 0.5kp
                         - 0
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: ''
                         led_this: LED_20
@@ -262,8 +274,8 @@ matrix_col0_row1:
             - 0
         rotate: 0
         adjust: {}
-        width: 18
-        height: 18
+        width: 18.05
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -292,6 +304,9 @@ matrix_col0_row1:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -385,6 +400,9 @@ matrix_col0_row1:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -397,6 +415,9 @@ matrix_col0_row1:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -459,6 +480,9 @@ matrix_col0_row1:
                     shift:
                         - 0.5kp
                         - 0
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: ''
                         led_this: LED_20
@@ -509,8 +533,8 @@ matrix_col0_row2:
             - 0
         rotate: 0
         adjust: {}
-        width: 18
-        height: 18
+        width: 18.05
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -539,6 +563,9 @@ matrix_col0_row2:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -632,6 +659,9 @@ matrix_col0_row2:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -644,6 +674,9 @@ matrix_col0_row2:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -706,6 +739,9 @@ matrix_col0_row2:
                     shift:
                         - 0.5kp
                         - 0
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: ''
                         led_this: LED_20
@@ -756,8 +792,8 @@ matrix_col0_row3:
             - 0
         rotate: 0
         adjust: {}
-        width: 18
-        height: 18
+        width: 18.05
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -786,6 +822,9 @@ matrix_col0_row3:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -879,6 +918,9 @@ matrix_col0_row3:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -891,6 +933,9 @@ matrix_col0_row3:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -953,6 +998,9 @@ matrix_col0_row3:
                     shift:
                         - 0.5kp
                         - 0
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: ''
                         led_this: LED_20
@@ -1003,8 +1051,8 @@ matrix_col0_row4:
             - 0
         rotate: 0
         adjust: {}
-        width: 18
-        height: 18
+        width: 18.05
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -1033,6 +1081,9 @@ matrix_col0_row4:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -1126,6 +1177,9 @@ matrix_col0_row4:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -1138,6 +1192,9 @@ matrix_col0_row4:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -1200,6 +1257,9 @@ matrix_col0_row4:
                     shift:
                         - 0.5kp
                         - 0
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: ''
                         led_this: LED_20
@@ -1277,6 +1337,9 @@ matrix_col0_row5:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -1370,6 +1433,9 @@ matrix_col0_row5:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -1382,6 +1448,9 @@ matrix_col0_row5:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -1444,6 +1513,9 @@ matrix_col0_row5:
                     shift:
                         - 0.5kp
                         - 0
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: ''
                         led_this: LED_20
@@ -1494,8 +1566,8 @@ matrix_col1_row1:
             - 0
         rotate: 0
         adjust: {}
-        width: 18
-        height: 18
+        width: 18.05
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -1524,6 +1596,9 @@ matrix_col1_row1:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -1617,6 +1692,9 @@ matrix_col1_row1:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -1629,6 +1707,9 @@ matrix_col1_row1:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -1732,8 +1813,8 @@ matrix_col1_row2:
             - 0
         rotate: 0
         adjust: {}
-        width: 18
-        height: 18
+        width: 18.05
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -1762,6 +1843,9 @@ matrix_col1_row2:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -1855,6 +1939,9 @@ matrix_col1_row2:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -1867,6 +1954,9 @@ matrix_col1_row2:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -1970,8 +2060,8 @@ matrix_col1_row3:
             - 0
         rotate: 0
         adjust: {}
-        width: 18
-        height: 18
+        width: 18.05
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -2000,6 +2090,9 @@ matrix_col1_row3:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -2093,6 +2186,9 @@ matrix_col1_row3:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -2105,6 +2201,9 @@ matrix_col1_row3:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -2208,8 +2307,8 @@ matrix_col1_row4:
             - 0
         rotate: 0
         adjust: {}
-        width: 18
-        height: 18
+        width: 18.05
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -2238,6 +2337,9 @@ matrix_col1_row4:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -2331,6 +2433,9 @@ matrix_col1_row4:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -2343,6 +2448,9 @@ matrix_col1_row4:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -2473,6 +2581,9 @@ matrix_col1_row5:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -2566,6 +2677,9 @@ matrix_col1_row5:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -2578,6 +2692,9 @@ matrix_col1_row5:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -2681,8 +2798,8 @@ matrix_col2_row0:
             - 0
         rotate: 0
         adjust: {}
-        width: 18
-        height: 18
+        width: 18.05
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -2711,6 +2828,9 @@ matrix_col2_row0:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -2804,6 +2924,9 @@ matrix_col2_row0:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -2816,6 +2939,9 @@ matrix_col2_row0:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -2921,8 +3047,8 @@ matrix_col2_row1:
             - 0
         rotate: 0
         adjust: {}
-        width: 18
-        height: 18
+        width: 18.05
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -2951,6 +3077,9 @@ matrix_col2_row1:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -3044,6 +3173,9 @@ matrix_col2_row1:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -3056,6 +3188,9 @@ matrix_col2_row1:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -3161,8 +3296,8 @@ matrix_col2_row2:
             - 0
         rotate: 0
         adjust: {}
-        width: 18
-        height: 18
+        width: 18.05
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -3191,6 +3326,9 @@ matrix_col2_row2:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -3284,6 +3422,9 @@ matrix_col2_row2:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -3296,6 +3437,9 @@ matrix_col2_row2:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -3401,8 +3545,8 @@ matrix_col2_row3:
             - 0
         rotate: 0
         adjust: {}
-        width: 18
-        height: 18
+        width: 18.05
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -3431,6 +3575,9 @@ matrix_col2_row3:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -3524,6 +3671,9 @@ matrix_col2_row3:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -3536,6 +3686,9 @@ matrix_col2_row3:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -3641,8 +3794,8 @@ matrix_col2_row4:
             - 0
         rotate: 0
         adjust: {}
-        width: 18
-        height: 18
+        width: 18.05
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -3671,6 +3824,9 @@ matrix_col2_row4:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -3764,6 +3920,9 @@ matrix_col2_row4:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -3776,6 +3935,9 @@ matrix_col2_row4:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -3908,6 +4070,9 @@ matrix_col2_row5:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -4001,6 +4166,9 @@ matrix_col2_row5:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -4013,6 +4181,9 @@ matrix_col2_row5:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -4119,7 +4290,7 @@ matrix_col3_row0:
         rotate: 90
         adjust: {}
         width: 38.1
-        height: 18
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -4129,7 +4300,7 @@ matrix_col3_row0:
         column_net: col3
         tags:
             - key
-            - row_even
+            - 2u_stabilizers
         row_net: row0
         key:
             led_next: LED_19
@@ -4148,6 +4319,9 @@ matrix_col3_row0:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -4241,6 +4415,9 @@ matrix_col3_row0:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -4253,6 +4430,9 @@ matrix_col3_row0:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -4316,6 +4496,9 @@ matrix_col3_row0:
                         - 0.5kp
                     rotate: 90
                     width: 2U
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: LED_19
                         led_this: LED_18
@@ -4328,6 +4511,9 @@ matrix_col3_row0:
                 row2:
                     rotate: 90
                     width: 2U
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: LED_12
                         led_this: LED_11
@@ -4371,7 +4557,7 @@ matrix_col3_row2:
         rotate: 90
         adjust: {}
         width: 38.1
-        height: 18
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -4381,7 +4567,7 @@ matrix_col3_row2:
         column_net: col3
         tags:
             - key
-            - row_even
+            - 2u_stabilizers
         row_net: row2
         key:
             led_next: LED_12
@@ -4400,6 +4586,9 @@ matrix_col3_row2:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -4493,6 +4682,9 @@ matrix_col3_row2:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -4505,6 +4697,9 @@ matrix_col3_row2:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -4568,6 +4763,9 @@ matrix_col3_row2:
                         - 0.5kp
                     rotate: 90
                     width: 2U
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: LED_19
                         led_this: LED_18
@@ -4580,6 +4778,9 @@ matrix_col3_row2:
                 row2:
                     rotate: 90
                     width: 2U
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: LED_12
                         led_this: LED_11
@@ -4622,8 +4823,8 @@ matrix_col3_row4:
             - 0
         rotate: 0
         adjust: {}
-        width: 18
-        height: 18
+        width: 18.05
+        height: 18.05
         padding: 20.05
         autobind: 10
         skip: false
@@ -4652,6 +4853,9 @@ matrix_col3_row4:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -4745,6 +4949,9 @@ matrix_col3_row4:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -4757,6 +4964,9 @@ matrix_col3_row4:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -4820,6 +5030,9 @@ matrix_col3_row4:
                         - 0.5kp
                     rotate: 90
                     width: 2U
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: LED_19
                         led_this: LED_18
@@ -4832,6 +5045,9 @@ matrix_col3_row4:
                 row2:
                     rotate: 90
                     width: 2U
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: LED_12
                         led_this: LED_11
@@ -4901,6 +5117,9 @@ matrix_col3_row5:
                             shift:
                                 - 0.5kp
                                 - 0
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_20
@@ -4994,6 +5213,9 @@ matrix_col3_row5:
                                 - 0.5kp
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_19
                                 led_this: LED_18
@@ -5006,6 +5228,9 @@ matrix_col3_row5:
                         row2:
                             rotate: 90
                             width: 2U
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_12
                                 led_this: LED_11
@@ -5069,6 +5294,9 @@ matrix_col3_row5:
                         - 0.5kp
                     rotate: 90
                     width: 2U
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: LED_19
                         led_this: LED_18
@@ -5081,6 +5309,9 @@ matrix_col3_row5:
                 row2:
                     rotate: 90
                     width: 2U
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: LED_12
                         led_this: LED_11
