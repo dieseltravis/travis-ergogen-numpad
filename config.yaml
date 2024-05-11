@@ -1,10 +1,10 @@
 meta:
-  engine: 4.0.5
+  engine: 4.1.0
   name: "travis-ergogen-numpad"
-  version: &meta_version "2024.04.13"
-  date: "2024-04-13"
+  version: &meta_version "2024.05.10"
+  date: "2024-05-10"
   author: "Travis Hardiman"
-  url: https://github.com/dieseltravis/travis-ergonum
+  url: &url github.com/dieseltravis/travis-ergonum
   tags: [ "ergogen", "promicro", "keyboard", "cherrymx", "hotswap", "rgb", "numpad" ]
 units:
   u: U
@@ -36,7 +36,7 @@ units:
   stabilizer_width: 7 
   stabilizer_height: 16
   stabilizer_offset: 0 # This means south stabs, use `orient` to rotate them for north facing scenarios
-  stabilizer_spacing_3u: u * ((3 - 1) / 2)
+  stabilizer_spacing_3u: U * ((3 - 1) / 2)
   stabilizer_spacing_2u: 23.86 / 2 # 0.94in / 2
 points:
   zones:
@@ -58,6 +58,7 @@ points:
               tags:
                 - key
                 - 2u_stabilizers
+                - row_even
               key:
                 led_next: ""
                 led_this: LED_20
@@ -82,6 +83,7 @@ points:
               key:
                 led_next: LED_1
                 led_this: LED_0
+                led_power: RAWD
         col1:
           key:
             column_net: col1
@@ -108,6 +110,7 @@ points:
               key:
                 led_next: LED_2
                 led_this: LED_1
+                led_power: RAW
         col2:
           key:
             column_net: col2
@@ -136,6 +139,7 @@ points:
               key:
                 led_next: LED_3
                 led_this: LED_2
+                led_power: RAW
         col3:
           key:
             column_net: col3
@@ -147,6 +151,7 @@ points:
               tags:
                 - key
                 - 2u_stabilizers
+                - row_even
               key:
                 led_next: LED_19
                 led_this: LED_18
@@ -160,6 +165,7 @@ points:
               tags:
                 - key
                 - 2u_stabilizers
+                - row_even
               key:
                 led_next: LED_12
                 led_this: LED_11
@@ -176,6 +182,7 @@ points:
               key:
                 led_next: LED_4
                 led_this: LED_3
+                led_power: RAW
       rows:
         row0:
           tags: 
@@ -329,7 +336,7 @@ outlines:
     - what: rectangle
       where: key
       bound: false
-      size: [U - 0.5,U - 0.5]
+      size: [U - 0.5, U - 0.5]
   keyholes:
     - what: rectangle
       where: key
@@ -358,6 +365,7 @@ outlines:
       name: 2u_stabilizer
 pcbs:
   travis_num2024:
+    template: kicad8
     outlines:
       main:
         outline: board
@@ -382,7 +390,7 @@ pcbs:
           P9: row2  # D7 A7 PWM
           P10: row3 # E6
           P11: row4 # B4 A8
-          P12: LED  # B5 A9 PWM
+          P12: LED0 # B5 A9 PWM
           # right
           #P24: RAW LEDV
           #P23: GND
@@ -396,6 +404,7 @@ pcbs:
           #P15: # B3 MISO
           P14: encA # B2 MOSI
           P13: encC # B6 A10 PWM
+          offset3d: [0, 0, 5]
       oled:
         what: oled
         params:
@@ -407,33 +416,19 @@ pcbs:
           shift: [4, 6]
           rotate: 180
       # leds
-      rgbr: # 470 ohm resistor
-        what: travis/RAxialL6D25P10H
+      cap1: # 470uF 10V
+        what: travis/CSMD_D63xL77
         params:
-          from: LED #P9 on Promicro
-          to: LED_0 #P2 on LED 0
-          side: B
-          value: "470R"
-        where:
-          ref: matrix_col1_row5
-          shift: [-0.25U-0.5, 1.75]
-          rotate: 180
-      cap1: # 6.3V 1000uF
-        what: travis/CRadialD63H11P25
-        params:
-          P1: RAW
-          P2: GND
-          side: B
-          value: "6.3V 1000uF"
+          value: "470uF 10V"
         where:
           ref: matrix_col0_row5
-          shift: [-5, 0.65U + (6.3 / 4) - 0.25]
-          rotate: 270
+          shift: [-3, 0.65U]
+          rotate: 180
       leds:
         what: travis/led_sk6812mini-e
         where: meta.tags ~ /row_top/
         params:
-          P1: RAW
+          P1: VCC
           P4: "{{key.led_this}}"
           P2: "{{key.led_next}}"
           valpos: [0, 2.25]
@@ -450,15 +445,10 @@ pcbs:
           align: "left"
         adjust:
           shift: [-3.8, -0.7]
-      ledcaps:
-        what: travis/CDiscD47W25P5
+      ledcaps: # 104 0.10u
+        what: travis/CSMD_1206_3216Metric
         params:
-          P1: RAW
-          P2: GND
-          value: "104"
           side: B
-          refpos: [7.5, 0]
-          valpos: [-2.5, 0]
         where: meta.tags ~ /row_top/
         adjust:
           shift: [5.5, -3.84 + 2.0]
@@ -552,7 +542,8 @@ pcbs:
           shift: [0, 0.5U + 2]
           rotate: -90
       rdiode:
-        what: travis/ScottoKeebs-Diode_DO-35 #diode
+        #what: travis/ScottoKeebs-Diode_DO-35 #diode
+        what: ceoloide/diode_tht_sod123
         where: 
           ref: matrix_col3_row5
           shift: [-0.5U + 1.5, 12.5]
@@ -561,6 +552,7 @@ pcbs:
           side: B
           from: enc_to
           to: row4
+          diode_3dmodel_filename: '${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step'
       # stabs
       zero2u:
         what: travis/ScottoKeebs-Stabilizer_MX_2u
@@ -661,6 +653,17 @@ pcbs:
           bold: true
         adjust:
           shift: [0.25U, 1.25U]
+      url:
+        what: ceoloide/utility_text
+        where: 
+          ref: matrix_col0_row5
+        params:
+          text: *url
+          align: "right"
+          side: B
+          mirrored: true
+        adjust:
+          shift: [-0.25U, 1.25U]
       version:
         what: ceoloide/utility_text
         where: 
@@ -691,6 +694,7 @@ pcbs:
           side: "B"
           name: "back ground"
           connect_pads: "yes"
+          points: [[24, 76], [114, 76], [114, 214], [24, 214]]
       foreground:
         what: ceoloide/utility_filled_zone
         params:
@@ -699,6 +703,7 @@ pcbs:
           connect_pads: "yes"
           fill_type: "hatch"
           hatch_orientation: 45
+          points: [[26, 78], [116, 78], [116, 216], [26, 216]]
 cases:
   bottom:
     - name: board
