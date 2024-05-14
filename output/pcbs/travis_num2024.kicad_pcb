@@ -11,7 +11,7 @@
   (paper "A3")
   (title_block
     (title "travis_num2024")
-    (date "2024-05-12")
+    (date "2024-05-14")
     (rev "2024.05.10")
     (company "Travis Hardiman")
   )
@@ -401,7 +401,7 @@
 
     (at 37 94.86749999999998 180)
     (property "Reference" "C1" (at 0 -4.35 0) (layer "F.SilkS")(uuid "6f925f8c-11df-49e7-9944-3b52e654cd36") hide
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 1 1) (thickness 0.15)) (justify ))
     )
     (property "Value" "470uF 10V" (at 0 4.35 0) (layer "F.Fab")(uuid "6283908f-953d-4aee-b5e5-b87fc2e1e053") (hide yes)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -918,7 +918,7 @@
 
       (at 44.35 109.64999999999998 0)
       (property "Reference" "C2" (at 0 -1.85 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")  hide
-        (effects (font (size 1 1) (thickness 0.15)))
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
       (property "Value" "C_1206_3216Metric" (at 0 1.85 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
@@ -982,7 +982,7 @@
 
       (at 64.39999999999999 109.64999999999998 0)
       (property "Reference" "C3" (at 0 -1.85 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")  hide
-        (effects (font (size 1 1) (thickness 0.15)))
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
       (property "Value" "C_1206_3216Metric" (at 0 1.85 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
@@ -1046,7 +1046,7 @@
 
       (at 84.44999999999999 109.64999999999998 0)
       (property "Reference" "C4" (at 0 -1.85 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")  hide
-        (effects (font (size 1 1) (thickness 0.15)))
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
       (property "Value" "C_1206_3216Metric" (at 0 1.85 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
@@ -1110,7 +1110,7 @@
 
       (at 104.5 109.64999999999998 0)
       (property "Reference" "C5" (at 0 -1.85 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")  hide
-        (effects (font (size 1 1) (thickness 0.15)))
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
       (property "Value" "C_1206_3216Metric" (at 0 1.85 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
@@ -1526,11 +1526,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 48.525 171.92499999999998 270)
-      (property "Reference" "D1" (at 5.985 1.921 270) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
-        (effects (font (size 1 1) (thickness 0.15)))
+      (at 48.275 173.825 270)
+      (property "Reference" "D1" (at 0 -1.82 270) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 11.065 0 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -1593,11 +1593,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 48.525 131.82499999999996 270)
-      (property "Reference" "D2" (at 5.985 1.921 270) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
-        (effects (font (size 1 1) (thickness 0.15)))
+      (at 48.275 133.72499999999997 270)
+      (property "Reference" "D2" (at 0 -1.82 270) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 11.065 0 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -1660,11 +1660,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 68.575 171.92499999999998 270)
-      (property "Reference" "D3" (at 5.985 1.921 270) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
-        (effects (font (size 1 1) (thickness 0.15)))
+      (at 68.325 173.825 270)
+      (property "Reference" "D3" (at 0 -1.82 270) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 11.065 0 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -1727,11 +1727,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 68.575 131.82499999999996 270)
-      (property "Reference" "D4" (at 5.985 1.921 270) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
-        (effects (font (size 1 1) (thickness 0.15)))
+      (at 68.325 133.72499999999997 270)
+      (property "Reference" "D4" (at 0 -1.82 270) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 11.065 0 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -1794,11 +1794,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 88.625 171.92499999999998 270)
-      (property "Reference" "D5" (at 5.985 1.921 270) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
-        (effects (font (size 1 1) (thickness 0.15)))
+      (at 88.375 173.825 270)
+      (property "Reference" "D5" (at 0 -1.82 270) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 11.065 0 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -1861,11 +1861,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 88.625 131.82499999999996 270)
-      (property "Reference" "D6" (at 5.985 1.921 270) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
-        (effects (font (size 1 1) (thickness 0.15)))
+      (at 88.375 133.72499999999997 270)
+      (property "Reference" "D6" (at 0 -1.82 270) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 11.065 0 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -2540,9 +2540,9 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 37.5 188.25 0)
+      (at 44.35 187.31 0)
       (property "Reference" "C6" (at 7.5 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")  hide
-        (effects (font (size 1 1) (thickness 0.15)))
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
       (property "Value" "C_1206_3216Metric" (at -2.5 0 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
@@ -2604,9 +2604,9 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 37.5 148.14999999999998 0)
+      (at 44.35 147.20999999999998 0)
       (property "Reference" "C7" (at 7.5 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")  hide
-        (effects (font (size 1 1) (thickness 0.15)))
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
       (property "Value" "C_1206_3216Metric" (at -2.5 0 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
@@ -2668,9 +2668,9 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 57.55 188.25 0)
+      (at 64.39999999999999 187.31 0)
       (property "Reference" "C8" (at 7.5 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")  hide
-        (effects (font (size 1 1) (thickness 0.15)))
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
       (property "Value" "C_1206_3216Metric" (at -2.5 0 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
@@ -2732,9 +2732,9 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 57.55 148.14999999999998 0)
+      (at 64.39999999999999 147.20999999999998 0)
       (property "Reference" "C9" (at 7.5 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")  hide
-        (effects (font (size 1 1) (thickness 0.15)))
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
       (property "Value" "C_1206_3216Metric" (at -2.5 0 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
@@ -2796,9 +2796,9 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 77.6 188.25 0)
+      (at 84.44999999999999 187.31 0)
       (property "Reference" "C10" (at 7.5 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")  hide
-        (effects (font (size 1 1) (thickness 0.15)))
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
       (property "Value" "C_1206_3216Metric" (at -2.5 0 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
@@ -2860,9 +2860,9 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 77.6 148.14999999999998 0)
+      (at 84.44999999999999 147.20999999999998 0)
       (property "Reference" "C11" (at 7.5 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")  hide
-        (effects (font (size 1 1) (thickness 0.15)))
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
       (property "Value" "C_1206_3216Metric" (at -2.5 0 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
@@ -6217,11 +6217,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 92.125 94.74999999999997 -90)
-      (property "Reference" "D7" (at 0 -1.82 -90) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
-        (effects (font (size 1 1) (thickness 0.15)))
+      (at 94.42500000000001 102.64999999999998 0)
+      (property "Reference" "D7" (at 0 -1.82 270) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 -90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)

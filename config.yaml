@@ -451,7 +451,7 @@ pcbs:
           side: B
         where: meta.tags ~ /row_top/
         adjust:
-          shift: [5.5 - 0.9 - 0.25, -2.4] # -3.84 + 2.0 + 2.41
+          shift: [4.35, -2.4]
           rotate: 0
       # indicator labels
       lblnum:
@@ -535,11 +535,11 @@ pcbs:
           side: B
           from: "{{name}}"
           to: "{{row_net}}"
-          refpos: [5.985, 1.921]
-          valpos: [11.065, 0]
+          #refpos: [5.985, 1.921]
+          #valpos: [11.065, 0]
         adjust:
           # place "to" pin in top right
-          shift: [U / 2 - 1, U / 2 - 1.5]
+          shift: [U / 2 - 1.25, U / 2 - 1.5 - 1.9]
           rotate: 90 + 180
       #diodelabel_odd:
       #  what: ceoloide/utility_text
@@ -587,7 +587,8 @@ pcbs:
           valpos: [-2.5, 0]
         adjust:
           #shift: [2.5, -8.3]
-          shift: [-2.5, -8.3]
+          #shift: [-2.5, -8.3]
+          shift: [4.35, -4.96 - 2.4]
           #rotate: 180
       #ledcaplabel_odd:
       #  what: travis/text
@@ -628,8 +629,9 @@ pcbs:
         what: travis/DSMD_1206_3216Metric
         where: 
           ref: matrix_col3_row5
-          shift: [-0.5U + 1.5, 12.5]
-          rotate: -90
+        adjust:
+          shift: [-0.5U + 3.8, 4.6]
+          rotate: 0
         params:
           side: B
           from: enc_to

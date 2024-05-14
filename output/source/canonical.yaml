@@ -557,7 +557,7 @@ pcbs:
                 where: meta.tags ~ /row_top/
                 adjust:
                     shift:
-                        - 5.5 - 0.9 - 0.25
+                        - 4.35
                         - -2.4
                     rotate: 0
             lblnum:
@@ -637,16 +637,10 @@ pcbs:
                     side: B
                     from: '{{name}}'
                     to: '{{row_net}}'
-                    refpos:
-                        - 5.985
-                        - 1.921
-                    valpos:
-                        - 11.065
-                        - 0
                 adjust:
                     shift:
-                        - U / 2 - 1
-                        - U / 2 - 1.5
+                        - U / 2 - 1.25
+                        - U / 2 - 1.5 - 1.9
                     rotate: 90 + 180
             led_odd:
                 what: travis/led_sk6812mini-e
@@ -691,8 +685,8 @@ pcbs:
                         - 0
                 adjust:
                     shift:
-                        - -2.5
-                        - -8.3
+                        - 4.35
+                        - '-4.96 - 2.4'
             keymod-even:
                 what: travis/key-module
                 where: meta.tags ~ /row_even/
@@ -722,10 +716,11 @@ pcbs:
                 what: travis/DSMD_1206_3216Metric
                 where:
                     ref: matrix_col3_row5
+                adjust:
                     shift:
-                        - '-0.5U + 1.5'
-                        - 12.5
-                    rotate: -90
+                        - '-0.5U + 3.8'
+                        - 4.6
+                    rotate: 0
                 params:
                     side: B
                     from: enc_to
