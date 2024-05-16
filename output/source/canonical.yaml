@@ -1,10 +1,10 @@
 meta:
     engine: 4.1.0
     name: travis-ergogen-numpad
-    version: 2024.05.10
-    date: '2024-05-10'
+    version: 2024.05.15
+    date: '2024-05-15'
     author: Travis Hardiman
-    url: github.com/dieseltravis/travis-ergonum
+    url: github.com/dieseltravis/travis-ergogen-numpad
     tags:
         - ergogen
         - promicro
@@ -13,6 +13,7 @@ meta:
         - hotswap
         - rgb
         - numpad
+        - smd
 units:
     u: U
     pp: U + 2
@@ -27,7 +28,7 @@ units:
     gt: 3
     pt: 1.6
     staby: 0.62
-    lblsize: 1.8
+    lblsize: 2
     lblshift: -2.75
     stabilizer_width: 7
     stabilizer_height: 16
@@ -553,8 +554,8 @@ pcbs:
                 params:
                     side: B
                     refpos:
+                        - 3.25
                         - 0
-                        - 1.75
                 where: meta.tags ~ /row_top/
                 adjust:
                     shift:
@@ -620,6 +621,18 @@ pcbs:
                     shift:
                         - lblshift
                         - 0
+            mx_label:
+                what: ceoloide/utility_text
+                where: meta.tags ~ /key/
+                params:
+                    text: '{{column_net}} {{row_net}}'
+                    height: 0.8
+                    width: 0.8
+                    reversible: true
+                adjust:
+                    shift:
+                        - 0
+                        - U / 2 - 2
             mx_hotswap_key:
                 what: travis/mx
                 where: meta.tags ~ /key/
@@ -638,12 +651,12 @@ pcbs:
                     from: '{{name}}'
                     to: '{{row_net}}'
                     refpos:
+                        - 3
                         - 0
-                        - -1.82
                         - 0
                 adjust:
                     shift:
-                        - U / 2 - 1.25
+                        - U / 2 - 1.1
                         - U / 2 - 1.5 - 1.9
                     rotate: 90 + 180
             led_odd:
@@ -680,8 +693,8 @@ pcbs:
                 params:
                     side: B
                     refpos:
+                        - 3.65
                         - 0
-                        - -1.85
                         - 0
                     valpos:
                         - -2.5
@@ -726,8 +739,8 @@ pcbs:
                 params:
                     side: B
                     refpos:
+                        - 3.65
                         - 0
-                        - -1.85
                         - 0
                     valpos:
                         - -2.5
@@ -910,7 +923,7 @@ pcbs:
                 where:
                     ref: matrix_col0_row5
                 params:
-                    text: github.com/dieseltravis/travis-ergonum
+                    text: github.com/dieseltravis/travis-ergogen-numpad
                     align: right
                     side: B
                     mirrored: true
@@ -924,7 +937,7 @@ pcbs:
                     ref: matrix_col3_row5
                 params:
                     face: MesloLGM Nerd Font
-                    text: 2024.05.10
+                    text: 2024.05.15
                     height: 1
                     width: 1
                     align: right
