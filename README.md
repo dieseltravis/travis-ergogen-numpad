@@ -1,5 +1,5 @@
 # travis-ergogen-numpad
-A numpad made with Ergogen v4. *Alpha* quality!
+A numpad made with Ergogen v4 and SMD components. *Alpha* quality!
 
 ![keyboard combo outline](./output/outlines/combo.svg)
 
@@ -9,13 +9,11 @@ A numpad made with Ergogen v4. *Alpha* quality!
 
 ## Parts ##
 
+TODO: list SMD diodes & caps
+
 Aliexpress:
-* Diodes: DO-35 1N4148 100pcs https://www.aliexpress.us/item/3256805608834808.html
 * Rotary encoder: EC11 12.5mm 5pcs https://www.aliexpress.us/item/2251832789732148.html
 * RGB LEDs: SK6812 MINI-E 100pcs https://www.aliexpress.us/item/3256802596102446.html
-* Capacitors: 104(0.1uF) 100pcs https://www.aliexpress.us/item/3256802104127109.html
-* Resistor: 470R 100pcs https://www.aliexpress.us/item/3256801441680644.html
-* Electrolytic Capacitor: 6.3V1000UF 6x11mm 10pcs https://www.aliexpress.us/item/3256802796040934.html
 * RP2040 Pro Micro 16M https://www.aliexpress.us/item/3256805943704472.html
 * 0.91 Inch OLED Module 0.91" White Blue 128X32 https://www.aliexpress.us/item/3256805787666312.html
 

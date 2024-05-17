@@ -524,6 +524,7 @@ pcbs:
           keycaps: true
           reverse: false
           hotswap: true
+          refpos: [3.5, -2, 0]
           from: "{{column_net}}"
           to: "{{name}}"
           value: "Kailh MX Switch Sockets"

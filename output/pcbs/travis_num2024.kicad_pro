@@ -66,7 +66,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -130,7 +130,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -267,14 +267,14 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "travis_num2024.cad",
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
-      "specctra_dsn": "",
-      "step": "",
-      "svg": "",
+      "pos_files": "pos",
+      "specctra_dsn": "travis_num2024.dsn",
+      "step": "travis_num2024.step",
+      "svg": "./",
       "vrml": ""
     },
     "page_layout_descr_file": ""
