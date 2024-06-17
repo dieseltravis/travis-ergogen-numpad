@@ -20,7 +20,7 @@
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x2025",
-        "vid": "0xFEED"
+        "vid": "0x1979"
     },
     "ws2812": {
         "pin": "B5"
