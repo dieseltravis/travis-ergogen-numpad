@@ -177,7 +177,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
+			(property "Reference" "S"
 				(at 3.048 1.016 0)
 				(effects
 					(font
@@ -341,158 +341,170 @@
 		)
 	)
 	(junction
-		(at 69.85 76.2)
+		(at 85.09 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14834def-56ba-4421-b177-1f975a26b170")
 	)
 	(junction
-		(at 25.4 101.6)
+		(at 53.34 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15a522ca-c016-452b-a43e-fe5e2f4a2672")
+		(uuid "1737c495-4fd4-43ec-a75a-f9136b16747c")
 	)
 	(junction
-		(at 50.8 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17a43d25-5d44-4f53-9e25-99129a4bfac3")
-	)
-	(junction
-		(at 57.15 35.56)
+		(at 72.39 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e3cf756-6aa3-4fef-965f-78e531da69c7")
 	)
 	(junction
-		(at 44.45 116.84)
+		(at 59.69 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f6d9016-db05-4e60-8b81-0d4546f981a8")
 	)
 	(junction
-		(at 57.15 116.84)
+		(at 72.39 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "423ec2c1-b308-4c60-b529-de47e62e4544")
 	)
 	(junction
-		(at 38.1 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "490851b4-e0c1-40ed-86e9-a0c0a843f16d")
-	)
-	(junction
-		(at 50.8 81.28)
+		(at 66.04 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "560ae6ae-b8b1-48c2-b7f0-d0a0f171b72f")
 	)
 	(junction
-		(at 69.85 35.56)
+		(at 85.09 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61db2ff8-5288-46d4-862b-10c68151aa5e")
 	)
 	(junction
-		(at 57.15 96.52)
+		(at 72.39 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69c782e8-2db3-4b75-9940-96e4d8224be0")
 	)
 	(junction
-		(at 44.45 55.88)
+		(at 59.69 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b4746a3-b08a-4c77-a220-97104196558f")
 	)
 	(junction
-		(at 63.5 81.28)
+		(at 40.64 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7baa7b69-3ccb-4494-845a-b92c01a804c5")
+	)
+	(junction
+		(at 85.09 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "858fc551-8789-4cef-8cec-c8bef2f6e070")
+	)
+	(junction
+		(at 78.74 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cc47eb9-e416-4e70-85ae-7d653ac0ca64")
 	)
 	(junction
-		(at 25.4 60.96)
+		(at 40.64 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91fa7991-5d6d-4cf0-8e8f-dc28e3adffca")
 	)
 	(junction
-		(at 38.1 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bfcff28-8bcf-499a-a6d7-8ccdb955795e")
-	)
-	(junction
-		(at 44.45 76.2)
+		(at 59.69 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c60ae9d-a98b-4221-8002-53d5f91feb96")
 	)
 	(junction
-		(at 25.4 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d966c51-2352-40b1-841c-e23c651f6794")
-	)
-	(junction
-		(at 63.5 60.96)
+		(at 78.74 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a84265a3-66e2-4979-a8bf-872f0518ff6f")
 	)
 	(junction
-		(at 69.85 96.52)
+		(at 85.09 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acd380bd-9ade-4e57-afa5-f421a077c047")
 	)
 	(junction
-		(at 44.45 96.52)
+		(at 59.69 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfaaff0b-4eba-4177-a00e-af9bcf69f13c")
 	)
 	(junction
-		(at 57.15 76.2)
+		(at 72.39 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c57ad020-671b-4e0c-9b26-61aaa1a921b4")
 	)
 	(junction
-		(at 38.1 60.96)
+		(at 53.34 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5ffdcdf-9276-417e-b930-92a4df775629")
 	)
 	(junction
-		(at 50.8 40.64)
+		(at 78.74 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d4deec04-9148-44b6-82f0-30513a25b8db")
+		(uuid "c66ffeb6-3417-4117-87bd-7f31880fac2e")
 	)
 	(junction
-		(at 57.15 55.88)
+		(at 40.64 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc51fc0f-b6b4-45c5-a6be-60ce7b3298f4")
+	)
+	(junction
+		(at 72.39 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd1ae078-06e7-4eb8-aece-c9e9ba02ccfa")
 	)
 	(junction
-		(at 50.8 60.96)
+		(at 53.34 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2852e1d-a8c3-45e0-beea-368fb3ad5148")
+	)
+	(junction
+		(at 66.04 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f29c3331-554c-4d84-aab7-b8f7511d5b98")
 	)
 	(junction
-		(at 25.4 81.28)
+		(at 66.04 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2ebce02-531d-4854-8a18-6e3181b0eb64")
+	)
+	(junction
+		(at 40.64 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4074e67-9a69-43f1-9afb-8204af8a13a3")
 	)
+	(junction
+		(at 66.04 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5086764-2ce9-4fe1-9966-7e6ea3da7644")
+	)
 	(wire
 		(pts
-			(xy 52.07 81.28) (xy 50.8 81.28)
+			(xy 67.31 74.93) (xy 66.04 74.93)
 		)
 		(stroke
 			(width 0)
@@ -502,7 +514,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 34.29) (xy 57.15 35.56)
+			(xy 72.39 151.13) (xy 72.39 152.4)
 		)
 		(stroke
 			(width 0)
@@ -512,7 +524,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 25.4) (xy 57.15 29.21)
+			(xy 72.39 142.24) (xy 72.39 146.05)
 		)
 		(stroke
 			(width 0)
@@ -522,7 +534,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 86.36) (xy 69.85 90.17)
+			(xy 85.09 80.01) (xy 85.09 83.82)
 		)
 		(stroke
 			(width 0)
@@ -532,7 +544,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 60.96) (xy 25.4 60.96)
+			(xy 41.91 95.25) (xy 40.64 95.25)
 		)
 		(stroke
 			(width 0)
@@ -542,7 +554,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 20.32) (xy 25.4 20.32)
+			(xy 41.91 137.16) (xy 40.64 137.16)
 		)
 		(stroke
 			(width 0)
@@ -552,7 +564,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 54.61) (xy 57.15 55.88)
+			(xy 72.39 129.54) (xy 72.39 130.81)
 		)
 		(stroke
 			(width 0)
@@ -562,7 +574,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 96.52) (xy 69.85 96.52)
+			(xy 85.09 69.85) (xy 91.44 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25bc7473-006a-4e3c-b41c-82173d893054")
+	)
+	(wire
+		(pts
+			(xy 72.39 90.17) (xy 85.09 90.17)
 		)
 		(stroke
 			(width 0)
@@ -572,7 +594,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 60.96) (xy 38.1 60.96)
+			(xy 54.61 95.25) (xy 53.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -582,7 +604,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 116.84) (xy 44.45 116.84)
+			(xy 46.99 69.85) (xy 59.69 69.85)
 		)
 		(stroke
 			(width 0)
@@ -592,7 +614,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 40.64) (xy 50.8 40.64)
+			(xy 67.31 115.57) (xy 66.04 115.57)
 		)
 		(stroke
 			(width 0)
@@ -602,7 +624,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 74.93) (xy 69.85 76.2)
+			(xy 85.09 109.22) (xy 85.09 110.49)
 		)
 		(stroke
 			(width 0)
@@ -612,7 +634,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 86.36) (xy 44.45 90.17)
+			(xy 59.69 80.01) (xy 59.69 83.82)
 		)
 		(stroke
 			(width 0)
@@ -622,7 +644,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 86.36) (xy 31.75 90.17)
+			(xy 46.99 80.01) (xy 46.99 83.82)
 		)
 		(stroke
 			(width 0)
@@ -632,7 +654,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 95.25) (xy 57.15 96.52)
+			(xy 72.39 88.9) (xy 72.39 90.17)
 		)
 		(stroke
 			(width 0)
@@ -642,17 +664,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 20.32) (xy 50.8 40.64)
+			(xy 40.64 115.57) (xy 40.64 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30be47bc-0fbf-4c45-b732-6e22412d4f87")
+		(uuid "3139451f-c4dd-40f4-8615-a9c91c196e71")
 	)
 	(wire
 		(pts
-			(xy 26.67 81.28) (xy 25.4 81.28)
+			(xy 41.91 74.93) (xy 40.64 74.93)
 		)
 		(stroke
 			(width 0)
@@ -662,7 +684,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 116.84) (xy 76.2 116.84)
+			(xy 72.39 69.85) (xy 85.09 69.85)
 		)
 		(stroke
 			(width 0)
@@ -672,7 +694,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 40.64) (xy 25.4 60.96)
+			(xy 40.64 54.61) (xy 40.64 74.93)
 		)
 		(stroke
 			(width 0)
@@ -682,17 +704,27 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 20.32) (xy 25.4 40.64)
+			(xy 80.01 38.1) (xy 78.74 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4132897e-f81e-4c29-98e9-940a808c158e")
+		(uuid "3ed9b8c9-aeab-46b6-8f1d-eefece43db43")
 	)
 	(wire
 		(pts
-			(xy 52.07 60.96) (xy 50.8 60.96)
+			(xy 78.74 38.1) (xy 78.74 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f04c024-c25c-41fc-a0c8-6554251b243d")
+	)
+	(wire
+		(pts
+			(xy 67.31 95.25) (xy 66.04 95.25)
 		)
 		(stroke
 			(width 0)
@@ -702,7 +734,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 101.6) (xy 38.1 101.6)
+			(xy 54.61 54.61) (xy 53.34 54.61)
 		)
 		(stroke
 			(width 0)
@@ -712,7 +744,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 116.84) (xy 57.15 116.84)
+			(xy 59.69 69.85) (xy 72.39 69.85)
 		)
 		(stroke
 			(width 0)
@@ -722,7 +754,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 54.61) (xy 31.75 55.88)
+			(xy 46.99 129.54) (xy 46.99 130.81)
 		)
 		(stroke
 			(width 0)
@@ -732,7 +764,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 54.61) (xy 44.45 55.88)
+			(xy 59.69 129.54) (xy 59.69 130.81)
 		)
 		(stroke
 			(width 0)
@@ -742,17 +774,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 101.6) (xy 38.1 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "501372f6-ce5d-48de-a476-b065ec52ac01")
-	)
-	(wire
-		(pts
-			(xy 31.75 25.4) (xy 31.75 29.21)
+			(xy 46.99 142.24) (xy 46.99 146.05)
 		)
 		(stroke
 			(width 0)
@@ -762,7 +784,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 115.57) (xy 31.75 116.84)
+			(xy 46.99 68.58) (xy 46.99 69.85)
 		)
 		(stroke
 			(width 0)
@@ -772,7 +794,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 45.72) (xy 57.15 49.53)
+			(xy 72.39 120.65) (xy 72.39 124.46)
 		)
 		(stroke
 			(width 0)
@@ -782,7 +804,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 76.2) (xy 76.2 76.2)
+			(xy 85.09 110.49) (xy 91.44 110.49)
 		)
 		(stroke
 			(width 0)
@@ -792,7 +814,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 81.28) (xy 38.1 101.6)
+			(xy 85.09 52.07) (xy 85.09 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617c4d20-21e0-448a-9335-0f48aea40a47")
+	)
+	(wire
+		(pts
+			(xy 53.34 95.25) (xy 53.34 115.57)
 		)
 		(stroke
 			(width 0)
@@ -802,7 +834,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 76.2) (xy 69.85 76.2)
+			(xy 72.39 110.49) (xy 85.09 110.49)
 		)
 		(stroke
 			(width 0)
@@ -812,7 +844,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 40.64) (xy 25.4 40.64)
+			(xy 41.91 115.57) (xy 40.64 115.57)
 		)
 		(stroke
 			(width 0)
@@ -822,7 +854,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 81.28) (xy 38.1 81.28)
+			(xy 54.61 74.93) (xy 53.34 74.93)
 		)
 		(stroke
 			(width 0)
@@ -832,7 +864,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 20.32) (xy 50.8 20.32)
+			(xy 67.31 137.16) (xy 66.04 137.16)
 		)
 		(stroke
 			(width 0)
@@ -842,17 +874,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 101.6) (xy 50.8 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "727ab639-ad19-4fd4-8368-2c1893a37dea")
-	)
-	(wire
-		(pts
-			(xy 57.15 115.57) (xy 57.15 116.84)
+			(xy 72.39 68.58) (xy 72.39 69.85)
 		)
 		(stroke
 			(width 0)
@@ -862,7 +884,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 45.72) (xy 44.45 49.53)
+			(xy 59.69 120.65) (xy 59.69 124.46)
 		)
 		(stroke
 			(width 0)
@@ -872,7 +894,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 60.96) (xy 50.8 81.28)
+			(xy 78.74 137.16) (xy 78.74 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7633ba7a-6452-4792-8313-78208bc89de5")
+	)
+	(wire
+		(pts
+			(xy 66.04 95.25) (xy 66.04 115.57)
 		)
 		(stroke
 			(width 0)
@@ -882,7 +914,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 96.52) (xy 57.15 96.52)
+			(xy 59.69 90.17) (xy 72.39 90.17)
 		)
 		(stroke
 			(width 0)
@@ -892,7 +924,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 76.2) (xy 44.45 76.2)
+			(xy 46.99 110.49) (xy 59.69 110.49)
 		)
 		(stroke
 			(width 0)
@@ -902,7 +934,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 66.04) (xy 44.45 69.85)
+			(xy 59.69 100.33) (xy 59.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -912,7 +944,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 95.25) (xy 44.45 96.52)
+			(xy 59.69 88.9) (xy 59.69 90.17)
 		)
 		(stroke
 			(width 0)
@@ -922,27 +954,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 101.6) (xy 25.4 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81d26e5e-3e03-48fe-96d6-e21e36b351ee")
-	)
-	(wire
-		(pts
-			(xy 38.1 60.96) (xy 38.1 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "850a096f-9422-412b-b13f-64334a379957")
-	)
-	(wire
-		(pts
-			(xy 57.15 106.68) (xy 57.15 110.49)
+			(xy 72.39 59.69) (xy 72.39 63.5)
 		)
 		(stroke
 			(width 0)
@@ -952,7 +964,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 66.04) (xy 31.75 69.85)
+			(xy 46.99 100.33) (xy 46.99 104.14)
 		)
 		(stroke
 			(width 0)
@@ -962,7 +974,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 55.88) (xy 44.45 55.88)
+			(xy 46.99 130.81) (xy 59.69 130.81)
 		)
 		(stroke
 			(width 0)
@@ -972,7 +984,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 81.28) (xy 25.4 101.6)
+			(xy 40.64 95.25) (xy 40.64 115.57)
 		)
 		(stroke
 			(width 0)
@@ -982,7 +994,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 35.56) (xy 69.85 35.56)
+			(xy 72.39 152.4) (xy 85.09 152.4)
 		)
 		(stroke
 			(width 0)
@@ -992,7 +1004,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 35.56) (xy 57.15 35.56)
+			(xy 46.99 152.4) (xy 72.39 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1002,7 +1014,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 86.36) (xy 57.15 90.17)
+			(xy 72.39 80.01) (xy 72.39 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1012,7 +1024,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 74.93) (xy 31.75 76.2)
+			(xy 46.99 109.22) (xy 46.99 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1022,7 +1034,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 96.52) (xy 44.45 96.52)
+			(xy 46.99 90.17) (xy 59.69 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1032,7 +1044,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 74.93) (xy 44.45 76.2)
+			(xy 59.69 109.22) (xy 59.69 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1042,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 34.29) (xy 69.85 35.56)
+			(xy 85.09 151.13) (xy 85.09 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1052,7 +1064,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 45.72) (xy 31.75 49.53)
+			(xy 46.99 120.65) (xy 46.99 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1062,17 +1074,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 60.96) (xy 25.4 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa36f945-7083-458c-a48d-2bea3321313e")
-	)
-	(wire
-		(pts
-			(xy 31.75 95.25) (xy 31.75 96.52)
+			(xy 46.99 88.9) (xy 46.99 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1082,7 +1084,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 96.52) (xy 76.2 96.52)
+			(xy 85.09 90.17) (xy 91.44 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1092,7 +1094,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 40.64) (xy 38.1 60.96)
+			(xy 53.34 74.93) (xy 53.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1102,7 +1104,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 106.68) (xy 31.75 110.49)
+			(xy 46.99 59.69) (xy 46.99 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1112,7 +1114,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 106.68) (xy 44.45 110.49)
+			(xy 59.69 59.69) (xy 59.69 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1122,7 +1124,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 74.93) (xy 57.15 76.2)
+			(xy 53.34 115.57) (xy 53.34 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7608033-4f93-40e2-9ea5-bc4e4a3da624")
+	)
+	(wire
+		(pts
+			(xy 72.39 109.22) (xy 72.39 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1132,17 +1144,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 60.96) (xy 63.5 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba58007c-fec0-4f66-a648-d7e7e42461cd")
-	)
-	(wire
-		(pts
-			(xy 69.85 25.4) (xy 69.85 29.21)
+			(xy 85.09 142.24) (xy 85.09 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1152,7 +1154,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 66.04) (xy 69.85 69.85)
+			(xy 85.09 100.33) (xy 85.09 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1162,7 +1164,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 101.6) (xy 25.4 101.6)
+			(xy 41.91 54.61) (xy 40.64 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1172,7 +1174,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 55.88) (xy 76.2 55.88)
+			(xy 72.39 130.81) (xy 91.44 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1182,7 +1184,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 40.64) (xy 38.1 40.64)
+			(xy 40.64 74.93) (xy 40.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f98280-1039-4899-8a5f-211938de32d7")
+	)
+	(wire
+		(pts
+			(xy 54.61 115.57) (xy 53.34 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1192,7 +1204,27 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 76.2) (xy 57.15 76.2)
+			(xy 85.09 43.18) (xy 85.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c535294a-89cd-42f9-a559-09396b1d91af")
+	)
+	(wire
+		(pts
+			(xy 53.34 54.61) (xy 53.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc56547a-0505-4e15-bf0f-fc35d67c8edc")
+	)
+	(wire
+		(pts
+			(xy 59.69 110.49) (xy 72.39 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1202,7 +1234,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 101.6) (xy 50.8 101.6)
+			(xy 67.31 54.61) (xy 66.04 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1212,7 +1244,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 35.56) (xy 76.2 35.56)
+			(xy 85.09 152.4) (xy 91.44 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1222,7 +1254,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 34.29) (xy 31.75 35.56)
+			(xy 66.04 137.16) (xy 66.04 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca3fa68-f104-4ac3-ade8-b397c31673d7")
+	)
+	(wire
+		(pts
+			(xy 46.99 151.13) (xy 46.99 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1232,7 +1274,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 20.32) (xy 63.5 20.32)
+			(xy 66.04 74.93) (xy 66.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1fd3b99-ccfb-49c2-b9d4-7f2f89b5b6ad")
+	)
+	(wire
+		(pts
+			(xy 80.01 137.16) (xy 78.74 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1242,7 +1294,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 81.28) (xy 63.5 120.65)
+			(xy 78.74 95.25) (xy 78.74 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1252,7 +1304,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 115.57) (xy 44.45 116.84)
+			(xy 59.69 68.58) (xy 59.69 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1262,7 +1314,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 55.88) (xy 57.15 55.88)
+			(xy 78.74 74.93) (xy 78.74 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e945a97b-6113-4baa-a231-183f35bf5da4")
+	)
+	(wire
+		(pts
+			(xy 59.69 130.81) (xy 72.39 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1272,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 66.04) (xy 57.15 69.85)
+			(xy 72.39 100.33) (xy 72.39 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1282,7 +1344,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 81.28) (xy 63.5 81.28)
+			(xy 66.04 115.57) (xy 66.04 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10b7f01-57ba-499c-87ad-615087a29cc4")
+	)
+	(wire
+		(pts
+			(xy 80.01 74.93) (xy 78.74 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1292,17 +1364,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 20.32) (xy 63.5 60.96)
+			(xy 40.64 137.16) (xy 40.64 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9072b1d-eddf-4f28-87fc-f6e0c38ff998")
+		(uuid "f7a6b3a7-2ff0-448a-8bdd-672015b857f5")
 	)
 	(wire
 		(pts
-			(xy 69.85 95.25) (xy 69.85 96.52)
+			(xy 85.09 88.9) (xy 85.09 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1312,17 +1384,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 81.28) (xy 50.8 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb0003c2-b227-4e9d-8330-11d80ee72a0e")
-	)
-	(wire
-		(pts
-			(xy 50.8 40.64) (xy 50.8 60.96)
+			(xy 66.04 54.61) (xy 66.04 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1332,7 +1394,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 60.96) (xy 63.5 60.96)
+			(xy 80.01 95.25) (xy 78.74 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1340,9 +1402,9 @@
 		)
 		(uuid "ffb9a761-0322-4b09-b037-2f26f4aba437")
 	)
-	(global_label "COL3"
+	(global_label "col3"
 		(shape input)
-		(at 63.5 120.65 270)
+		(at 78.74 154.94 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1352,7 +1414,7 @@
 		)
 		(uuid "23cfb526-4335-46ad-b8d0-ae625f6c217a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.2491 120.65 0)
+			(at 72.4891 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,9 +1424,9 @@
 			)
 		)
 	)
-	(global_label "ROW2"
+	(global_label "row2"
 		(shape input)
-		(at 76.2 76.2 0)
+		(at 91.44 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1374,7 +1436,7 @@
 		)
 		(uuid "45a00fc0-aee5-4fee-b96c-84f49ac6e9f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.9491 76.2 0)
+			(at 85.1891 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,9 +1446,9 @@
 			)
 		)
 	)
-	(global_label "COL2"
+	(global_label "col2"
 		(shape input)
-		(at 50.8 120.65 270)
+		(at 66.04 154.94 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1396,7 +1458,7 @@
 		)
 		(uuid "590bb3b3-c8e3-4033-b254-609b6fc11ce6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.5491 120.65 0)
+			(at 59.7891 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,9 +1468,9 @@
 			)
 		)
 	)
-	(global_label "ROW1"
+	(global_label "row1"
 		(shape input)
-		(at 76.2 55.88 0)
+		(at 91.44 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1418,7 +1480,7 @@
 		)
 		(uuid "640d91b7-262e-42e7-bfe6-5217549cf841")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.9491 55.88 0)
+			(at 85.1891 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,9 +1490,9 @@
 			)
 		)
 	)
-	(global_label "COL1"
+	(global_label "col1"
 		(shape input)
-		(at 38.1 120.65 270)
+		(at 53.34 154.94 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1440,7 +1502,7 @@
 		)
 		(uuid "66ceb57d-7924-44ff-95a8-9a85e3c911d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.8491 120.65 0)
+			(at 47.0891 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,9 +1512,9 @@
 			)
 		)
 	)
-	(global_label "ROW3"
+	(global_label "row3"
 		(shape input)
-		(at 76.2 96.52 0)
+		(at 91.44 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1462,7 +1524,7 @@
 		)
 		(uuid "68185d50-cef9-4273-ac8a-792ee5132f6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.9491 96.52 0)
+			(at 85.1891 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,9 +1534,9 @@
 			)
 		)
 	)
-	(global_label "COL0"
+	(global_label "col0"
 		(shape input)
-		(at 25.4 120.65 270)
+		(at 40.64 154.94 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1484,7 +1546,7 @@
 		)
 		(uuid "72af9df1-9b21-4bc3-9df4-f76f1dcc6189")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.1491 120.65 0)
+			(at 34.3891 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,9 +1556,9 @@
 			)
 		)
 	)
-	(global_label "ROW0"
+	(global_label "row0"
 		(shape input)
-		(at 76.2 35.56 0)
+		(at 91.44 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1506,7 +1568,7 @@
 		)
 		(uuid "c0873f16-1714-4655-8d1a-e9200cf10132")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.9491 35.56 0)
+			(at 85.1891 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,9 +1578,9 @@
 			)
 		)
 	)
-	(global_label "ROW4"
+	(global_label "row4"
 		(shape input)
-		(at 76.2 116.84 0)
+		(at 91.44 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1528,7 +1590,7 @@
 		)
 		(uuid "d53f228c-e63b-4dce-8a05-0151957148c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.9491 116.84 0)
+			(at 85.1891 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,15 +1602,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 67.31 63.5 0)
+		(at 82.55 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "022b1cd6-f18a-469d-9041-b5ad8bfe7fd4")
-		(property "Reference" "SW10"
-			(at 67.31 58.42 0)
+		(property "Reference" "S16"
+			(at 82.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1618,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 67.31 59.69 0)
+			(at 82.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 63.5 0)
+			(at 82.55 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1636,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 63.5 0)
+			(at 82.55 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +1645,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 63.5 0)
+			(at 82.55 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,7 +1662,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW10")
+					(reference "S16")
 					(unit 1)
 				)
 			)
@@ -1608,15 +1670,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 31.75 92.71 90)
+		(at 46.99 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "06a77c89-c590-403f-8ebd-e6c878d181d7")
-		(property "Reference" "D11"
-			(at 33.02 91.44 90)
+		(property "Reference" "D4"
+			(at 48.26 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +1687,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 33.02 93.98 90)
+			(at 48.26 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,7 +1697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 92.71 90)
+			(at 46.99 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1644,7 +1706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 92.71 90)
+			(at 46.99 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +1715,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 92.71 0)
+			(at 46.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1724,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 31.75 92.71 0)
+			(at 46.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +1733,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 31.75 92.71 0)
+			(at 46.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +1750,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "D11")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -1696,15 +1758,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 67.31 83.82 0)
+		(at 82.55 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "07c2f1ce-1fea-4a33-9c74-4eed311d8aa6")
-		(property "Reference" "SW14"
-			(at 67.31 78.74 0)
+		(property "Reference" "S17"
+			(at 82.55 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1774,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 67.31 80.01 0)
+			(at 82.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +1783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 83.82 0)
+			(at 82.55 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1792,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 83.82 0)
+			(at 82.55 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1801,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 83.82 0)
+			(at 82.55 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1818,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW14")
+					(reference "S17")
 					(unit 1)
 				)
 			)
@@ -1764,15 +1826,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 67.31 22.86 0)
+		(at 82.55 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0dd27bbc-7cdf-427b-93f1-c12aa3296d4e")
-		(property "Reference" "SW3"
-			(at 67.31 17.78 0)
+		(property "Reference" "S15"
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +1842,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 67.31 19.05 0)
+			(at 82.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +1851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 22.86 0)
+			(at 82.55 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +1860,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 22.86 0)
+			(at 82.55 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +1869,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 22.86 0)
+			(at 82.55 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1886,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW3")
+					(reference "S15")
 					(unit 1)
 				)
 			)
@@ -1832,15 +1894,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 31.75 52.07 90)
+		(at 46.99 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "160da46f-71b5-4352-8f0a-8ee8d6af7e39")
-		(property "Reference" "D4"
-			(at 33.02 50.8 90)
+		(property "Reference" "D2"
+			(at 48.26 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1911,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 33.02 53.34 90)
+			(at 48.26 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +1921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 52.07 90)
+			(at 46.99 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +1930,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 52.07 90)
+			(at 46.99 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +1939,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 52.07 0)
+			(at 46.99 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,7 +1948,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 31.75 52.07 0)
+			(at 46.99 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +1957,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 31.75 52.07 0)
+			(at 46.99 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,7 +1974,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -1920,15 +1982,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 29.21 83.82 0)
+		(at 44.45 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2c8c4c62-8ce5-437c-a76e-105729f77123")
-		(property "Reference" "SW11"
-			(at 29.21 78.74 0)
+		(property "Reference" "S11"
+			(at 44.45 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1998,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 29.21 80.01 0)
+			(at 44.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +2007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 83.82 0)
+			(at 44.45 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +2016,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 83.82 0)
+			(at 44.45 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +2025,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 83.82 0)
+			(at 44.45 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +2042,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW11")
+					(reference "S11")
 					(unit 1)
 				)
 			)
@@ -1988,15 +2050,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 44.45 92.71 90)
+		(at 59.69 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "31ba97e7-9c8a-43d5-8b5f-0d9f12f9159e")
-		(property "Reference" "D12"
-			(at 45.72 91.44 90)
+		(property "Reference" "D8"
+			(at 60.96 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,7 +2067,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 45.72 93.98 90)
+			(at 60.96 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,7 +2077,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 92.71 90)
+			(at 59.69 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,7 +2086,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 92.71 90)
+			(at 59.69 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,7 +2095,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 92.71 0)
+			(at 59.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2104,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 44.45 92.71 0)
+			(at 59.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,7 +2113,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 92.71 0)
+			(at 59.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +2130,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "D12")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -2076,15 +2138,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 69.85 92.71 90)
+		(at 85.09 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "388ef3a9-38d5-4d3a-b632-84798141dca3")
-		(property "Reference" "D14"
-			(at 71.12 91.44 90)
+		(property "Reference" "D17"
+			(at 86.36 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2155,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 71.12 93.98 90)
+			(at 86.36 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,7 +2165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 92.71 90)
+			(at 85.09 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2174,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 92.71 90)
+			(at 85.09 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 92.71 0)
+			(at 85.09 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2192,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 69.85 92.71 0)
+			(at 85.09 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2201,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 92.71 0)
+			(at 85.09 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +2218,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "D14")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -2164,15 +2226,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 57.15 31.75 90)
+		(at 72.39 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "393c6c61-cce1-4674-a726-34a5cc2e819d")
-		(property "Reference" "D2"
-			(at 58.42 30.48 90)
+		(property "Reference" "D10"
+			(at 73.66 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2243,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 58.42 33.02 90)
+			(at 73.66 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2253,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 31.75 90)
+			(at 72.39 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,7 +2262,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 31.75 90)
+			(at 72.39 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,7 +2271,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 31.75 0)
+			(at 72.39 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +2280,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 57.15 31.75 0)
+			(at 72.39 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2227,7 +2289,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 31.75 0)
+			(at 72.39 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,40 +2306,42 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "D2")
+					(reference "D10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 29.21 43.18 0)
+		(lib_id "Device:D_Small")
+		(at 85.09 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4ebf40b4-4dbd-416b-bbb9-d13cd020b1c4")
-		(property "Reference" "SW4"
-			(at 29.21 38.1 0)
+		(uuid "41a9efa4-0620-4d8a-9576-fee1b010cef8")
+		(property "Reference" "D18"
+			(at 86.36 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 29.21 39.37 0)
+		(property "Value" "D"
+			(at 86.36 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 43.18 0)
+			(at 85.09 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +2350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 43.18 0)
+			(at 85.09 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,7 +2359,93 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 43.18 0)
+			(at 85.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 85.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89421273-f40b-431c-b589-3f5ba04f83cb")
+		)
+		(pin "2"
+			(uuid "aa1984f5-692b-412b-97fd-f30dc3cb089d")
+		)
+		(instances
+			(project "travis_num2024"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 44.45 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ebf40b4-4dbd-416b-bbb9-d13cd020b1c4")
+		(property "Reference" "S2"
+			(at 44.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 44.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,7 +2462,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW4")
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -2320,7 +2470,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 57.15 113.03 90)
+		(at 72.39 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2328,7 +2478,7 @@
 		(dnp no)
 		(uuid "600b50bb-19ef-4f69-8f27-010f1cc79c29")
 		(property "Reference" "D17"
-			(at 58.42 111.76 90)
+			(at 73.66 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +2487,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 58.42 114.3 90)
+			(at 73.66 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 113.03 90)
+			(at 72.39 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2506,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 113.03 90)
+			(at 72.39 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +2515,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 113.03 0)
+			(at 72.39 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +2524,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 57.15 113.03 0)
+			(at 72.39 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +2533,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 113.03 0)
+			(at 72.39 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,15 +2558,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 31.75 113.03 90)
+		(at 46.99 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "60b97f41-b793-4722-a161-2ac0784466dd")
-		(property "Reference" "D15"
-			(at 33.02 111.76 90)
+		(property "Reference" "D5"
+			(at 48.26 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2575,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 33.02 114.3 90)
+			(at 48.26 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 113.03 90)
+			(at 46.99 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2594,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 113.03 90)
+			(at 46.99 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2603,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 113.03 0)
+			(at 46.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2612,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 31.75 113.03 0)
+			(at 46.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2621,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 31.75 113.03 0)
+			(at 46.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,7 +2638,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "D15")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2496,7 +2646,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 31.75 31.75 90)
+		(at 46.99 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2504,7 +2654,7 @@
 		(dnp no)
 		(uuid "626411c4-b0bd-4451-b5c1-d72a2b4a46be")
 		(property "Reference" "D1"
-			(at 33.02 30.48 90)
+			(at 48.26 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,7 +2663,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 33.02 33.02 90)
+			(at 48.26 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +2673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 31.75 90)
+			(at 46.99 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +2682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 31.75 90)
+			(at 46.99 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,7 +2691,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 31.75 0)
+			(at 46.99 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,7 +2700,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 31.75 31.75 0)
+			(at 46.99 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +2709,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 31.75 31.75 0)
+			(at 46.99 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,15 +2734,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 31.75 72.39 90)
+		(at 46.99 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6d5c9b46-91a4-4e73-ba3b-48519e2dbde9")
-		(property "Reference" "D7"
-			(at 33.02 71.12 90)
+		(property "Reference" "D3"
+			(at 48.26 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2751,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 33.02 73.66 90)
+			(at 48.26 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 72.39 90)
+			(at 46.99 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +2770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 72.39 90)
+			(at 46.99 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2779,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 72.39 0)
+			(at 46.99 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +2788,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 31.75 72.39 0)
+			(at 46.99 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2797,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 31.75 72.39 0)
+			(at 46.99 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +2814,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "D7")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2672,15 +2822,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 41.91 104.14 0)
+		(at 57.15 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6e521658-c64c-42c2-a7cc-4c4f36ec572c")
-		(property "Reference" "SW16"
-			(at 41.91 99.06 0)
+		(property "Reference" "S16"
+			(at 57.15 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2838,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 41.91 100.33 0)
+			(at 57.15 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 104.14 0)
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +2856,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 104.14 0)
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +2865,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 104.14 0)
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +2882,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW16")
+					(reference "S16")
 					(unit 1)
 				)
 			)
@@ -2740,15 +2890,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 41.91 63.5 0)
+		(at 57.15 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "72d48933-680c-46fa-988b-9d79c33f4798")
-		(property "Reference" "SW8"
-			(at 41.91 58.42 0)
+		(property "Reference" "S8"
+			(at 57.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +2906,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 41.91 59.69 0)
+			(at 57.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 63.5 0)
+			(at 57.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2924,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 63.5 0)
+			(at 57.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2933,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 63.5 0)
+			(at 57.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,7 +2950,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW8")
+					(reference "S8")
 					(unit 1)
 				)
 			)
@@ -2808,15 +2958,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 54.61 83.82 0)
+		(at 69.85 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7aa6ac9f-da64-46a0-bfca-3320de8e87f5")
-		(property "Reference" "SW13"
-			(at 54.61 78.74 0)
+		(property "Reference" "S13"
+			(at 69.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +2974,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 54.61 80.01 0)
+			(at 69.85 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 83.82 0)
+			(at 69.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2992,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 83.82 0)
+			(at 69.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,7 +3001,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 83.82 0)
+			(at 69.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +3018,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW13")
+					(reference "S13")
 					(unit 1)
 				)
 			)
@@ -2876,15 +3026,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 41.91 43.18 0)
+		(at 57.15 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7d16e236-928a-4d31-989d-e960d82f8a22")
-		(property "Reference" "SW5"
-			(at 41.91 38.1 0)
+		(property "Reference" "S5"
+			(at 57.15 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +3042,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 41.91 39.37 0)
+			(at 57.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +3051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 43.18 0)
+			(at 57.15 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +3060,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 43.18 0)
+			(at 57.15 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +3069,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 43.18 0)
+			(at 57.15 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,7 +3086,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW5")
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -2944,15 +3094,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 54.61 22.86 0)
+		(at 69.85 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7e51c877-3045-46d1-8f7f-d29c3f5cdb82")
-		(property "Reference" "SW2"
-			(at 54.61 17.78 0)
+		(property "Reference" "S10"
+			(at 69.85 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +3110,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 54.61 19.05 0)
+			(at 69.85 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +3119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 22.86 0)
+			(at 69.85 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +3128,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 22.86 0)
+			(at 69.85 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,7 +3137,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 22.86 0)
+			(at 69.85 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +3154,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW2")
+					(reference "S10")
 					(unit 1)
 				)
 			)
@@ -3012,15 +3162,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 44.45 72.39 90)
+		(at 59.69 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "86584a73-3898-456d-ba9b-ff6e2476b22e")
-		(property "Reference" "D8"
-			(at 45.72 71.12 90)
+		(property "Reference" "D7"
+			(at 60.96 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,7 +3179,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 45.72 73.66 90)
+			(at 60.96 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,7 +3189,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 72.39 90)
+			(at 59.69 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +3198,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 72.39 90)
+			(at 59.69 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +3207,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 72.39 0)
+			(at 59.69 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,7 +3216,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 44.45 72.39 0)
+			(at 59.69 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +3225,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 72.39 0)
+			(at 59.69 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +3242,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3100,15 +3250,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 44.45 52.07 90)
+		(at 59.69 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "88048e54-7e3c-43f9-a6cb-e259fb115805")
-		(property "Reference" "D5"
-			(at 45.72 50.8 90)
+		(property "Reference" "D6"
+			(at 60.96 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3267,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 45.72 53.34 90)
+			(at 60.96 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 52.07 90)
+			(at 59.69 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3286,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 52.07 90)
+			(at 59.69 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3145,7 +3295,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 52.07 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3304,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 44.45 52.07 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +3313,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 52.07 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3330,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3188,15 +3338,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 29.21 104.14 0)
+		(at 44.45 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9115333d-ca70-404d-a94d-cc1063c38e04")
-		(property "Reference" "SW15"
-			(at 29.21 99.06 0)
+		(property "Reference" "S15"
+			(at 44.45 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,7 +3354,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 29.21 100.33 0)
+			(at 44.45 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +3363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 104.14 0)
+			(at 44.45 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3372,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 104.14 0)
+			(at 44.45 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,7 +3381,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 104.14 0)
+			(at 44.45 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3398,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW15")
+					(reference "S15")
 					(unit 1)
 				)
 			)
@@ -3256,15 +3406,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 54.61 63.5 0)
+		(at 69.85 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "97e90291-ec20-4c22-a81c-48108fe7f2fd")
-		(property "Reference" "SW9"
-			(at 54.61 58.42 0)
+		(property "Reference" "S12"
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3422,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 54.61 59.69 0)
+			(at 69.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,7 +3431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 63.5 0)
+			(at 69.85 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 63.5 0)
+			(at 69.85 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3449,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 63.5 0)
+			(at 69.85 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3466,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW9")
+					(reference "S12")
 					(unit 1)
 				)
 			)
@@ -3324,15 +3474,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 57.15 72.39 90)
+		(at 72.39 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9dee52cf-8902-48da-91cf-e033e86a9328")
-		(property "Reference" "D9"
-			(at 58.42 71.12 90)
+		(property "Reference" "D12"
+			(at 73.66 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,7 +3491,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 58.42 73.66 90)
+			(at 73.66 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,7 +3501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 72.39 90)
+			(at 72.39 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,7 +3510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 72.39 90)
+			(at 72.39 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,7 +3519,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 72.39 0)
+			(at 72.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,7 +3528,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 57.15 72.39 0)
+			(at 72.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3387,7 +3537,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 72.39 0)
+			(at 72.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3554,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "D9")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3412,15 +3562,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 41.91 83.82 0)
+		(at 57.15 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a0b99538-0e79-4b25-a882-13f37e441ca3")
-		(property "Reference" "SW12"
-			(at 41.91 78.74 0)
+		(property "Reference" "S12"
+			(at 57.15 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,7 +3578,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 41.91 80.01 0)
+			(at 57.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 83.82 0)
+			(at 57.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,7 +3596,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 83.82 0)
+			(at 57.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,7 +3605,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 83.82 0)
+			(at 57.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3622,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW12")
+					(reference "S12")
 					(unit 1)
 				)
 			)
@@ -3480,15 +3630,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 29.21 63.5 0)
+		(at 82.55 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b1b01386-747d-423b-8798-8442ead1d3ed")
-		(property "Reference" "SW7"
-			(at 29.21 58.42 0)
+		(uuid "ae34cbb8-ea9d-49ab-836d-8740d5679811")
+		(property "Reference" "S18"
+			(at 82.55 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +3646,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 29.21 59.69 0)
+			(at 82.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +3655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 63.5 0)
+			(at 82.55 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +3664,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 63.5 0)
+			(at 82.55 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +3673,75 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 63.5 0)
+			(at 82.55 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f77c1aa4-4156-473a-98b2-401a0bcb57e9")
+		)
+		(pin "2"
+			(uuid "280fd471-2796-487d-aa96-aa8ea199736d")
+		)
+		(instances
+			(project "travis_num2024"
+				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
+					(reference "S18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 44.45 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1b01386-747d-423b-8798-8442ead1d3ed")
+		(property "Reference" "S3"
+			(at 44.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 44.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,7 +3758,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW7")
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -3548,15 +3766,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 69.85 31.75 90)
+		(at 85.09 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b76ca056-d234-46e9-af1a-b927b8a118af")
-		(property "Reference" "D3"
-			(at 71.12 30.48 90)
+		(property "Reference" "D15"
+			(at 86.36 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3783,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 71.12 33.02 90)
+			(at 86.36 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,7 +3793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 31.75 90)
+			(at 85.09 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +3802,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 31.75 90)
+			(at 85.09 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,7 +3811,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 31.75 0)
+			(at 85.09 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +3820,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 69.85 31.75 0)
+			(at 85.09 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +3829,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 31.75 0)
+			(at 85.09 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,7 +3846,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "D3")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -3636,15 +3854,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 44.45 113.03 90)
+		(at 59.69 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bd1fcb5e-cf43-4ec5-9efc-8c43ed11d02e")
-		(property "Reference" "D16"
-			(at 45.72 111.76 90)
+		(property "Reference" "D9"
+			(at 60.96 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3871,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 45.72 114.3 90)
+			(at 60.96 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,7 +3881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 113.03 90)
+			(at 59.69 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,7 +3890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 113.03 90)
+			(at 59.69 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3899,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 113.03 0)
+			(at 59.69 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +3908,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 44.45 113.03 0)
+			(at 59.69 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +3917,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 113.03 0)
+			(at 59.69 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +3934,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "D16")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3724,7 +3942,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 57.15 92.71 90)
+		(at 72.39 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3732,7 +3950,7 @@
 		(dnp no)
 		(uuid "c4e32f5e-ea17-4b2f-85f3-f079a88c5a3f")
 		(property "Reference" "D13"
-			(at 58.42 91.44 90)
+			(at 73.66 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3959,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 58.42 93.98 90)
+			(at 73.66 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +3969,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 92.71 90)
+			(at 72.39 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +3978,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 92.71 90)
+			(at 72.39 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3987,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 92.71 0)
+			(at 72.39 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3996,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 57.15 92.71 0)
+			(at 72.39 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +4005,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 92.71 0)
+			(at 72.39 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,15 +4030,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 57.15 52.07 90)
+		(at 72.39 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d7662299-5f6a-43cd-a473-87d47aff08cd")
-		(property "Reference" "D6"
-			(at 58.42 50.8 90)
+		(property "Reference" "D11"
+			(at 73.66 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +4047,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 58.42 53.34 90)
+			(at 73.66 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,7 +4057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 52.07 90)
+			(at 72.39 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +4066,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 52.07 90)
+			(at 72.39 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +4075,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 52.07 0)
+			(at 72.39 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +4084,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 57.15 52.07 0)
+			(at 72.39 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +4093,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 52.07 0)
+			(at 72.39 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +4110,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "D6")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -3900,15 +4118,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 54.61 104.14 0)
+		(at 69.85 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "db035626-967a-4bf0-a9c9-7a7fab35da8e")
-		(property "Reference" "SW17"
-			(at 54.61 99.06 0)
+		(property "Reference" "S14"
+			(at 69.85 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +4134,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 54.61 100.33 0)
+			(at 69.85 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +4143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 104.14 0)
+			(at 69.85 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +4152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 104.14 0)
+			(at 69.85 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +4161,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 104.14 0)
+			(at 69.85 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +4178,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW17")
+					(reference "S14")
 					(unit 1)
 				)
 			)
@@ -3968,15 +4186,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 69.85 72.39 90)
+		(at 85.09 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e0d915b6-7fe2-453c-870c-4bda94dc9a76")
-		(property "Reference" "D10"
-			(at 71.12 71.12 90)
+		(property "Reference" "D16"
+			(at 86.36 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +4203,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 71.12 73.66 90)
+			(at 86.36 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +4213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 72.39 90)
+			(at 85.09 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +4222,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 72.39 90)
+			(at 85.09 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +4231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 72.39 0)
+			(at 85.09 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +4240,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 69.85 72.39 0)
+			(at 85.09 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +4249,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 72.39 0)
+			(at 85.09 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4048,7 +4266,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "D10")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -4056,15 +4274,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 54.61 43.18 0)
+		(at 69.85 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e2d5b643-d6f5-41a1-bfe2-2ebca0ded461")
-		(property "Reference" "SW6"
-			(at 54.61 38.1 0)
+		(property "Reference" "S11"
+			(at 69.85 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4072,7 +4290,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 54.61 39.37 0)
+			(at 69.85 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +4299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 43.18 0)
+			(at 69.85 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +4308,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 43.18 0)
+			(at 69.85 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,7 +4317,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 43.18 0)
+			(at 69.85 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4334,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW6")
+					(reference "S11")
 					(unit 1)
 				)
 			)
@@ -4124,15 +4342,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 29.21 22.86 0)
+		(at 44.45 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ed056dc6-dede-4c30-9365-571dbc27c4d2")
-		(property "Reference" "SW1"
-			(at 29.21 17.78 0)
+		(property "Reference" "S1"
+			(at 44.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,7 +4358,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 29.21 19.05 0)
+			(at 44.45 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 22.86 0)
+			(at 44.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4376,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 22.86 0)
+			(at 44.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4385,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 22.86 0)
+			(at 44.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4402,7 @@
 		(instances
 			(project "template"
 				(path "/9e45a776-7007-48ff-b543-dc98423173b7"
-					(reference "SW1")
+					(reference "S1")
 					(unit 1)
 				)
 			)
