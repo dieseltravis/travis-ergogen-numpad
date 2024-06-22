@@ -2,7 +2,7 @@ meta:
   engine: 4.1.0
   name: "travis-ergogen-numpad"
   version: &meta_version "2024.06.20"
-  date: "2024-05-15"
+  date: "2024-06-20"
   author: "Travis Hardiman"
   url: &url github.com/dieseltravis/travis-ergogen-numpad
   tags: [ "ergogen", "promicro", "keyboard", "cherrymx", "hotswap", "rgb", "numpad", "smd" ]
@@ -215,6 +215,8 @@ points:
           width: 3.20
           height: 2.80
           shift: [0, -7.5]
+    #TODO: top leds in their own zone
+    #TODO: zone for encoder?
 outlines:
   _raw:
     - what: rectangle
@@ -529,7 +531,7 @@ pcbs:
           width: 0.8
           reversible: true
         adjust:
-          shift:  [0, U / 2 - 2]
+          shift:  [0, -(U / 2 - 2)]
       mx_hotswap_key:
         what: travis/mx
         where: meta.tags ~ /key/
@@ -541,6 +543,8 @@ pcbs:
           from: "{{column_net}}"
           to: "{{name}}"
           value: "Kailh MX Switch Sockets"
+        adjust:
+          rotate: 180
       diode_key:
         what: travis/DSMD_1206_3216Metric
         where: meta.tags ~ /key/
@@ -550,9 +554,9 @@ pcbs:
           to: "{{row_net}}"
           refpos: [3, 0, 0]
         adjust:
-          # place "to" pin in top right
-          shift: [U / 2 - 1.1, U / 2 - 1.5 - 1.9]
-          rotate: 90 + 180
+          # place "to" pin in bottom right
+          shift: [-(U / 2 - 1.1), -(U / 2 - 1.5 - 1.9)]
+          rotate: 90 #+ 180
 
       led_odd:
         what: travis/led_sk6812mini-e
@@ -565,7 +569,8 @@ pcbs:
           valpos: [0, 2.25]
           include_keepout: true
         adjust:
-          shift: [0, -4.96]
+          shift: [0, -(-4.96)]
+          rotate: 180
       ledlabel_odd:
         what: ceoloide/utility_text
         where: meta.tags ~ /row_odd/
@@ -575,7 +580,7 @@ pcbs:
           height: 0.8
           width: 0.8
         adjust:
-          shift:  [0, -4.96 - 2.4]
+          shift:  [0, -(-4.96 - 2.4)]
       ledcap_odd: # 104
         what: travis/CSMD_1206_3216Metric
         where: meta.tags ~ /row_odd/
@@ -584,7 +589,8 @@ pcbs:
           refpos: [3.65, 0, 0]
           valpos: [-2.5, 0]
         adjust:
-          shift: [4.35, -4.96 - 2.4]
+          shift: [4.35, -(-4.96 + 2.4)]
+          rotate: 180
 
       led_even:
         what: travis/led_sk6812mini-e
@@ -597,7 +603,7 @@ pcbs:
           valpos: [0, 2.25]
           include_keepout: true
         adjust:
-          shift: [0, -4.96]
+          shift: [0, -(-4.96)]
           rotate: 180
       ledlabel_even:
         what: ceoloide/utility_text
@@ -608,7 +614,7 @@ pcbs:
           height: 0.8
           width: 0.8
         adjust:
-          shift:  [0, -4.96 - 2.4]
+          shift:  [0, -(-4.96 - 2.4)]
           rotate: 0
       ledcap_even: # 104
         what: travis/CSMD_1206_3216Metric
@@ -618,7 +624,7 @@ pcbs:
           refpos: [3.65, 0, 0]
           valpos: [-2.5, 0]
         adjust:
-          shift: [-4.35, -4.96 + 2.4]
+          shift: [-4.35, -(-4.96 - 2.4)]
           rotate: 180
 
       rotary:

@@ -11,7 +11,7 @@
   (paper "A3")
   (title_block
     (title "travis_num2024")
-    (date "2024-06-21")
+    (date "2024-06-22")
     (rev "2024.06.20")
     (company "Travis Hardiman")
   )
@@ -1199,7 +1199,7 @@
       
 
   (gr_text "col0 row0"
-    (at 50.025 192.475 0)
+    (at 50.025 207.525 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1213,7 +1213,7 @@
   )
       
   (gr_text "col0 row0"
-    (at 50.025 192.475 0)
+    (at 50.025 207.525 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1228,7 +1228,7 @@
       
 
   (gr_text "col0 row1"
-    (at 40 172.42499999999998 0)
+    (at 40 187.475 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1242,7 +1242,7 @@
   )
       
   (gr_text "col0 row1"
-    (at 40 172.42499999999998 0)
+    (at 40 187.475 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1257,7 +1257,7 @@
       
 
   (gr_text "col0 row2"
-    (at 40 152.37499999999997 0)
+    (at 40 167.42499999999998 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1271,7 +1271,7 @@
   )
       
   (gr_text "col0 row2"
-    (at 40 152.37499999999997 0)
+    (at 40 167.42499999999998 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1286,7 +1286,7 @@
       
 
   (gr_text "col0 row3"
-    (at 40 132.32499999999996 0)
+    (at 40 147.37499999999997 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1300,7 +1300,7 @@
   )
       
   (gr_text "col0 row3"
-    (at 40 132.32499999999996 0)
+    (at 40 147.37499999999997 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1315,7 +1315,7 @@
       
 
   (gr_text "col0 row4"
-    (at 40 112.27499999999996 0)
+    (at 40 127.32499999999997 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1329,7 +1329,7 @@
   )
       
   (gr_text "col0 row4"
-    (at 40 112.27499999999996 0)
+    (at 40 127.32499999999997 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1344,7 +1344,7 @@
       
 
   (gr_text "col1 row1"
-    (at 60.05 172.42499999999998 0)
+    (at 60.05 187.475 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1358,7 +1358,7 @@
   )
       
   (gr_text "col1 row1"
-    (at 60.05 172.42499999999998 0)
+    (at 60.05 187.475 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1373,7 +1373,7 @@
       
 
   (gr_text "col1 row2"
-    (at 60.05 152.37499999999997 0)
+    (at 60.05 167.42499999999998 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1387,7 +1387,7 @@
   )
       
   (gr_text "col1 row2"
-    (at 60.05 152.37499999999997 0)
+    (at 60.05 167.42499999999998 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1402,7 +1402,7 @@
       
 
   (gr_text "col1 row3"
-    (at 60.05 132.32499999999996 0)
+    (at 60.05 147.37499999999997 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1416,7 +1416,7 @@
   )
       
   (gr_text "col1 row3"
-    (at 60.05 132.32499999999996 0)
+    (at 60.05 147.37499999999997 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1431,7 +1431,7 @@
       
 
   (gr_text "col1 row4"
-    (at 60.05 112.27499999999996 0)
+    (at 60.05 127.32499999999997 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1445,7 +1445,7 @@
   )
       
   (gr_text "col1 row4"
-    (at 60.05 112.27499999999996 0)
+    (at 60.05 127.32499999999997 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1460,7 +1460,7 @@
       
 
   (gr_text "col2 row0"
-    (at 80.1 192.475 0)
+    (at 80.1 207.525 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1474,7 +1474,7 @@
   )
       
   (gr_text "col2 row0"
-    (at 80.1 192.475 0)
+    (at 80.1 207.525 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1489,7 +1489,7 @@
       
 
   (gr_text "col2 row1"
-    (at 80.1 172.42499999999998 0)
+    (at 80.1 187.475 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1503,7 +1503,7 @@
   )
       
   (gr_text "col2 row1"
-    (at 80.1 172.42499999999998 0)
+    (at 80.1 187.475 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1518,7 +1518,7 @@
       
 
   (gr_text "col2 row2"
-    (at 80.1 152.37499999999997 0)
+    (at 80.1 167.42499999999998 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1532,7 +1532,7 @@
   )
       
   (gr_text "col2 row2"
-    (at 80.1 152.37499999999997 0)
+    (at 80.1 167.42499999999998 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1547,7 +1547,7 @@
       
 
   (gr_text "col2 row3"
-    (at 80.1 132.32499999999996 0)
+    (at 80.1 147.37499999999997 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1561,7 +1561,7 @@
   )
       
   (gr_text "col2 row3"
-    (at 80.1 132.32499999999996 0)
+    (at 80.1 147.37499999999997 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1576,7 +1576,7 @@
       
 
   (gr_text "col2 row4"
-    (at 80.1 112.27499999999996 0)
+    (at 80.1 127.32499999999997 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1590,7 +1590,7 @@
   )
       
   (gr_text "col2 row4"
-    (at 80.1 112.27499999999996 0)
+    (at 80.1 127.32499999999997 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1605,7 +1605,7 @@
       
 
   (gr_text "col3 row0"
-    (at 92.625 189.975 90)
+    (at 107.67500000000001 189.975 90)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1619,7 +1619,7 @@
   )
       
   (gr_text "col3 row0"
-    (at 92.625 189.975 90)
+    (at 107.67500000000001 189.975 90)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1634,7 +1634,7 @@
       
 
   (gr_text "col3 row2"
-    (at 92.625 149.87499999999997 90)
+    (at 107.67500000000001 149.87499999999997 90)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1648,7 +1648,7 @@
   )
       
   (gr_text "col3 row2"
-    (at 92.625 149.87499999999997 90)
+    (at 107.67500000000001 149.87499999999997 90)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1663,7 +1663,7 @@
       
 
   (gr_text "col3 row3"
-    (at 100.15 112.27499999999996 0)
+    (at 100.15 127.32499999999997 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -1677,7 +1677,7 @@
   )
       
   (gr_text "col3 row3"
-    (at 100.15 112.27499999999996 0)
+    (at 100.15 127.32499999999997 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -1693,11 +1693,11 @@
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 50.025 200 0)
+        (at 50.025 200 180)
   
         
         (fp_text reference "S1" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -1729,8 +1729,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 27 "matrix_col0_row0"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 27 "matrix_col0_row0"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -1739,18 +1739,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S1" (at 53.5250 198.0000 0) (layer B.SilkS)
+        (gr_text "S1" (at 46.5250 202.0000 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 40 179.95 0)
+        (at 40 179.95 180)
   
         
         (fp_text reference "S2" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -1782,8 +1782,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 28 "matrix_col0_row1"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 28 "matrix_col0_row1"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -1792,18 +1792,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S2" (at 43.5000 177.9500 0) (layer B.SilkS)
+        (gr_text "S2" (at 36.5000 181.9500 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 40 159.89999999999998 0)
+        (at 40 159.89999999999998 180)
   
         
         (fp_text reference "S3" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -1835,8 +1835,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 29 "matrix_col0_row2"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 29 "matrix_col0_row2"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -1845,18 +1845,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S3" (at 43.5000 157.9000 0) (layer B.SilkS)
+        (gr_text "S3" (at 36.5000 161.9000 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 40 139.84999999999997 0)
+        (at 40 139.84999999999997 180)
   
         
         (fp_text reference "S4" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -1888,8 +1888,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 30 "matrix_col0_row3"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 30 "matrix_col0_row3"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -1898,18 +1898,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S4" (at 43.5000 137.8500 0) (layer B.SilkS)
+        (gr_text "S4" (at 36.5000 141.8500 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 40 119.79999999999997 0)
+        (at 40 119.79999999999997 180)
   
         
         (fp_text reference "S5" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -1941,8 +1941,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 31 "matrix_col0_row4"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 31 "matrix_col0_row4"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -1951,18 +1951,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S5" (at 43.5000 117.8000 0) (layer B.SilkS)
+        (gr_text "S5" (at 36.5000 121.8000 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 60.05 179.95 0)
+        (at 60.05 179.95 180)
   
         
         (fp_text reference "S6" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -1994,8 +1994,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "col1"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 32 "matrix_col1_row1"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "col1"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 32 "matrix_col1_row1"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -2004,18 +2004,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S6" (at 63.5500 177.9500 0) (layer B.SilkS)
+        (gr_text "S6" (at 56.5500 181.9500 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 60.05 159.89999999999998 0)
+        (at 60.05 159.89999999999998 180)
   
         
         (fp_text reference "S7" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -2047,8 +2047,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "col1"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 33 "matrix_col1_row2"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "col1"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 33 "matrix_col1_row2"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -2057,18 +2057,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S7" (at 63.5500 157.9000 0) (layer B.SilkS)
+        (gr_text "S7" (at 56.5500 161.9000 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 60.05 139.84999999999997 0)
+        (at 60.05 139.84999999999997 180)
   
         
         (fp_text reference "S8" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -2100,8 +2100,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "col1"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 34 "matrix_col1_row3"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "col1"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 34 "matrix_col1_row3"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -2110,18 +2110,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S8" (at 63.5500 137.8500 0) (layer B.SilkS)
+        (gr_text "S8" (at 56.5500 141.8500 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 60.05 119.79999999999997 0)
+        (at 60.05 119.79999999999997 180)
   
         
         (fp_text reference "S9" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -2153,8 +2153,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "col1"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 35 "matrix_col1_row4"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 18 "col1"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 35 "matrix_col1_row4"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -2163,18 +2163,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S9" (at 63.5500 117.8000 0) (layer B.SilkS)
+        (gr_text "S9" (at 56.5500 121.8000 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 80.1 200 0)
+        (at 80.1 200 180)
   
         
         (fp_text reference "S10" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -2206,8 +2206,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 36 "matrix_col2_row0"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 36 "matrix_col2_row0"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -2216,18 +2216,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S10" (at 83.6000 198.0000 0) (layer B.SilkS)
+        (gr_text "S10" (at 76.6000 202.0000 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 80.1 179.95 0)
+        (at 80.1 179.95 180)
   
         
         (fp_text reference "S11" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -2259,8 +2259,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 37 "matrix_col2_row1"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 37 "matrix_col2_row1"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -2269,18 +2269,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S11" (at 83.6000 177.9500 0) (layer B.SilkS)
+        (gr_text "S11" (at 76.6000 181.9500 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 80.1 159.89999999999998 0)
+        (at 80.1 159.89999999999998 180)
   
         
         (fp_text reference "S12" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -2312,8 +2312,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 38 "matrix_col2_row2"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 38 "matrix_col2_row2"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -2322,18 +2322,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S12" (at 83.6000 157.9000 0) (layer B.SilkS)
+        (gr_text "S12" (at 76.6000 161.9000 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 80.1 139.84999999999997 0)
+        (at 80.1 139.84999999999997 180)
   
         
         (fp_text reference "S13" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -2365,8 +2365,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 39 "matrix_col2_row3"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 39 "matrix_col2_row3"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -2375,18 +2375,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S13" (at 83.6000 137.8500 0) (layer B.SilkS)
+        (gr_text "S13" (at 76.6000 141.8500 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 80.1 119.79999999999997 0)
+        (at 80.1 119.79999999999997 180)
   
         
         (fp_text reference "S14" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -2418,8 +2418,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 40 "matrix_col2_row4"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 17 "col2"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 40 "matrix_col2_row4"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -2428,18 +2428,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S14" (at 83.6000 117.8000 0) (layer B.SilkS)
+        (gr_text "S14" (at 76.6000 121.8000 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 100.15 189.975 90)
+        (at 100.15 189.975 270)
   
         
         (fp_text reference "S15" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -2471,8 +2471,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 90) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "col3"))
-          (pad 2 smd rect (at 5.842 -5.08 90) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 41 "matrix_col3_row0"))
+          (pad 1 smd rect (at -7.085 -2.54 270) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "col3"))
+          (pad 2 smd rect (at 5.842 -5.08 270) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 41 "matrix_col3_row0"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -2481,18 +2481,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S15" (at 98.1500 186.4750 0) (layer B.SilkS)
+        (gr_text "S15" (at 102.1500 193.4750 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 100.15 149.87499999999997 90)
+        (at 100.15 149.87499999999997 270)
   
         
         (fp_text reference "S16" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -2524,8 +2524,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 90) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "col3"))
-          (pad 2 smd rect (at 5.842 -5.08 90) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 42 "matrix_col3_row2"))
+          (pad 1 smd rect (at -7.085 -2.54 270) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "col3"))
+          (pad 2 smd rect (at 5.842 -5.08 270) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 42 "matrix_col3_row2"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -2534,18 +2534,18 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S16" (at 98.1500 146.3750 0) (layer B.SilkS)
+        (gr_text "S16" (at 102.1500 153.3750 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
 
           
         (module "travis:MX" (layer F.Cu)
-        (at 100.15 119.79999999999997 0)
+        (at 100.15 119.79999999999997 180)
   
         
         (fp_text reference "S17" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
-        (fp_text value "Kailh MX Switch Sockets" (at 0 0 0) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
+        (fp_text value "Kailh MX Switch Sockets" (at 0 0 180) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
   
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
@@ -2577,8 +2577,8 @@
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           
           
-          (pad 1 smd rect (at -7.085 -2.54 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "col3"))
-          (pad 2 smd rect (at 5.842 -5.08 0) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 43 "matrix_col3_row4"))
+          (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 16 "col3"))
+          (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 43 "matrix_col3_row4"))
           
           
       (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
@@ -2587,7 +2587,7 @@
 		(rotate (xyz 0 0 0) )
 	  ))
           
-        (gr_text "S17" (at 103.6500 117.8000 0) (layer B.SilkS)
+        (gr_text "S17" (at 96.6500 121.8000 0) (layer B.SilkS)
           (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
         )
           
@@ -2596,11 +2596,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 58.45 193.875 270)
+      (at 41.599999999999994 206.125 90)
       (property "Reference" "D1" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -2742,10 +2742,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 6 "row0")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 27 "matrix_col0_row0")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -2759,11 +2759,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 48.425 173.825 270)
+      (at 31.575 186.075 90)
       (property "Reference" "D2" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -2905,10 +2905,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 7 "row1")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 28 "matrix_col0_row1")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -2922,11 +2922,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 48.425 153.77499999999998 270)
+      (at 31.575 166.02499999999998 90)
       (property "Reference" "D3" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -3068,10 +3068,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 8 "row2")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 29 "matrix_col0_row2")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -3085,11 +3085,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 48.425 133.72499999999997 270)
+      (at 31.575 145.97499999999997 90)
       (property "Reference" "D4" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -3231,10 +3231,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 9 "row3")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 30 "matrix_col0_row3")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -3248,11 +3248,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 48.425 113.67499999999997 270)
+      (at 31.575 125.92499999999997 90)
       (property "Reference" "D5" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -3394,10 +3394,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 10 "row4")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 31 "matrix_col0_row4")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -3411,11 +3411,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 68.475 173.825 270)
+      (at 51.625 186.075 90)
       (property "Reference" "D6" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -3557,10 +3557,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 7 "row1")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 32 "matrix_col1_row1")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -3574,11 +3574,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 68.475 153.77499999999998 270)
+      (at 51.625 166.02499999999998 90)
       (property "Reference" "D7" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -3720,10 +3720,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 8 "row2")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 33 "matrix_col1_row2")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -3737,11 +3737,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 68.475 133.72499999999997 270)
+      (at 51.625 145.97499999999997 90)
       (property "Reference" "D8" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -3883,10 +3883,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 9 "row3")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 34 "matrix_col1_row3")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -3900,11 +3900,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 68.475 113.67499999999997 270)
+      (at 51.625 125.92499999999997 90)
       (property "Reference" "D9" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -4046,10 +4046,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 10 "row4")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 35 "matrix_col1_row4")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -4063,11 +4063,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 88.52499999999999 193.875 270)
+      (at 71.675 206.125 90)
       (property "Reference" "D10" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -4209,10 +4209,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 6 "row0")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 36 "matrix_col2_row0")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -4226,11 +4226,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 88.52499999999999 173.825 270)
+      (at 71.675 186.075 90)
       (property "Reference" "D11" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -4372,10 +4372,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 7 "row1")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 37 "matrix_col2_row1")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -4389,11 +4389,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 88.52499999999999 153.77499999999998 270)
+      (at 71.675 166.02499999999998 90)
       (property "Reference" "D12" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -4535,10 +4535,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 8 "row2")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 38 "matrix_col2_row2")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -4552,11 +4552,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 88.52499999999999 133.72499999999997 270)
+      (at 71.675 145.97499999999997 90)
       (property "Reference" "D13" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -4698,10 +4698,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 9 "row3")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 39 "matrix_col2_row3")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -4715,11 +4715,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 88.52499999999999 113.67499999999997 270)
+      (at 71.675 125.92499999999997 90)
       (property "Reference" "D14" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -4861,10 +4861,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 10 "row4")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 40 "matrix_col2_row4")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -4878,11 +4878,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 94.025 181.54999999999998 360)
+      (at 106.275 198.4 180)
       (property "Reference" "D15" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -5024,10 +5024,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 360) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 180) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 6 "row0")
       )
-      (pad "2" smd roundrect (at 1.4 0 360) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 180) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 41 "matrix_col3_row0")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -5041,11 +5041,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 94.025 141.44999999999996 360)
+      (at 106.275 158.29999999999998 180)
       (property "Reference" "D16" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -5187,10 +5187,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 360) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 180) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 8 "row2")
       )
-      (pad "2" smd roundrect (at 1.4 0 360) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 180) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 42 "matrix_col3_row2")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -5204,11 +5204,11 @@
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
       (tags "diode")
 
-      (at 108.575 113.67499999999997 270)
+      (at 91.72500000000001 125.92499999999997 90)
       (property "Reference" "D17" (at 3 0 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -5350,10 +5350,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(uuid "5dfef82a-8485-4c7c-abcc-723721b54c46") (hide yes)
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 9 "row3")
       )
-      (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
+      (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 43 "matrix_col3_row4")
       )
       (model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl"
@@ -5365,12 +5365,12 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 40 184.91 0)
+        (at 40 174.98999999999998 180)
 
         (fp_text reference "LED5" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
         )
-        (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab") (hide yes)
+        (fp_text value "SK6812mini-e" (at 0 2.25 180) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
@@ -5393,10 +5393,10 @@
         (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
-        (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 44 "LED_16"))
-        (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 20 "VCC"))
-        (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-        (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 45 "LED_15"))
+        (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 44 "LED_16"))
+        (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 20 "VCC"))
+        (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
+        (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 45 "LED_15"))
       
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -5441,10 +5441,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 38.000 183.060)
-            (xy 42.000 183.060)
-            (xy 42.000 186.760)
-            (xy 38.000 186.760)
+            (xy 42.000 176.840)
+            (xy 38.000 176.840)
+            (xy 38.000 173.140)
+            (xy 42.000 173.140)
           )
         )
       )
@@ -5452,12 +5452,12 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 40 144.80999999999997 0)
+        (at 40 134.88999999999996 180)
 
         (fp_text reference "LED6" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
         )
-        (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab") (hide yes)
+        (fp_text value "SK6812mini-e" (at 0 2.25 180) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
@@ -5480,10 +5480,10 @@
         (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
-        (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 46 "LED_9"))
-        (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 20 "VCC"))
-        (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-        (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 47 "LED_8"))
+        (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 46 "LED_9"))
+        (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 20 "VCC"))
+        (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
+        (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 47 "LED_8"))
       
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -5528,10 +5528,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 38.000 142.960)
-            (xy 42.000 142.960)
-            (xy 42.000 146.660)
-            (xy 38.000 146.660)
+            (xy 42.000 136.740)
+            (xy 38.000 136.740)
+            (xy 38.000 133.040)
+            (xy 42.000 133.040)
           )
         )
       )
@@ -5539,12 +5539,12 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 60.05 184.91 0)
+        (at 60.05 174.98999999999998 180)
 
         (fp_text reference "LED7" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
         )
-        (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab") (hide yes)
+        (fp_text value "SK6812mini-e" (at 0 2.25 180) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
@@ -5567,10 +5567,10 @@
         (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
-        (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 48 "LED_17"))
-        (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 20 "VCC"))
-        (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-        (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 44 "LED_16"))
+        (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 48 "LED_17"))
+        (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 20 "VCC"))
+        (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
+        (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 44 "LED_16"))
       
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -5615,10 +5615,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 58.050 183.060)
-            (xy 62.050 183.060)
-            (xy 62.050 186.760)
-            (xy 58.050 186.760)
+            (xy 62.050 176.840)
+            (xy 58.050 176.840)
+            (xy 58.050 173.140)
+            (xy 62.050 173.140)
           )
         )
       )
@@ -5626,12 +5626,12 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 60.05 144.80999999999997 0)
+        (at 60.05 134.88999999999996 180)
 
         (fp_text reference "LED8" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
         )
-        (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab") (hide yes)
+        (fp_text value "SK6812mini-e" (at 0 2.25 180) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
@@ -5654,10 +5654,10 @@
         (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
-        (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 49 "LED_10"))
-        (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 20 "VCC"))
-        (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-        (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 46 "LED_9"))
+        (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 49 "LED_10"))
+        (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 20 "VCC"))
+        (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
+        (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 46 "LED_9"))
       
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -5702,10 +5702,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 58.050 142.960)
-            (xy 62.050 142.960)
-            (xy 62.050 146.660)
-            (xy 58.050 146.660)
+            (xy 62.050 136.740)
+            (xy 58.050 136.740)
+            (xy 58.050 133.040)
+            (xy 62.050 133.040)
           )
         )
       )
@@ -5713,12 +5713,12 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 80.1 184.91 0)
+        (at 80.1 174.98999999999998 180)
 
         (fp_text reference "LED9" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
         )
-        (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab") (hide yes)
+        (fp_text value "SK6812mini-e" (at 0 2.25 180) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
@@ -5741,10 +5741,10 @@
         (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
-        (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 50 "LED_18"))
-        (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 20 "VCC"))
-        (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-        (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 48 "LED_17"))
+        (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 50 "LED_18"))
+        (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 20 "VCC"))
+        (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
+        (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 48 "LED_17"))
       
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -5789,10 +5789,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 78.100 183.060)
-            (xy 82.100 183.060)
-            (xy 82.100 186.760)
-            (xy 78.100 186.760)
+            (xy 82.100 176.840)
+            (xy 78.100 176.840)
+            (xy 78.100 173.140)
+            (xy 82.100 173.140)
           )
         )
       )
@@ -5800,12 +5800,12 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 80.1 144.80999999999997 0)
+        (at 80.1 134.88999999999996 180)
 
         (fp_text reference "LED10" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
         )
-        (fp_text value "SK6812mini-e" (at 0 2.25 0) (layer "B.Fab") (hide yes)
+        (fp_text value "SK6812mini-e" (at 0 2.25 180) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
@@ -5828,10 +5828,10 @@
         (fp_line (start -3.8 -1.6) (end -2.2 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 0) (end -3.8 -1.6) (layer B.SilkS) (width 0.12))
         (fp_line (start -3.8 -1.36) (end -3.56 -1.6) (layer B.SilkS) (width 0.12))
-        (pad 2 smd rect (at 2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 51 "LED_11"))
-        (pad 1 smd rect (at 2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 20 "VCC"))
-        (pad 3 smd rect (at -2.70 -0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
-        (pad 4 smd rect (at -2.70 0.7 0) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 49 "LED_10"))
+        (pad 2 smd rect (at 2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 51 "LED_11"))
+        (pad 1 smd rect (at 2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 20 "VCC"))
+        (pad 3 smd rect (at -2.70 -0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
+        (pad 4 smd rect (at -2.70 0.7 180) (size 1.4 1) (layers B.Cu B.Paste B.Mask) (net 49 "LED_10"))
       
     (fp_line (start -0.8 -1.4) (end -0.8 1.4) (layer Dwgs.User) (width 0.12))
     (fp_line (start 0.8 -1.4) (end 0.8 1.4) (layer Dwgs.User) (width 0.12))
@@ -5876,17 +5876,17 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 78.100 142.960)
-            (xy 82.100 142.960)
-            (xy 82.100 146.660)
-            (xy 78.100 146.660)
+            (xy 82.100 136.740)
+            (xy 78.100 136.740)
+            (xy 78.100 133.040)
+            (xy 82.100 133.040)
           )
         )
       )
     
 
   (gr_text "LED_15"
-    (at 40 187.31 0)
+    (at 40 172.58999999999997 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -5900,7 +5900,7 @@
   )
       
   (gr_text "LED_15"
-    (at 40 187.31 0)
+    (at 40 172.58999999999997 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -5915,7 +5915,7 @@
       
 
   (gr_text "LED_8"
-    (at 40 147.20999999999998 0)
+    (at 40 132.48999999999995 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -5929,7 +5929,7 @@
   )
       
   (gr_text "LED_8"
-    (at 40 147.20999999999998 0)
+    (at 40 132.48999999999995 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -5944,7 +5944,7 @@
       
 
   (gr_text "LED_16"
-    (at 60.05 187.31 0)
+    (at 60.05 172.58999999999997 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -5958,7 +5958,7 @@
   )
       
   (gr_text "LED_16"
-    (at 60.05 187.31 0)
+    (at 60.05 172.58999999999997 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -5973,7 +5973,7 @@
       
 
   (gr_text "LED_9"
-    (at 60.05 147.20999999999998 0)
+    (at 60.05 132.48999999999995 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -5987,7 +5987,7 @@
   )
       
   (gr_text "LED_9"
-    (at 60.05 147.20999999999998 0)
+    (at 60.05 132.48999999999995 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -6002,7 +6002,7 @@
       
 
   (gr_text "LED_17"
-    (at 80.1 187.31 0)
+    (at 80.1 172.58999999999997 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -6016,7 +6016,7 @@
   )
       
   (gr_text "LED_17"
-    (at 80.1 187.31 0)
+    (at 80.1 172.58999999999997 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -6031,7 +6031,7 @@
       
 
   (gr_text "LED_10"
-    (at 80.1 147.20999999999998 0)
+    (at 80.1 132.48999999999995 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -6045,7 +6045,7 @@
   )
       
   (gr_text "LED_10"
-    (at 80.1 147.20999999999998 0)
+    (at 80.1 132.48999999999995 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -6063,11 +6063,11 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 44.35 187.31 0)
+      (at 44.35 177.39 180)
       (property "Reference" "C6" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "C_1206_3216Metric" (at -2.5 0 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
+      (property "Value" "C_1206_3216Metric" (at -2.5 0 180) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "C_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -6109,10 +6109,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(hide yes)(uuid "262df469-fc4d-44a4-b992-f26a9c974233")
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.475 0 0) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
+      (pad "1" smd roundrect (at -1.475 0 180) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
     (uuid "2283549c-f5fa-445f-8887-4ad2bb854e3f") (net 20 "VCC")
       )
-      (pad "2" smd roundrect (at 1.475 0 0) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
+      (pad "2" smd roundrect (at 1.475 0 180) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
     (uuid "9774dcc9-5357-4a7d-8e93-370dc1237420") (net 3 "GND")
       )
       (model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
@@ -6127,11 +6127,11 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 44.35 147.20999999999998 0)
+      (at 44.35 137.28999999999996 180)
       (property "Reference" "C7" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "C_1206_3216Metric" (at -2.5 0 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
+      (property "Value" "C_1206_3216Metric" (at -2.5 0 180) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "C_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -6173,10 +6173,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(hide yes)(uuid "262df469-fc4d-44a4-b992-f26a9c974233")
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.475 0 0) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
+      (pad "1" smd roundrect (at -1.475 0 180) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
     (uuid "2283549c-f5fa-445f-8887-4ad2bb854e3f") (net 20 "VCC")
       )
-      (pad "2" smd roundrect (at 1.475 0 0) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
+      (pad "2" smd roundrect (at 1.475 0 180) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
     (uuid "9774dcc9-5357-4a7d-8e93-370dc1237420") (net 3 "GND")
       )
       (model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
@@ -6191,11 +6191,11 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 64.39999999999999 187.31 0)
+      (at 64.39999999999999 177.39 180)
       (property "Reference" "C8" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "C_1206_3216Metric" (at -2.5 0 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
+      (property "Value" "C_1206_3216Metric" (at -2.5 0 180) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "C_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -6237,10 +6237,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(hide yes)(uuid "262df469-fc4d-44a4-b992-f26a9c974233")
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.475 0 0) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
+      (pad "1" smd roundrect (at -1.475 0 180) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
     (uuid "2283549c-f5fa-445f-8887-4ad2bb854e3f") (net 20 "VCC")
       )
-      (pad "2" smd roundrect (at 1.475 0 0) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
+      (pad "2" smd roundrect (at 1.475 0 180) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
     (uuid "9774dcc9-5357-4a7d-8e93-370dc1237420") (net 3 "GND")
       )
       (model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
@@ -6255,11 +6255,11 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 64.39999999999999 147.20999999999998 0)
+      (at 64.39999999999999 137.28999999999996 180)
       (property "Reference" "C9" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "C_1206_3216Metric" (at -2.5 0 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
+      (property "Value" "C_1206_3216Metric" (at -2.5 0 180) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "C_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -6301,10 +6301,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(hide yes)(uuid "262df469-fc4d-44a4-b992-f26a9c974233")
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.475 0 0) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
+      (pad "1" smd roundrect (at -1.475 0 180) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
     (uuid "2283549c-f5fa-445f-8887-4ad2bb854e3f") (net 20 "VCC")
       )
-      (pad "2" smd roundrect (at 1.475 0 0) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
+      (pad "2" smd roundrect (at 1.475 0 180) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
     (uuid "9774dcc9-5357-4a7d-8e93-370dc1237420") (net 3 "GND")
       )
       (model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
@@ -6319,11 +6319,11 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 84.44999999999999 187.31 0)
+      (at 84.44999999999999 177.39 180)
       (property "Reference" "C10" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "C_1206_3216Metric" (at -2.5 0 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
+      (property "Value" "C_1206_3216Metric" (at -2.5 0 180) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "C_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -6365,10 +6365,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(hide yes)(uuid "262df469-fc4d-44a4-b992-f26a9c974233")
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.475 0 0) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
+      (pad "1" smd roundrect (at -1.475 0 180) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
     (uuid "2283549c-f5fa-445f-8887-4ad2bb854e3f") (net 20 "VCC")
       )
-      (pad "2" smd roundrect (at 1.475 0 0) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
+      (pad "2" smd roundrect (at 1.475 0 180) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
     (uuid "9774dcc9-5357-4a7d-8e93-370dc1237420") (net 3 "GND")
       )
       (model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
@@ -6383,11 +6383,11 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 84.44999999999999 147.20999999999998 0)
+      (at 84.44999999999999 137.28999999999996 180)
       (property "Reference" "C11" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "C_1206_3216Metric" (at -2.5 0 0) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
+      (property "Value" "C_1206_3216Metric" (at -2.5 0 180) (layer "B.Fab")(uuid "136faa66-2c23-42b0-a119-0aec3575d644") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "C_1206_3216Metric" (at 0 0 0)(unlocked yes)
@@ -6429,10 +6429,10 @@
       (fp_text user "${REFERENCE}" (at 0 0 0) (layer "B.Fab")(hide yes)(uuid "262df469-fc4d-44a4-b992-f26a9c974233")
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
-      (pad "1" smd roundrect (at -1.475 0 0) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
+      (pad "1" smd roundrect (at -1.475 0 180) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
     (uuid "2283549c-f5fa-445f-8887-4ad2bb854e3f") (net 20 "VCC")
       )
-      (pad "2" smd roundrect (at 1.475 0 0) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
+      (pad "2" smd roundrect (at 1.475 0 180) (size 1.15 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.217391)
     (uuid "9774dcc9-5357-4a7d-8e93-370dc1237420") (net 3 "GND")
       )
       (model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
@@ -6445,7 +6445,7 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 50.025 204.96 180)
+        (at 50.025 195.04 180)
 
         (fp_text reference "LED11" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
@@ -6521,10 +6521,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 52.025 206.810)
-            (xy 48.025 206.810)
-            (xy 48.025 203.110)
-            (xy 52.025 203.110)
+            (xy 52.025 196.890)
+            (xy 48.025 196.890)
+            (xy 48.025 193.190)
+            (xy 52.025 193.190)
           )
         )
       )
@@ -6532,7 +6532,7 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 40 164.85999999999999 180)
+        (at 40 154.93999999999997 180)
 
         (fp_text reference "LED12" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
@@ -6608,10 +6608,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 42.000 166.710)
-            (xy 38.000 166.710)
-            (xy 38.000 163.010)
-            (xy 42.000 163.010)
+            (xy 42.000 156.790)
+            (xy 38.000 156.790)
+            (xy 38.000 153.090)
+            (xy 42.000 153.090)
           )
         )
       )
@@ -6619,7 +6619,7 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 40 124.75999999999996 180)
+        (at 40 114.83999999999997 180)
 
         (fp_text reference "LED13" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
@@ -6695,10 +6695,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 42.000 126.610)
-            (xy 38.000 126.610)
-            (xy 38.000 122.910)
-            (xy 42.000 122.910)
+            (xy 42.000 116.690)
+            (xy 38.000 116.690)
+            (xy 38.000 112.990)
+            (xy 42.000 112.990)
           )
         )
       )
@@ -6706,7 +6706,7 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 60.05 164.85999999999999 180)
+        (at 60.05 154.93999999999997 180)
 
         (fp_text reference "LED14" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
@@ -6782,10 +6782,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 62.050 166.710)
-            (xy 58.050 166.710)
-            (xy 58.050 163.010)
-            (xy 62.050 163.010)
+            (xy 62.050 156.790)
+            (xy 58.050 156.790)
+            (xy 58.050 153.090)
+            (xy 62.050 153.090)
           )
         )
       )
@@ -6793,7 +6793,7 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 60.05 124.75999999999996 180)
+        (at 60.05 114.83999999999997 180)
 
         (fp_text reference "LED15" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
@@ -6869,10 +6869,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 62.050 126.610)
-            (xy 58.050 126.610)
-            (xy 58.050 122.910)
-            (xy 62.050 122.910)
+            (xy 62.050 116.690)
+            (xy 58.050 116.690)
+            (xy 58.050 112.990)
+            (xy 62.050 112.990)
           )
         )
       )
@@ -6880,7 +6880,7 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 80.1 204.96 180)
+        (at 80.1 195.04 180)
 
         (fp_text reference "LED16" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
@@ -6956,10 +6956,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 82.100 206.810)
-            (xy 78.100 206.810)
-            (xy 78.100 203.110)
-            (xy 82.100 203.110)
+            (xy 82.100 196.890)
+            (xy 78.100 196.890)
+            (xy 78.100 193.190)
+            (xy 82.100 193.190)
           )
         )
       )
@@ -6967,7 +6967,7 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 80.1 164.85999999999999 180)
+        (at 80.1 154.93999999999997 180)
 
         (fp_text reference "LED17" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
@@ -7043,10 +7043,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 82.100 166.710)
-            (xy 78.100 166.710)
-            (xy 78.100 163.010)
-            (xy 82.100 163.010)
+            (xy 82.100 156.790)
+            (xy 78.100 156.790)
+            (xy 78.100 153.090)
+            (xy 82.100 153.090)
           )
         )
       )
@@ -7054,7 +7054,7 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 80.1 124.75999999999996 180)
+        (at 80.1 114.83999999999997 180)
 
         (fp_text reference "LED18" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
@@ -7130,10 +7130,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 82.100 126.610)
-            (xy 78.100 126.610)
-            (xy 78.100 122.910)
-            (xy 82.100 122.910)
+            (xy 82.100 116.690)
+            (xy 78.100 116.690)
+            (xy 78.100 112.990)
+            (xy 82.100 112.990)
           )
         )
       )
@@ -7141,7 +7141,7 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 105.11 189.975 270)
+        (at 95.19000000000001 189.975 270)
 
         (fp_text reference "LED19" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
@@ -7217,10 +7217,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 106.960 187.975)
-            (xy 106.960 191.975)
-            (xy 103.260 191.975)
-            (xy 103.260 187.975)
+            (xy 97.040 187.975)
+            (xy 97.040 191.975)
+            (xy 93.340 191.975)
+            (xy 93.340 187.975)
           )
         )
       )
@@ -7228,7 +7228,7 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 105.11 149.87499999999997 270)
+        (at 95.19000000000001 149.87499999999997 270)
 
         (fp_text reference "LED20" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
@@ -7304,10 +7304,10 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 106.960 147.875)
-            (xy 106.960 151.875)
-            (xy 103.260 151.875)
-            (xy 103.260 147.875)
+            (xy 97.040 147.875)
+            (xy 97.040 151.875)
+            (xy 93.340 151.875)
+            (xy 93.340 147.875)
           )
         )
       )
@@ -7315,7 +7315,7 @@
 
       (module "travis:led_SK6812mini-e (per-key, single-side)" 
         (layer B.Cu)
-        (at 100.15 124.75999999999996 180)
+        (at 100.15 114.83999999999997 180)
 
         (fp_text reference "LED21" (at -4.75 0 90) (layer B.SilkS) hide
           (effects (font (size 1 1) (thickness 0.15)) (justify  mirror))
@@ -7391,17 +7391,17 @@
         (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
         (polygon
           (pts
-            (xy 102.150 126.610)
-            (xy 98.150 126.610)
-            (xy 98.150 122.910)
-            (xy 102.150 122.910)
+            (xy 102.150 116.690)
+            (xy 98.150 116.690)
+            (xy 98.150 112.990)
+            (xy 102.150 112.990)
           )
         )
       )
     
 
   (gr_text "LED_20"
-    (at 50.025 207.36 0)
+    (at 50.025 192.64 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -7415,7 +7415,7 @@
   )
       
   (gr_text "LED_20"
-    (at 50.025 207.36 0)
+    (at 50.025 192.64 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -7430,7 +7430,7 @@
       
 
   (gr_text "LED_14"
-    (at 40 167.26 0)
+    (at 40 152.53999999999996 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -7444,7 +7444,7 @@
   )
       
   (gr_text "LED_14"
-    (at 40 167.26 0)
+    (at 40 152.53999999999996 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -7459,7 +7459,7 @@
       
 
   (gr_text "LED_7"
-    (at 40 127.15999999999997 0)
+    (at 40 112.43999999999997 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -7473,7 +7473,7 @@
   )
       
   (gr_text "LED_7"
-    (at 40 127.15999999999997 0)
+    (at 40 112.43999999999997 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -7488,7 +7488,7 @@
       
 
   (gr_text "LED_13"
-    (at 60.05 167.26 0)
+    (at 60.05 152.53999999999996 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -7502,7 +7502,7 @@
   )
       
   (gr_text "LED_13"
-    (at 60.05 167.26 0)
+    (at 60.05 152.53999999999996 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -7517,7 +7517,7 @@
       
 
   (gr_text "LED_6"
-    (at 60.05 127.15999999999997 0)
+    (at 60.05 112.43999999999997 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -7531,7 +7531,7 @@
   )
       
   (gr_text "LED_6"
-    (at 60.05 127.15999999999997 0)
+    (at 60.05 112.43999999999997 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -7546,7 +7546,7 @@
       
 
   (gr_text "LED_19"
-    (at 80.1 207.36 0)
+    (at 80.1 192.64 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -7560,7 +7560,7 @@
   )
       
   (gr_text "LED_19"
-    (at 80.1 207.36 0)
+    (at 80.1 192.64 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -7575,7 +7575,7 @@
       
 
   (gr_text "LED_12"
-    (at 80.1 167.26 0)
+    (at 80.1 152.53999999999996 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -7589,7 +7589,7 @@
   )
       
   (gr_text "LED_12"
-    (at 80.1 167.26 0)
+    (at 80.1 152.53999999999996 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -7604,7 +7604,7 @@
       
 
   (gr_text "LED_5"
-    (at 80.1 127.15999999999997 0)
+    (at 80.1 112.43999999999997 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -7618,7 +7618,7 @@
   )
       
   (gr_text "LED_5"
-    (at 80.1 127.15999999999997 0)
+    (at 80.1 112.43999999999997 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -7633,7 +7633,7 @@
       
 
   (gr_text "LED_18"
-    (at 107.51 189.975 90)
+    (at 92.79 189.975 90)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -7647,7 +7647,7 @@
   )
       
   (gr_text "LED_18"
-    (at 107.51 189.975 90)
+    (at 92.79 189.975 90)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -7662,7 +7662,7 @@
       
 
   (gr_text "LED_11"
-    (at 107.51 149.87499999999997 90)
+    (at 92.79 149.87499999999997 90)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -7676,7 +7676,7 @@
   )
       
   (gr_text "LED_11"
-    (at 107.51 149.87499999999997 90)
+    (at 92.79 149.87499999999997 90)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -7691,7 +7691,7 @@
       
 
   (gr_text "LED_4"
-    (at 100.15 127.15999999999997 0)
+    (at 100.15 112.43999999999997 0)
     (layer "F.SilkS" )
     (effects
       (font 
@@ -7705,7 +7705,7 @@
   )
       
   (gr_text "LED_4"
-    (at 100.15 127.15999999999997 0)
+    (at 100.15 112.43999999999997 0)
     (layer "B.SilkS" )
     (effects
       (font 
@@ -7723,7 +7723,7 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 45.675 202.56 180)
+      (at 45.675 192.64 180)
       (property "Reference" "C12" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
@@ -7787,7 +7787,7 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 35.65 162.45999999999998 180)
+      (at 35.65 152.53999999999996 180)
       (property "Reference" "C13" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
@@ -7851,7 +7851,7 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 35.65 122.35999999999997 180)
+      (at 35.65 112.43999999999997 180)
       (property "Reference" "C14" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
@@ -7915,7 +7915,7 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 55.699999999999996 162.45999999999998 180)
+      (at 55.699999999999996 152.53999999999996 180)
       (property "Reference" "C15" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
@@ -7979,7 +7979,7 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 55.699999999999996 122.35999999999997 180)
+      (at 55.699999999999996 112.43999999999997 180)
       (property "Reference" "C16" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
@@ -8043,7 +8043,7 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 75.75 202.56 180)
+      (at 75.75 192.64 180)
       (property "Reference" "C17" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
@@ -8107,7 +8107,7 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 75.75 162.45999999999998 180)
+      (at 75.75 152.53999999999996 180)
       (property "Reference" "C18" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
@@ -8171,7 +8171,7 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 75.75 122.35999999999997 180)
+      (at 75.75 112.43999999999997 180)
       (property "Reference" "C19" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
@@ -8235,7 +8235,7 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 102.71000000000001 194.325 270)
+      (at 92.79 194.325 270)
       (property "Reference" "C20" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
@@ -8299,7 +8299,7 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 102.71000000000001 154.22499999999997 270)
+      (at 92.79 154.22499999999997 270)
       (property "Reference" "C21" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
@@ -8363,7 +8363,7 @@
       (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
       (tags "capacitor")
 
-      (at 95.80000000000001 122.35999999999997 180)
+      (at 95.80000000000001 112.43999999999997 180)
       (property "Reference" "C22" (at 3.65 0 0) (layer "B.SilkS")(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
@@ -8490,7 +8490,7 @@
       (property "Reference" "D18" (at 0 -1.82 0) (layer "B.SilkS")(uuid "44a65e6b-5c76-4357-9708-b3c78a5868ca")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       )
-      (property "Value" "D_1206_3216Metric" (at 0 1.82 270) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
+      (property "Value" "D_1206_3216Metric" (at 0 1.82 90) (layer "B.Fab")(uuid "8b0a33c5-59c6-4698-9fca-6c8d6a2a174e") (hide yes)
         (effects (font (size 1 1) (thickness 0.15)))
       )
       (property "Footprint" "D_1206_3216Metric" (at 0 0 0)(unlocked yes)
