@@ -72,11 +72,6 @@ matrix_col0_row0:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -100,11 +95,6 @@ matrix_col0_row0:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -130,11 +120,6 @@ matrix_col0_row0:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -180,11 +165,6 @@ matrix_col0_row0:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -212,13 +192,6 @@ matrix_col0_row0:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -255,11 +228,6 @@ matrix_col0_row0:
                     key:
                         led_next: LED_8
                         led_this: LED_7
-                row5:
-                    key:
-                        led_next: LED_1
-                        led_this: LED_0
-                        led_power: RAWD
             name: col0
         row: row0
         bind:
@@ -340,11 +308,6 @@ matrix_col0_row1:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -368,11 +331,6 @@ matrix_col0_row1:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -398,11 +356,6 @@ matrix_col0_row1:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -448,11 +401,6 @@ matrix_col0_row1:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -480,13 +428,6 @@ matrix_col0_row1:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -523,11 +464,6 @@ matrix_col0_row1:
                     key:
                         led_next: LED_8
                         led_this: LED_7
-                row5:
-                    key:
-                        led_next: LED_1
-                        led_this: LED_0
-                        led_power: RAWD
             name: col0
         row: row1
         bind:
@@ -608,11 +544,6 @@ matrix_col0_row2:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -636,11 +567,6 @@ matrix_col0_row2:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -666,11 +592,6 @@ matrix_col0_row2:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -716,11 +637,6 @@ matrix_col0_row2:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -748,13 +664,6 @@ matrix_col0_row2:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -791,11 +700,6 @@ matrix_col0_row2:
                     key:
                         led_next: LED_8
                         led_this: LED_7
-                row5:
-                    key:
-                        led_next: LED_1
-                        led_this: LED_0
-                        led_power: RAWD
             name: col0
         row: row2
         bind:
@@ -876,11 +780,6 @@ matrix_col0_row3:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -904,11 +803,6 @@ matrix_col0_row3:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -934,11 +828,6 @@ matrix_col0_row3:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -984,11 +873,6 @@ matrix_col0_row3:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -1016,13 +900,6 @@ matrix_col0_row3:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -1059,11 +936,6 @@ matrix_col0_row3:
                     key:
                         led_next: LED_8
                         led_this: LED_7
-                row5:
-                    key:
-                        led_next: LED_1
-                        led_this: LED_0
-                        led_power: RAWD
             name: col0
         row: row3
         bind:
@@ -1144,11 +1016,6 @@ matrix_col0_row4:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -1172,11 +1039,6 @@ matrix_col0_row4:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -1202,11 +1064,6 @@ matrix_col0_row4:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -1252,11 +1109,6 @@ matrix_col0_row4:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -1284,13 +1136,6 @@ matrix_col0_row4:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -1327,279 +1172,8 @@ matrix_col0_row4:
                     key:
                         led_next: LED_8
                         led_this: LED_7
-                row5:
-                    key:
-                        led_next: LED_1
-                        led_this: LED_0
-                        led_power: RAWD
             name: col0
         row: row4
-        bind:
-            - 10
-            - 10
-            - 10
-            - 0
-matrix_col0_row5:
-    x: 40
-    'y': -107.24999999999997
-    r: 0
-    meta:
-        stagger: 0
-        spread: 20.05
-        splay: 0
-        origin:
-            - 0
-            - 0
-        orient: 0
-        shift:
-            - 0
-            - -7.5
-        rotate: 0
-        adjust: {}
-        width: 3.2
-        height: 2.8
-        padding: 20.05
-        autobind: 10
-        skip: false
-        asym: both
-        colrow: col0_row5
-        name: matrix_col0_row5
-        column_net: col0
-        tags: row_top
-        key:
-            led_next: LED_1
-            led_this: LED_0
-            led_power: RAWD
-        zone:
-            key:
-                padding: kp
-                spread: kp
-            columns:
-                col0:
-                    key:
-                        column_net: col0
-                    rows:
-                        row0:
-                            width: 2U
-                            shift:
-                                - 0.5kp
-                                - 0
-                            tags:
-                                - key
-                                - 2u_stabilizers
-                                - row_even
-                            key:
-                                led_next: ''
-                                led_this: LED_20
-                        row1:
-                            shift:
-                                - '-0.5kp'
-                                - 0
-                            key:
-                                led_next: LED_16
-                                led_this: LED_15
-                        row2:
-                            key:
-                                led_next: LED_15
-                                led_this: LED_14
-                        row3:
-                            key:
-                                led_next: LED_9
-                                led_this: LED_8
-                        row4:
-                            key:
-                                led_next: LED_8
-                                led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
-                    name: col0
-                col1:
-                    key:
-                        column_net: col1
-                    rows:
-                        row0:
-                            skip: true
-                        row1:
-                            key:
-                                led_next: LED_17
-                                led_this: LED_16
-                        row2:
-                            key:
-                                led_next: LED_14
-                                led_this: LED_13
-                        row3:
-                            key:
-                                led_next: LED_10
-                                led_this: LED_9
-                        row4:
-                            key:
-                                led_next: LED_7
-                                led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
-                    name: col1
-                col2:
-                    key:
-                        column_net: col2
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_20
-                                led_this: LED_19
-                        row1:
-                            key:
-                                led_next: LED_18
-                                led_this: LED_17
-                        row2:
-                            key:
-                                led_next: LED_13
-                                led_this: LED_12
-                        row3:
-                            key:
-                                led_next: LED_11
-                                led_this: LED_10
-                        row4:
-                            key:
-                                led_next: LED_6
-                                led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
-                    name: col2
-                col3:
-                    key:
-                        column_net: col3
-                    rows:
-                        row0:
-                            shift:
-                                - 0
-                                - 0.5kp
-                            rotate: 90
-                            width: 2U
-                            tags:
-                                - key
-                                - 2u_stabilizers
-                                - row_even
-                            key:
-                                led_next: LED_19
-                                led_this: LED_18
-                        row1:
-                            rotate: -90
-                            shift:
-                                - 1kp
-                                - '-1kp'
-                            skip: true
-                        row2:
-                            rotate: 90
-                            width: 2U
-                            tags:
-                                - key
-                                - 2u_stabilizers
-                                - row_even
-                            key:
-                                led_next: LED_12
-                                led_this: LED_11
-                        row3:
-                            rotate: -90
-                            shift:
-                                - 0.5kp
-                                - '-1kp'
-                            skip: true
-                        row4:
-                            row_net: row3
-                            key:
-                                led_next: LED_5
-                                led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
-                    name: col3
-            rows:
-                row0:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row0
-                row1:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row1
-                row2:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row2
-                row3:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row3
-                row4:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
-            name: matrix
-        col:
-            key:
-                column_net: col0
-            rows:
-                row0:
-                    width: 2U
-                    shift:
-                        - 0.5kp
-                        - 0
-                    tags:
-                        - key
-                        - 2u_stabilizers
-                        - row_even
-                    key:
-                        led_next: ''
-                        led_this: LED_20
-                row1:
-                    shift:
-                        - '-0.5kp'
-                        - 0
-                    key:
-                        led_next: LED_16
-                        led_this: LED_15
-                row2:
-                    key:
-                        led_next: LED_15
-                        led_this: LED_14
-                row3:
-                    key:
-                        led_next: LED_9
-                        led_this: LED_8
-                row4:
-                    key:
-                        led_next: LED_8
-                        led_this: LED_7
-                row5:
-                    key:
-                        led_next: LED_1
-                        led_this: LED_0
-                        led_power: RAWD
-            name: col0
-        row: row5
         bind:
             - 0
             - 10
@@ -1678,11 +1252,6 @@ matrix_col1_row1:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -1706,11 +1275,6 @@ matrix_col1_row1:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -1736,11 +1300,6 @@ matrix_col1_row1:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -1786,11 +1345,6 @@ matrix_col1_row1:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -1818,13 +1372,6 @@ matrix_col1_row1:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -1848,11 +1395,6 @@ matrix_col1_row1:
                     key:
                         led_next: LED_7
                         led_this: LED_6
-                row5:
-                    key:
-                        led_next: LED_2
-                        led_this: LED_1
-                        led_power: RAW
             name: col1
         row: row1
         bind:
@@ -1933,11 +1475,6 @@ matrix_col1_row2:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -1961,11 +1498,6 @@ matrix_col1_row2:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -1991,11 +1523,6 @@ matrix_col1_row2:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -2041,11 +1568,6 @@ matrix_col1_row2:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -2073,13 +1595,6 @@ matrix_col1_row2:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -2103,11 +1618,6 @@ matrix_col1_row2:
                     key:
                         led_next: LED_7
                         led_this: LED_6
-                row5:
-                    key:
-                        led_next: LED_2
-                        led_this: LED_1
-                        led_power: RAW
             name: col1
         row: row2
         bind:
@@ -2188,11 +1698,6 @@ matrix_col1_row3:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -2216,11 +1721,6 @@ matrix_col1_row3:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -2246,11 +1746,6 @@ matrix_col1_row3:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -2296,11 +1791,6 @@ matrix_col1_row3:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -2328,13 +1818,6 @@ matrix_col1_row3:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -2358,11 +1841,6 @@ matrix_col1_row3:
                     key:
                         led_next: LED_7
                         led_this: LED_6
-                row5:
-                    key:
-                        led_next: LED_2
-                        led_this: LED_1
-                        led_power: RAW
             name: col1
         row: row3
         bind:
@@ -2443,11 +1921,6 @@ matrix_col1_row4:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -2471,11 +1944,6 @@ matrix_col1_row4:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -2501,11 +1969,6 @@ matrix_col1_row4:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -2551,11 +2014,6 @@ matrix_col1_row4:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -2583,13 +2041,6 @@ matrix_col1_row4:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -2613,266 +2064,8 @@ matrix_col1_row4:
                     key:
                         led_next: LED_7
                         led_this: LED_6
-                row5:
-                    key:
-                        led_next: LED_2
-                        led_this: LED_1
-                        led_power: RAW
             name: col1
         row: row4
-        bind:
-            - 10
-            - 10
-            - 10
-            - 10
-matrix_col1_row5:
-    x: 60.05
-    'y': -107.24999999999997
-    r: 0
-    meta:
-        stagger: 0
-        spread: 20.05
-        splay: 0
-        origin:
-            - 0
-            - 0
-        orient: 0
-        shift:
-            - 0
-            - -7.5
-        rotate: 0
-        adjust: {}
-        width: 3.2
-        height: 2.8
-        padding: 20.05
-        autobind: 10
-        skip: false
-        asym: both
-        colrow: col1_row5
-        name: matrix_col1_row5
-        column_net: col1
-        tags: row_top
-        key:
-            led_next: LED_2
-            led_this: LED_1
-            led_power: RAW
-        zone:
-            key:
-                padding: kp
-                spread: kp
-            columns:
-                col0:
-                    key:
-                        column_net: col0
-                    rows:
-                        row0:
-                            width: 2U
-                            shift:
-                                - 0.5kp
-                                - 0
-                            tags:
-                                - key
-                                - 2u_stabilizers
-                                - row_even
-                            key:
-                                led_next: ''
-                                led_this: LED_20
-                        row1:
-                            shift:
-                                - '-0.5kp'
-                                - 0
-                            key:
-                                led_next: LED_16
-                                led_this: LED_15
-                        row2:
-                            key:
-                                led_next: LED_15
-                                led_this: LED_14
-                        row3:
-                            key:
-                                led_next: LED_9
-                                led_this: LED_8
-                        row4:
-                            key:
-                                led_next: LED_8
-                                led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
-                    name: col0
-                col1:
-                    key:
-                        column_net: col1
-                    rows:
-                        row0:
-                            skip: true
-                        row1:
-                            key:
-                                led_next: LED_17
-                                led_this: LED_16
-                        row2:
-                            key:
-                                led_next: LED_14
-                                led_this: LED_13
-                        row3:
-                            key:
-                                led_next: LED_10
-                                led_this: LED_9
-                        row4:
-                            key:
-                                led_next: LED_7
-                                led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
-                    name: col1
-                col2:
-                    key:
-                        column_net: col2
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_20
-                                led_this: LED_19
-                        row1:
-                            key:
-                                led_next: LED_18
-                                led_this: LED_17
-                        row2:
-                            key:
-                                led_next: LED_13
-                                led_this: LED_12
-                        row3:
-                            key:
-                                led_next: LED_11
-                                led_this: LED_10
-                        row4:
-                            key:
-                                led_next: LED_6
-                                led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
-                    name: col2
-                col3:
-                    key:
-                        column_net: col3
-                    rows:
-                        row0:
-                            shift:
-                                - 0
-                                - 0.5kp
-                            rotate: 90
-                            width: 2U
-                            tags:
-                                - key
-                                - 2u_stabilizers
-                                - row_even
-                            key:
-                                led_next: LED_19
-                                led_this: LED_18
-                        row1:
-                            rotate: -90
-                            shift:
-                                - 1kp
-                                - '-1kp'
-                            skip: true
-                        row2:
-                            rotate: 90
-                            width: 2U
-                            tags:
-                                - key
-                                - 2u_stabilizers
-                                - row_even
-                            key:
-                                led_next: LED_12
-                                led_this: LED_11
-                        row3:
-                            rotate: -90
-                            shift:
-                                - 0.5kp
-                                - '-1kp'
-                            skip: true
-                        row4:
-                            row_net: row3
-                            key:
-                                led_next: LED_5
-                                led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
-                    name: col3
-            rows:
-                row0:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row0
-                row1:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row1
-                row2:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row2
-                row3:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row3
-                row4:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
-            name: matrix
-        col:
-            key:
-                column_net: col1
-            rows:
-                row0:
-                    skip: true
-                row1:
-                    key:
-                        led_next: LED_17
-                        led_this: LED_16
-                row2:
-                    key:
-                        led_next: LED_14
-                        led_this: LED_13
-                row3:
-                    key:
-                        led_next: LED_10
-                        led_this: LED_9
-                row4:
-                    key:
-                        led_next: LED_7
-                        led_this: LED_6
-                row5:
-                    key:
-                        led_next: LED_2
-                        led_this: LED_1
-                        led_power: RAW
-            name: col1
-        row: row5
         bind:
             - 0
             - 10
@@ -2951,11 +2144,6 @@ matrix_col2_row0:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -2979,11 +2167,6 @@ matrix_col2_row0:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -3009,11 +2192,6 @@ matrix_col2_row0:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -3059,11 +2237,6 @@ matrix_col2_row0:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -3091,13 +2264,6 @@ matrix_col2_row0:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -3123,11 +2289,6 @@ matrix_col2_row0:
                     key:
                         led_next: LED_6
                         led_this: LED_5
-                row5:
-                    key:
-                        led_next: LED_3
-                        led_this: LED_2
-                        led_power: RAW
             name: col2
         row: row0
         bind:
@@ -3208,11 +2369,6 @@ matrix_col2_row1:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -3236,11 +2392,6 @@ matrix_col2_row1:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -3266,11 +2417,6 @@ matrix_col2_row1:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -3316,11 +2462,6 @@ matrix_col2_row1:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -3348,13 +2489,6 @@ matrix_col2_row1:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -3380,11 +2514,6 @@ matrix_col2_row1:
                     key:
                         led_next: LED_6
                         led_this: LED_5
-                row5:
-                    key:
-                        led_next: LED_3
-                        led_this: LED_2
-                        led_power: RAW
             name: col2
         row: row1
         bind:
@@ -3465,11 +2594,6 @@ matrix_col2_row2:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -3493,11 +2617,6 @@ matrix_col2_row2:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -3523,11 +2642,6 @@ matrix_col2_row2:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -3573,11 +2687,6 @@ matrix_col2_row2:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -3605,13 +2714,6 @@ matrix_col2_row2:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -3637,11 +2739,6 @@ matrix_col2_row2:
                     key:
                         led_next: LED_6
                         led_this: LED_5
-                row5:
-                    key:
-                        led_next: LED_3
-                        led_this: LED_2
-                        led_power: RAW
             name: col2
         row: row2
         bind:
@@ -3722,11 +2819,6 @@ matrix_col2_row3:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -3750,11 +2842,6 @@ matrix_col2_row3:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -3780,11 +2867,6 @@ matrix_col2_row3:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -3830,11 +2912,6 @@ matrix_col2_row3:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -3862,13 +2939,6 @@ matrix_col2_row3:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -3894,11 +2964,6 @@ matrix_col2_row3:
                     key:
                         led_next: LED_6
                         led_this: LED_5
-                row5:
-                    key:
-                        led_next: LED_3
-                        led_this: LED_2
-                        led_power: RAW
             name: col2
         row: row3
         bind:
@@ -3979,11 +3044,6 @@ matrix_col2_row4:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -4007,11 +3067,6 @@ matrix_col2_row4:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -4037,11 +3092,6 @@ matrix_col2_row4:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -4087,11 +3137,6 @@ matrix_col2_row4:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -4119,13 +3164,6 @@ matrix_col2_row4:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -4151,268 +3189,8 @@ matrix_col2_row4:
                     key:
                         led_next: LED_6
                         led_this: LED_5
-                row5:
-                    key:
-                        led_next: LED_3
-                        led_this: LED_2
-                        led_power: RAW
             name: col2
         row: row4
-        bind:
-            - 10
-            - 10
-            - 10
-            - 10
-matrix_col2_row5:
-    x: 80.1
-    'y': -107.24999999999997
-    r: 0
-    meta:
-        stagger: 0
-        spread: 20.05
-        splay: 0
-        origin:
-            - 0
-            - 0
-        orient: 0
-        shift:
-            - 0
-            - -7.5
-        rotate: 0
-        adjust: {}
-        width: 3.2
-        height: 2.8
-        padding: 20.05
-        autobind: 10
-        skip: false
-        asym: both
-        colrow: col2_row5
-        name: matrix_col2_row5
-        column_net: col2
-        tags: row_top
-        key:
-            led_next: LED_3
-            led_this: LED_2
-            led_power: RAW
-        zone:
-            key:
-                padding: kp
-                spread: kp
-            columns:
-                col0:
-                    key:
-                        column_net: col0
-                    rows:
-                        row0:
-                            width: 2U
-                            shift:
-                                - 0.5kp
-                                - 0
-                            tags:
-                                - key
-                                - 2u_stabilizers
-                                - row_even
-                            key:
-                                led_next: ''
-                                led_this: LED_20
-                        row1:
-                            shift:
-                                - '-0.5kp'
-                                - 0
-                            key:
-                                led_next: LED_16
-                                led_this: LED_15
-                        row2:
-                            key:
-                                led_next: LED_15
-                                led_this: LED_14
-                        row3:
-                            key:
-                                led_next: LED_9
-                                led_this: LED_8
-                        row4:
-                            key:
-                                led_next: LED_8
-                                led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
-                    name: col0
-                col1:
-                    key:
-                        column_net: col1
-                    rows:
-                        row0:
-                            skip: true
-                        row1:
-                            key:
-                                led_next: LED_17
-                                led_this: LED_16
-                        row2:
-                            key:
-                                led_next: LED_14
-                                led_this: LED_13
-                        row3:
-                            key:
-                                led_next: LED_10
-                                led_this: LED_9
-                        row4:
-                            key:
-                                led_next: LED_7
-                                led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
-                    name: col1
-                col2:
-                    key:
-                        column_net: col2
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_20
-                                led_this: LED_19
-                        row1:
-                            key:
-                                led_next: LED_18
-                                led_this: LED_17
-                        row2:
-                            key:
-                                led_next: LED_13
-                                led_this: LED_12
-                        row3:
-                            key:
-                                led_next: LED_11
-                                led_this: LED_10
-                        row4:
-                            key:
-                                led_next: LED_6
-                                led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
-                    name: col2
-                col3:
-                    key:
-                        column_net: col3
-                    rows:
-                        row0:
-                            shift:
-                                - 0
-                                - 0.5kp
-                            rotate: 90
-                            width: 2U
-                            tags:
-                                - key
-                                - 2u_stabilizers
-                                - row_even
-                            key:
-                                led_next: LED_19
-                                led_this: LED_18
-                        row1:
-                            rotate: -90
-                            shift:
-                                - 1kp
-                                - '-1kp'
-                            skip: true
-                        row2:
-                            rotate: 90
-                            width: 2U
-                            tags:
-                                - key
-                                - 2u_stabilizers
-                                - row_even
-                            key:
-                                led_next: LED_12
-                                led_this: LED_11
-                        row3:
-                            rotate: -90
-                            shift:
-                                - 0.5kp
-                                - '-1kp'
-                            skip: true
-                        row4:
-                            row_net: row3
-                            key:
-                                led_next: LED_5
-                                led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
-                    name: col3
-            rows:
-                row0:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row0
-                row1:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row1
-                row2:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row2
-                row3:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row3
-                row4:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
-            name: matrix
-        col:
-            key:
-                column_net: col2
-            rows:
-                row0:
-                    key:
-                        led_next: LED_20
-                        led_this: LED_19
-                row1:
-                    key:
-                        led_next: LED_18
-                        led_this: LED_17
-                row2:
-                    key:
-                        led_next: LED_13
-                        led_this: LED_12
-                row3:
-                    key:
-                        led_next: LED_11
-                        led_this: LED_10
-                row4:
-                    key:
-                        led_next: LED_6
-                        led_this: LED_5
-                row5:
-                    key:
-                        led_next: LED_3
-                        led_this: LED_2
-                        led_power: RAW
-            name: col2
-        row: row5
         bind:
             - 0
             - 10
@@ -4492,11 +3270,6 @@ matrix_col3_row0:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -4520,11 +3293,6 @@ matrix_col3_row0:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -4550,11 +3318,6 @@ matrix_col3_row0:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -4600,11 +3363,6 @@ matrix_col3_row0:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -4632,13 +3390,6 @@ matrix_col3_row0:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -4684,11 +3435,6 @@ matrix_col3_row0:
                     key:
                         led_next: LED_5
                         led_this: LED_4
-                row5:
-                    key:
-                        led_next: LED_4
-                        led_this: LED_3
-                        led_power: RAW
             name: col3
         row: row0
         bind:
@@ -4770,11 +3516,6 @@ matrix_col3_row2:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -4798,11 +3539,6 @@ matrix_col3_row2:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -4828,11 +3564,6 @@ matrix_col3_row2:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -4878,11 +3609,6 @@ matrix_col3_row2:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -4910,13 +3636,6 @@ matrix_col3_row2:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -4962,11 +3681,6 @@ matrix_col3_row2:
                     key:
                         led_next: LED_5
                         led_this: LED_4
-                row5:
-                    key:
-                        led_next: LED_4
-                        led_this: LED_3
-                        led_power: RAW
             name: col3
         row: row2
         bind:
@@ -5047,11 +3761,6 @@ matrix_col3_row4:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                     name: col0
                 col1:
                     key:
@@ -5075,11 +3784,6 @@ matrix_col3_row4:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                     name: col1
                 col2:
                     key:
@@ -5105,11 +3809,6 @@ matrix_col3_row4:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                     name: col2
                 col3:
                     key:
@@ -5155,11 +3854,6 @@ matrix_col3_row4:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
                     name: col3
             rows:
                 row0:
@@ -5187,13 +3881,6 @@ matrix_col3_row4:
                         - key
                         - row_even
                     row_net: row4
-                row5:
-                    tags: row_top
-                    width: 3.2
-                    height: 2.8
-                    shift:
-                        - 0
-                        - -7.5
             name: matrix
         col:
             key:
@@ -5239,21 +3926,301 @@ matrix_col3_row4:
                     key:
                         led_next: LED_5
                         led_this: LED_4
-                row5:
-                    key:
-                        led_next: LED_4
-                        led_this: LED_3
-                        led_power: RAW
             name: col3
         row: row4
         bind:
-            - 10
+            - 0
             - 0
             - 10
             - 10
-matrix_col3_row5:
+indicators_col0_row5:
+    x: 40
+    'y': -103.48749999999997
+    r: 0
+    meta:
+        stagger: 0
+        spread: 20.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - -7.5
+        rotate: 0
+        adjust: {}
+        width: 3.2
+        height: 2.8
+        padding: 20.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: col0_row5
+        name: indicators_col0_row5
+        tags: row_top
+        key:
+            led_next: LED_1
+            led_this: LED_0
+            led_power: RAWD
+        zone:
+            key:
+                padding: kp
+                spread: kp
+            columns:
+                col0:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_1
+                                led_this: LED_0
+                                led_power: RAWD
+                    key: {}
+                    name: col0
+                col1:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_2
+                                led_this: LED_1
+                                led_power: RAW
+                    key: {}
+                    name: col1
+                col2:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_3
+                                led_this: LED_2
+                                led_power: RAW
+                    key: {}
+                    name: col2
+                col3:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_4
+                                led_this: LED_3
+                                led_power: RAW
+                    key: {}
+                    name: col3
+            rows:
+                row5:
+                    tags: row_top
+                    width: 3.2
+                    height: 2.8
+                    shift:
+                        - 0
+                        - -7.5
+            name: indicators
+        col:
+            rows:
+                row5:
+                    key:
+                        led_next: LED_1
+                        led_this: LED_0
+                        led_power: RAWD
+            key: {}
+            name: col0
+        row: row5
+        bind:
+            - 0
+            - 10
+            - 0
+            - 0
+indicators_col1_row5:
+    x: 60.05
+    'y': -103.48749999999997
+    r: 0
+    meta:
+        stagger: 0
+        spread: 20.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - -7.5
+        rotate: 0
+        adjust: {}
+        width: 3.2
+        height: 2.8
+        padding: 20.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: col1_row5
+        name: indicators_col1_row5
+        tags: row_top
+        key:
+            led_next: LED_2
+            led_this: LED_1
+            led_power: RAW
+        zone:
+            key:
+                padding: kp
+                spread: kp
+            columns:
+                col0:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_1
+                                led_this: LED_0
+                                led_power: RAWD
+                    key: {}
+                    name: col0
+                col1:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_2
+                                led_this: LED_1
+                                led_power: RAW
+                    key: {}
+                    name: col1
+                col2:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_3
+                                led_this: LED_2
+                                led_power: RAW
+                    key: {}
+                    name: col2
+                col3:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_4
+                                led_this: LED_3
+                                led_power: RAW
+                    key: {}
+                    name: col3
+            rows:
+                row5:
+                    tags: row_top
+                    width: 3.2
+                    height: 2.8
+                    shift:
+                        - 0
+                        - -7.5
+            name: indicators
+        col:
+            rows:
+                row5:
+                    key:
+                        led_next: LED_2
+                        led_this: LED_1
+                        led_power: RAW
+            key: {}
+            name: col1
+        row: row5
+        bind:
+            - 0
+            - 10
+            - 0
+            - 10
+indicators_col2_row5:
+    x: 80.1
+    'y': -103.48749999999997
+    r: 0
+    meta:
+        stagger: 0
+        spread: 20.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - -7.5
+        rotate: 0
+        adjust: {}
+        width: 3.2
+        height: 2.8
+        padding: 20.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: col2_row5
+        name: indicators_col2_row5
+        tags: row_top
+        key:
+            led_next: LED_3
+            led_this: LED_2
+            led_power: RAW
+        zone:
+            key:
+                padding: kp
+                spread: kp
+            columns:
+                col0:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_1
+                                led_this: LED_0
+                                led_power: RAWD
+                    key: {}
+                    name: col0
+                col1:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_2
+                                led_this: LED_1
+                                led_power: RAW
+                    key: {}
+                    name: col1
+                col2:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_3
+                                led_this: LED_2
+                                led_power: RAW
+                    key: {}
+                    name: col2
+                col3:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_4
+                                led_this: LED_3
+                                led_power: RAW
+                    key: {}
+                    name: col3
+            rows:
+                row5:
+                    tags: row_top
+                    width: 3.2
+                    height: 2.8
+                    shift:
+                        - 0
+                        - -7.5
+            name: indicators
+        col:
+            rows:
+                row5:
+                    key:
+                        led_next: LED_3
+                        led_this: LED_2
+                        led_power: RAW
+            key: {}
+            name: col2
+        row: row5
+        bind:
+            - 0
+            - 10
+            - 0
+            - 10
+indicators_col3_row5:
     x: 100.15
-    'y': -107.24999999999997
+    'y': -103.48749999999997
     r: 0
     meta:
         stagger: 0
@@ -5275,8 +4242,7 @@ matrix_col3_row5:
         skip: false
         asym: both
         colrow: col3_row5
-        name: matrix_col3_row5
-        column_net: col3
+        name: indicators_col3_row5
         tags: row_top
         key:
             led_next: LED_4
@@ -5288,180 +4254,42 @@ matrix_col3_row5:
                 spread: kp
             columns:
                 col0:
-                    key:
-                        column_net: col0
                     rows:
-                        row0:
-                            width: 2U
-                            shift:
-                                - 0.5kp
-                                - 0
-                            tags:
-                                - key
-                                - 2u_stabilizers
-                                - row_even
-                            key:
-                                led_next: ''
-                                led_this: LED_20
-                        row1:
-                            shift:
-                                - '-0.5kp'
-                                - 0
-                            key:
-                                led_next: LED_16
-                                led_this: LED_15
-                        row2:
-                            key:
-                                led_next: LED_15
-                                led_this: LED_14
-                        row3:
-                            key:
-                                led_next: LED_9
-                                led_this: LED_8
-                        row4:
-                            key:
-                                led_next: LED_8
-                                led_this: LED_7
                         row5:
                             key:
                                 led_next: LED_1
                                 led_this: LED_0
                                 led_power: RAWD
+                    key: {}
                     name: col0
                 col1:
-                    key:
-                        column_net: col1
                     rows:
-                        row0:
-                            skip: true
-                        row1:
-                            key:
-                                led_next: LED_17
-                                led_this: LED_16
-                        row2:
-                            key:
-                                led_next: LED_14
-                                led_this: LED_13
-                        row3:
-                            key:
-                                led_next: LED_10
-                                led_this: LED_9
-                        row4:
-                            key:
-                                led_next: LED_7
-                                led_this: LED_6
                         row5:
                             key:
                                 led_next: LED_2
                                 led_this: LED_1
                                 led_power: RAW
+                    key: {}
                     name: col1
                 col2:
-                    key:
-                        column_net: col2
                     rows:
-                        row0:
-                            key:
-                                led_next: LED_20
-                                led_this: LED_19
-                        row1:
-                            key:
-                                led_next: LED_18
-                                led_this: LED_17
-                        row2:
-                            key:
-                                led_next: LED_13
-                                led_this: LED_12
-                        row3:
-                            key:
-                                led_next: LED_11
-                                led_this: LED_10
-                        row4:
-                            key:
-                                led_next: LED_6
-                                led_this: LED_5
                         row5:
                             key:
                                 led_next: LED_3
                                 led_this: LED_2
                                 led_power: RAW
+                    key: {}
                     name: col2
                 col3:
-                    key:
-                        column_net: col3
                     rows:
-                        row0:
-                            shift:
-                                - 0
-                                - 0.5kp
-                            rotate: 90
-                            width: 2U
-                            tags:
-                                - key
-                                - 2u_stabilizers
-                                - row_even
-                            key:
-                                led_next: LED_19
-                                led_this: LED_18
-                        row1:
-                            rotate: -90
-                            shift:
-                                - 1kp
-                                - '-1kp'
-                            skip: true
-                        row2:
-                            rotate: 90
-                            width: 2U
-                            tags:
-                                - key
-                                - 2u_stabilizers
-                                - row_even
-                            key:
-                                led_next: LED_12
-                                led_this: LED_11
-                        row3:
-                            rotate: -90
-                            shift:
-                                - 0.5kp
-                                - '-1kp'
-                            skip: true
-                        row4:
-                            row_net: row3
-                            key:
-                                led_next: LED_5
-                                led_this: LED_4
                         row5:
                             key:
                                 led_next: LED_4
                                 led_this: LED_3
                                 led_power: RAW
+                    key: {}
                     name: col3
             rows:
-                row0:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row0
-                row1:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row1
-                row2:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row2
-                row3:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row3
-                row4:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row4
                 row5:
                     tags: row_top
                     width: 3.2
@@ -5469,60 +4297,72 @@ matrix_col3_row5:
                     shift:
                         - 0
                         - -7.5
-            name: matrix
+            name: indicators
         col:
-            key:
-                column_net: col3
             rows:
-                row0:
-                    shift:
-                        - 0
-                        - 0.5kp
-                    rotate: 90
-                    width: 2U
-                    tags:
-                        - key
-                        - 2u_stabilizers
-                        - row_even
-                    key:
-                        led_next: LED_19
-                        led_this: LED_18
-                row1:
-                    rotate: -90
-                    shift:
-                        - 1kp
-                        - '-1kp'
-                    skip: true
-                row2:
-                    rotate: 90
-                    width: 2U
-                    tags:
-                        - key
-                        - 2u_stabilizers
-                        - row_even
-                    key:
-                        led_next: LED_12
-                        led_this: LED_11
-                row3:
-                    rotate: -90
-                    shift:
-                        - 0.5kp
-                        - '-1kp'
-                    skip: true
-                row4:
-                    row_net: row3
-                    key:
-                        led_next: LED_5
-                        led_this: LED_4
                 row5:
                     key:
                         led_next: LED_4
                         led_this: LED_3
                         led_power: RAW
+            key: {}
             name: col3
         row: row5
         bind:
             - 0
             - 0
+            - 0
             - 10
-            - 10
+encoder_col3_row5:
+    x: 100.15
+    'y': -91.96249999999996
+    r: 0
+    meta:
+        stagger: 0
+        spread: 20.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18.05
+        height: 18.05
+        padding: 20.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: col3_row5
+        name: encoder_col3_row5
+        tags: encoder
+        zone:
+            key:
+                padding: kp
+                spread: kp
+            columns:
+                col3:
+                    rows:
+                        row5:
+                            key: null
+                    key: {}
+                    name: col3
+            rows:
+                row5:
+                    tags: encoder
+            name: encoder
+        col:
+            rows:
+                row5:
+                    key: null
+            key: {}
+            name: col3
+        row: row5
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0

@@ -17,11 +17,15 @@ xlp: 2
 pw: 14
 screwSize: 1.5
 standoffSize: 3
+top_y: 25.025
+bot_y: -9.025
+left_x: -9.025
+right_x: 9.025
 bt: 1
 gt: 3
 pt: 1.6
 staby: 0.6
-lblsize: 2
+lblsize: 2.5
 lblshift: -2.75
 stabilizer_width: 7
 stabilizer_height: 16

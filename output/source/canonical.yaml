@@ -24,11 +24,15 @@ units:
     pw: 14
     screwSize: 1.5
     standoffSize: 3
+    top_y: 0.5U - 0.5 + 16
+    bot_y: '-0.5U + 0.5'
+    left_x: '-0.5U + 0.5'
+    right_x: 0.5U - 0.5
     bt: 1
     gt: 3
     pt: 1.6
     staby: 0.6
-    lblsize: 2
+    lblsize: 2.5
     lblshift: -2.75
     stabilizer_width: 7
     stabilizer_height: 16
@@ -81,11 +85,6 @@ points:
                             key:
                                 led_next: LED_8
                                 led_this: LED_7
-                        row5:
-                            key:
-                                led_next: LED_1
-                                led_this: LED_0
-                                led_power: RAWD
                 col1:
                     key:
                         column_net: col1
@@ -108,11 +107,6 @@ points:
                             key:
                                 led_next: LED_7
                                 led_this: LED_6
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                                led_power: RAW
                 col2:
                     key:
                         column_net: col2
@@ -137,11 +131,6 @@ points:
                             key:
                                 led_next: LED_6
                                 led_this: LED_5
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                                led_power: RAW
                 col3:
                     key:
                         column_net: col3
@@ -186,11 +175,6 @@ points:
                             key:
                                 led_next: LED_5
                                 led_this: LED_4
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                                led_power: RAW
             rows:
                 row0:
                     tags:
@@ -217,6 +201,45 @@ points:
                         - key
                         - row_even
                     row_net: row4
+        indicators:
+            key:
+                padding: kp
+                spread: kp
+            anchor:
+                ref: matrix_col0_row4
+                shift:
+                    - 0
+                    - 1.25U
+            columns:
+                col0:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_1
+                                led_this: LED_0
+                                led_power: RAWD
+                col1:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_2
+                                led_this: LED_1
+                                led_power: RAW
+                col2:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_3
+                                led_this: LED_2
+                                led_power: RAW
+                col3:
+                    rows:
+                        row5:
+                            key:
+                                led_next: LED_4
+                                led_this: LED_3
+                                led_power: RAW
+            rows:
                 row5:
                     tags: row_top
                     width: 3.2
@@ -224,6 +247,23 @@ points:
                     shift:
                         - 0
                         - -7.5
+        encoder:
+            key:
+                padding: kp
+                spread: kp
+            anchor:
+                ref: indicators_col3_row5
+                shift:
+                    - 0
+                    - 0.5U + 2
+            columns:
+                col3:
+                    rows:
+                        row5:
+                            key: null
+            rows:
+                row5:
+                    tags: encoder
 outlines:
     _raw:
         -
@@ -264,12 +304,12 @@ outlines:
                     ref: matrix_col0_row4
                     shift:
                         - '-0.5op'
-                        - kp + 20
+                        - kp + 25
                 -
                     ref: matrix_col3_row4
                     shift:
                         - 0.5op
-                        - kp + 20
+                        - kp + 25
                 -
                     ref: matrix_col2_row0
                     shift:
@@ -348,72 +388,72 @@ outlines:
             what: circle
             radius: screwSize
             where:
-                ref: matrix_col0_row5
+                ref: indicators_col0_row5
                 shift:
-                    - '-0.5U + 0.5'
-                    - 0.5U - 0.5 + 15
+                    - left_x
+                    - top_y
         -
             what: circle
             radius: screwSize
             where:
-                ref: matrix_col3_row5
+                ref: indicators_col3_row5
                 shift:
-                    - 0.5U - 0.5
-                    - 0.5U - 0.5 + 15
+                    - right_x
+                    - top_y
         -
             what: circle
             radius: screwSize
             where:
                 ref: matrix_col2_row0
                 shift:
-                    - kp + 0.5U - 0.5
-                    - '-0.5U + 0.5'
+                    - kp + right_x
+                    - bot_y
         -
             what: circle
             radius: screwSize
             where:
                 ref: matrix_col0_row1
                 shift:
-                    - '-0.5U + 0.5'
+                    - left_x
                     - '-kp - 0.5U + 0.5'
     standoff:
         -
             what: circle
             radius: standoffSize
             where:
-                ref: matrix_col0_row5
+                ref: indicators_col0_row5
                 shift:
-                    - '-0.5U + 0.5'
-                    - 0.5U - 0.5 + 15
+                    - left_x
+                    - top_y
         -
             what: circle
             radius: standoffSize
             where:
-                ref: matrix_col3_row5
+                ref: indicators_col3_row5
                 shift:
-                    - 0.5U - 0.5
-                    - 0.5U - 0.5 + 15
+                    - right_x
+                    - top_y
         -
             what: circle
             radius: standoffSize
             where:
                 ref: matrix_col2_row0
                 shift:
-                    - kp + 0.5U - 0.5
-                    - '-0.5U + 0.5'
+                    - kp + right_x
+                    - bot_y
         -
             what: circle
             radius: standoffSize
             where:
                 ref: matrix_col0_row1
                 shift:
-                    - '-0.5U + 0.5'
+                    - left_x
                     - '-kp - 0.5U + 0.5'
     mcu:
         -
             what: rectangle
             where:
-                ref: matrix_col0_row5
+                ref: indicators_col0_row5
                 shift:
                     - 5.75
                     - 12.5
@@ -479,7 +519,7 @@ pcbs:
             mcu:
                 what: travis/ScottoKeebs-Arduino_Pro_Micro
                 where:
-                    ref: matrix_col0_row5
+                    ref: indicators_col0_row5
                     shift:
                         - 5.5
                         - 0.65U
@@ -511,7 +551,7 @@ pcbs:
                     SDA: sda
                     SCL: scl
                 where:
-                    ref: matrix_col1_row5
+                    ref: indicators_col1_row5
                     shift:
                         - 4
                         - 6
@@ -525,7 +565,7 @@ pcbs:
                     bend: 90
                     value: 6.3V 1000uF
                 where:
-                    ref: matrix_col0_row5
+                    ref: indicators_col0_row5
                     shift:
                         - -3
                         - 0.65U + 1.25
@@ -568,7 +608,7 @@ pcbs:
             lblnum:
                 what: ceoloide/utility_text
                 where:
-                    ref: matrix_col0_row5
+                    ref: indicators_col0_row5
                 params:
                     face: MesloLGM Nerd Font
                     text: Num
@@ -583,7 +623,7 @@ pcbs:
             lblcaps:
                 what: ceoloide/utility_text
                 where:
-                    ref: matrix_col1_row5
+                    ref: indicators_col1_row5
                 params:
                     face: MesloLGM Nerd Font
                     text: Caps
@@ -598,7 +638,7 @@ pcbs:
             lblscroll:
                 what: ceoloide/utility_text
                 where:
-                    ref: matrix_col2_row5
+                    ref: indicators_col2_row5
                 params:
                     face: MesloLGM Nerd Font
                     text: Scroll
@@ -613,7 +653,7 @@ pcbs:
             lblfun:
                 what: ceoloide/utility_text
                 where:
-                    ref: matrix_col3_row5
+                    ref: indicators_col3_row5
                 params:
                     face: MesloLGM Nerd Font
                     text: Fun
@@ -685,7 +725,7 @@ pcbs:
                     shift:
                         - 0
                         - '-(-4.96)'
-                    rotate: 180
+                    rotate: 0
             ledlabel_odd:
                 what: ceoloide/utility_text
                 where: meta.tags ~ /row_odd/
@@ -714,7 +754,7 @@ pcbs:
                     shift:
                         - 4.35
                         - '-(-4.96 + 2.4)'
-                    rotate: 180
+                    rotate: 0
             led_even:
                 what: travis/led_sk6812mini-e
                 where: meta.tags ~ /row_even/
@@ -770,20 +810,17 @@ pcbs:
                     A: encA
                     B: GND
                     C: encC
-                where:
-                    ref: matrix_col3_row5
-                    shift:
-                        - 0
-                        - 0.5U + 2
+                where: meta.tags ~ /encoder/
+                adjust:
                     rotate: -90
             rdiode:
                 what: travis/DSMD_1206_3216Metric
                 where:
-                    ref: matrix_col3_row5
+                    ref: encoder_col3_row5
                 adjust:
                     shift:
                         - '-0.5U + 3.8'
-                        - 4.6
+                        - '-4.6 - 2.5'
                     rotate: 0
                 params:
                     side: B
@@ -820,19 +857,19 @@ pcbs:
             holeTopLeft:
                 what: travis/mountinghole
                 where:
-                    ref: matrix_col0_row5
+                    ref: indicators_col0_row5
                     shift:
-                        - '-0.5U + 0.5'
-                        - 0.5U - 0.5 + 15
+                        - left_x
+                        - top_y
                 params:
                     pad: 1
             holeTopRight:
                 what: travis/mountinghole
                 where:
-                    ref: matrix_col3_row5
+                    ref: indicators_col3_row5
                     shift:
-                        - 0.5U - 0.5
-                        - 0.5U - 0.5 + 15
+                        - right_x
+                        - top_y
                 params:
                     pad: 2
             holeBottomRight:
@@ -840,8 +877,8 @@ pcbs:
                 where:
                     ref: matrix_col2_row0
                     shift:
-                        - kp + 0.5U - 0.5
-                        - '-0.5U + 0.5'
+                        - kp + right_x
+                        - bot_y
                 params:
                     pad: 3
             holeBottomLeft:
@@ -849,8 +886,8 @@ pcbs:
                 where:
                     ref: matrix_col0_row1
                     shift:
-                        - '-0.5U + 0.5'
-                        - '-kp - 0.5U + 0.5'
+                        - left_x
+                        - '-kp + bot_y'
                 params:
                     pad: 4
             ergologo:
@@ -859,8 +896,8 @@ pcbs:
                     ref:
                         aggregate:
                             parts:
-                                - matrix_col1_row5
-                                - matrix_col2_row5
+                                - indicators_col1_row5
+                                - indicators_col2_row5
                 params:
                     scale: 2
                 adjust:
@@ -873,8 +910,8 @@ pcbs:
                     ref:
                         aggregate:
                             parts:
-                                - matrix_col2_row5
-                                - matrix_col3_row5
+                                - indicators_col2_row5
+                                - indicators_col3_row5
                 params:
                     scale: 3
                 adjust:
@@ -887,8 +924,8 @@ pcbs:
                     ref:
                         aggregate:
                             parts:
-                                - matrix_col1_row5
-                                - matrix_col2_row5
+                                - indicators_col1_row5
+                                - indicators_col2_row5
                 params:
                     side: B
                     scale: 0.15
@@ -902,8 +939,8 @@ pcbs:
                     ref:
                         aggregate:
                             parts:
-                                - matrix_col1_row5
-                                - matrix_col2_row5
+                                - indicators_col1_row5
+                                - indicators_col2_row5
                 params:
                     face: MesloLGM Nerd Font
                     text: 'made with ♥ in #ROC'
@@ -918,7 +955,7 @@ pcbs:
             name:
                 what: ceoloide/utility_text
                 where:
-                    ref: matrix_col3_row5
+                    ref: indicators_col3_row5
                 params:
                     face: MesloLGM Nerd Font
                     text: travis-ergogen-numpad
@@ -933,7 +970,7 @@ pcbs:
             url:
                 what: ceoloide/utility_text
                 where:
-                    ref: matrix_col0_row5
+                    ref: indicators_col0_row5
                 params:
                     text: github.com/dieseltravis/travis-ergogen-numpad
                     align: right
@@ -946,7 +983,7 @@ pcbs:
             version:
                 what: ceoloide/utility_text
                 where:
-                    ref: matrix_col3_row5
+                    ref: indicators_col3_row5
                 params:
                     face: MesloLGM Nerd Font
                     text: 2024.06.20
@@ -982,10 +1019,10 @@ pcbs:
                     points:
                         -
                             - 24
-                            - 76
+                            - 70
                         -
                             - 114
-                            - 76
+                            - 70
                         -
                             - 114
                             - 214
@@ -1003,10 +1040,10 @@ pcbs:
                     points:
                         -
                             - 26
-                            - 78
+                            - 72
                         -
                             - 116
-                            - 78
+                            - 72
                         -
                             - 116
                             - 216

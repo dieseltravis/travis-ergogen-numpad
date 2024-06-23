@@ -3,9 +3,9 @@ function standoff_extrude_4_outline_fn(){
 .union(
     CAG.circle({"center":[109.175,-209.025],"radius":3})
 ).union(
-    CAG.circle({"center":[109.175,-83.225],"radius":3})
+    CAG.circle({"center":[109.175,-78.4625],"radius":3})
 ).union(
-    CAG.circle({"center":[30.975,-83.225],"radius":3})
+    CAG.circle({"center":[30.975,-78.4625],"radius":3})
 ).extrude({ offset: [0, 0, 4] });
 }
 
