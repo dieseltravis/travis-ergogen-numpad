@@ -11,8 +11,8 @@
   (paper "A3")
   (title_block
     (title "travis_num2024")
-    (date "2024-06-23")
-    (rev "2024.06.20")
+    (date "2024-06-24")
+    (rev "2024.06.23")
     (company "Travis Hardiman")
   )
 
@@ -771,7 +771,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -785,7 +785,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -800,7 +800,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -814,7 +814,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -829,7 +829,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -843,7 +843,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -858,7 +858,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -872,7 +872,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1203,7 +1203,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1217,7 +1217,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1232,7 +1232,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1246,7 +1246,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1261,7 +1261,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1275,7 +1275,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1290,7 +1290,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1304,7 +1304,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1319,7 +1319,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1333,7 +1333,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1348,7 +1348,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1362,7 +1362,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1377,7 +1377,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1391,7 +1391,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1406,7 +1406,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1420,7 +1420,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1435,7 +1435,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1449,7 +1449,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1464,7 +1464,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1478,7 +1478,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1493,7 +1493,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1507,7 +1507,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1522,7 +1522,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1536,7 +1536,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1551,7 +1551,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1565,7 +1565,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1580,7 +1580,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1594,7 +1594,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1609,7 +1609,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1623,7 +1623,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1638,7 +1638,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1652,7 +1652,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1667,7 +1667,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -1681,7 +1681,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -5890,7 +5890,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -5904,7 +5904,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -5919,7 +5919,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -5933,7 +5933,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -5948,7 +5948,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -5962,7 +5962,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -5977,7 +5977,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -5991,7 +5991,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -6006,7 +6006,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -6020,7 +6020,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -6035,7 +6035,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -6049,7 +6049,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7405,7 +7405,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7419,7 +7419,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7434,7 +7434,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7448,7 +7448,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7463,7 +7463,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7477,7 +7477,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7492,7 +7492,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7506,7 +7506,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7521,7 +7521,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7535,7 +7535,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7550,7 +7550,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7564,7 +7564,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7579,7 +7579,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7593,7 +7593,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7608,7 +7608,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7622,7 +7622,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7637,7 +7637,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7651,7 +7651,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7666,7 +7666,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7680,7 +7680,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7695,7 +7695,7 @@
     (layer "F.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -7709,7 +7709,7 @@
     (layer "B.SilkS" )
     (effects
       (font 
-        (size 0.8 0.8)
+        (size 1 1)
         (thickness 0.15)
         
         
@@ -8648,7 +8648,7 @@
     (module "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u" (layer F.Cu) (tedit 0)
     (descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
     (tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-    (at 50.025 200.6 180)
+    (at 50.025 200 0)
 
     (attr virtual)
     (fp_text reference "STAB2u1" (at 0 -2) (layer F.SilkS) hide
@@ -8684,7 +8684,7 @@
     (module "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u" (layer F.Cu) (tedit 0)
     (descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
     (tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-    (at 100.75 189.975 270)
+    (at 100.15 189.975 90)
 
     (attr virtual)
     (fp_text reference "STAB2u2" (at 0 -2) (layer F.SilkS) hide
@@ -8720,7 +8720,7 @@
     (module "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u" (layer F.Cu) (tedit 0)
     (descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
     (tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-    (at 100.75 149.87499999999997 270)
+    (at 100.15 149.87499999999997 90)
 
     (attr virtual)
     (fp_text reference "STAB2u3" (at 0 -2) (layer F.SilkS) hide
@@ -9210,7 +9210,7 @@
     (layer "B.SilkS" )
     (effects
       (font (face "MesloLGM Nerd Font")
-        (size 1 1)
+        (size 1.2 1.2)
         (thickness 0.15)
         
         
@@ -9250,7 +9250,7 @@
   )
       
 
-  (gr_text "2024.06.20"
+  (gr_text "2024.06.23"
     (at 104.91250000000001 81.67499999999997 0)
     (layer "F.SilkS" )
     (effects

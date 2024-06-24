@@ -1,8 +1,8 @@
 meta:
     engine: 4.1.0
     name: travis-ergogen-numpad
-    version: 2024.06.20
-    date: '2024-06-20'
+    version: 2024.06.23
+    date: '2024-06-23'
     author: Travis Hardiman
     url: github.com/dieseltravis/travis-ergogen-numpad
     tags:
@@ -31,7 +31,7 @@ units:
     bt: 1
     gt: 3
     pt: 1.6
-    staby: 0.6
+    staby: 0
     lblsize: 2.5
     lblshift: -2.75
     stabilizer_width: 7
@@ -586,8 +586,8 @@ pcbs:
                 where: meta.tags ~ /row_top/
                 params:
                     text: '{{key.led_this}}'
-                    height: 0.8
-                    width: 0.8
+                    height: 1
+                    width: 1
                     reversible: true
                 adjust:
                     shift:
@@ -670,8 +670,8 @@ pcbs:
                 where: meta.tags ~ /key/
                 params:
                     text: '{{column_net}} {{row_net}}'
-                    height: 0.8
-                    width: 0.8
+                    height: 1
+                    width: 1
                     reversible: true
                 adjust:
                     shift:
@@ -732,8 +732,8 @@ pcbs:
                 params:
                     text: '{{key.led_this}}'
                     reversible: true
-                    height: 0.8
-                    width: 0.8
+                    height: 1
+                    width: 1
                 adjust:
                     shift:
                         - 0
@@ -778,8 +778,8 @@ pcbs:
                 params:
                     text: '{{key.led_this}}'
                     reversible: true
-                    height: 0.8
-                    width: 0.8
+                    height: 1
+                    width: 1
                 adjust:
                     shift:
                         - 0
@@ -837,7 +837,7 @@ pcbs:
                     shift:
                         - 0
                         - '-staby'
-                    rotate: 180
+                    rotate: 0
             enter2u:
                 what: travis/ScottoKeebs-Stabilizer_MX_2u
                 where:
@@ -845,7 +845,7 @@ pcbs:
                     shift:
                         - 0
                         - '-staby'
-                    rotate: 180
+                    rotate: 0
             plus2u:
                 what: travis/ScottoKeebs-Stabilizer_MX_2u
                 where:
@@ -853,7 +853,7 @@ pcbs:
                     shift:
                         - 0
                         - '-staby'
-                    rotate: 180
+                    rotate: 0
             holeTopLeft:
                 what: travis/mountinghole
                 where:
@@ -946,8 +946,8 @@ pcbs:
                     text: 'made with ♥ in #ROC'
                     mirrored: true
                     side: B
-                    height: 1
-                    width: 1
+                    height: 1.2
+                    width: 1.2
                 adjust:
                     shift:
                         - 0
@@ -986,7 +986,7 @@ pcbs:
                     ref: indicators_col3_row5
                 params:
                     face: MesloLGM Nerd Font
-                    text: 2024.06.20
+                    text: 2024.06.23
                     height: 1
                     width: 1
                     align: right

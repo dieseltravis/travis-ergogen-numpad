@@ -31,9 +31,8 @@ units:
   gt: 3
   # pcb thickness
   pt: 1.6
-  # stab Y adjust TODO: fix this
-  #staby: 0.62 #- (0.07 / 2)
-  staby: 0.6
+  # stab Y adjust
+  staby: 0
   # indicator led labels
   lblsize: 2.5
   lblshift: -2.75
@@ -479,8 +478,8 @@ pcbs:
         where: meta.tags ~ /row_top/
         params:
           text: "{{key.led_this}}"
-          height: 0.8
-          width: 0.8
+          height: 1
+          width: 1
           reversible: true
         adjust:
           shift: [0, -2.4]
@@ -553,8 +552,8 @@ pcbs:
         where: meta.tags ~ /key/
         params:
           text: "{{column_net}} {{row_net}}"
-          height: 0.8
-          width: 0.8
+          height: 1.0
+          width: 1.0
           reversible: true
         adjust:
           shift:  [0, -(U / 2 - 2)]
@@ -603,8 +602,8 @@ pcbs:
         params:
           text: "{{key.led_this}}"
           reversible: true
-          height: 0.8
-          width: 0.8
+          height: 1.0
+          width: 1.0
         adjust:
           shift:  [0, -(-4.96 - 2.4)]
       ledcap_odd: # 104
@@ -637,8 +636,8 @@ pcbs:
         params:
           text: "{{key.led_this}}"
           reversible: true
-          height: 0.8
-          width: 0.8
+          height: 1.0
+          width: 1.0
         adjust:
           shift:  [0, -(-4.96 - 2.4)]
           rotate: 0
@@ -683,19 +682,19 @@ pcbs:
         where:
           ref: matrix_col0_row0
           shift: [0, -staby]
-          rotate: 180
+          rotate: 0
       enter2u:
         what: travis/ScottoKeebs-Stabilizer_MX_2u
         where:
           ref: matrix_col3_row0
           shift: [0, -staby]
-          rotate: 180
+          rotate: 0
       plus2u:
         what: travis/ScottoKeebs-Stabilizer_MX_2u
         where:
           ref: matrix_col3_row2
           shift: [0, -staby]
-          rotate: 180
+          rotate: 0
 
       # holes:
       holeTopLeft:
@@ -762,8 +761,8 @@ pcbs:
           text: "made with ♥ in #ROC"
           mirrored: true
           side: "B"
-          height: 1.0
-          width: 1.0
+          height: 1.1
+          width: 1.1
         adjust:
           shift: [0, 0.65U - 6]
       name:

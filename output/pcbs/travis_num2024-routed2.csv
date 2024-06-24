@@ -1,0 +1,10 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"MCU1";"Arduino_Pro_Micro";1;"Arduino Pro Micro";;;
+2;"OLED1";"OLED_headers";1;"OLED";;;
+3;"C1";"C_Radial_D6.3mm_H11.0mm_P2.50mm";1;"6.3V 1000uF";;;
+4;"LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9,LED10,LED11,LED12,LED13,LED14,LED15,LED16,LED17,LED18,LED19,LED20,LED21";"led_SK6812mini-e (per-key, single-side)";21;"SK6812mini-e";;;
+5;"C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C22";"C_1206_3216Metric";21;"C_1206_3216Metric";;;
+6;"S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13,S14,S15,S16,S17";"MX";17;"Kailh MX Switch Sockets";;;
+7;"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18";"D_1206_3216Metric";18;"D_1206_3216Metric";;;
+8;"ROT1";"ec11";1;"EC11";;;
+9;"HOLE1,HOLE2,HOLE3,HOLE4";"MountingHole_2.2mm_M2_Pad_Via";4;"";;;
