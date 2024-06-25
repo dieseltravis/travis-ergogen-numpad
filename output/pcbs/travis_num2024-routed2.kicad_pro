@@ -483,7 +483,7 @@
       "idf": "travis_num2024-routed2.emn",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
+      "pos_files": "pos/",
       "specctra_dsn": "travis_num2024.dsn",
       "step": "travis_num2024-routed2.step",
       "svg": "./",

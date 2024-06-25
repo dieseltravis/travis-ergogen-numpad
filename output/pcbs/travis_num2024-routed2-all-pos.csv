@@ -38,27 +38,27 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "D16","D_1206_3216Metric","D_1206_3216Metric",106.275000,-158.300000,180.000000,bottom
 "D17","D_1206_3216Metric","D_1206_3216Metric",91.725000,-125.925000,90.000000,bottom
 "D18","D_1206_3216Metric","D_1206_3216Metric",94.425000,-99.062500,0.000000,bottom
-"LED1","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",40.000000,-103.487500,0.000000,bottom
-"LED2","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",60.050000,-103.487500,0.000000,bottom
-"LED3","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",80.100000,-103.487500,0.000000,bottom
-"LED4","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",100.150000,-103.487500,0.000000,bottom
-"LED5","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",40.000000,-174.990000,0.000000,bottom
-"LED6","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",40.000000,-134.890000,0.000000,bottom
-"LED7","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",60.050000,-174.990000,0.000000,bottom
-"LED8","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",60.050000,-134.890000,0.000000,bottom
-"LED9","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",80.100000,-174.990000,0.000000,bottom
-"LED10","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",80.100000,-134.890000,0.000000,bottom
-"LED11","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",50.025000,-195.040000,180.000000,bottom
-"LED12","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",40.000000,-154.940000,180.000000,bottom
-"LED13","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",40.000000,-114.840000,180.000000,bottom
-"LED14","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",60.050000,-154.940000,180.000000,bottom
-"LED15","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",60.050000,-114.840000,180.000000,bottom
-"LED16","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",80.100000,-195.040000,180.000000,bottom
-"LED17","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",80.100000,-154.940000,180.000000,bottom
-"LED18","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",80.100000,-114.840000,180.000000,bottom
-"LED19","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",95.190000,-189.975000,-90.000000,bottom
-"LED20","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",95.190000,-149.875000,-90.000000,bottom
-"LED21","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",100.150000,-114.840000,180.000000,bottom
+"LED_0","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",40.000000,-103.487500,0.000000,bottom
+"LED_1","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",60.050000,-103.487500,0.000000,bottom
+"LED_2","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",80.100000,-103.487500,0.000000,bottom
+"LED_3","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",100.150000,-103.487500,0.000000,bottom
+"LED_4","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",100.150000,-114.840000,180.000000,bottom
+"LED_5","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",80.100000,-114.840000,180.000000,bottom
+"LED_6","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",60.050000,-114.840000,180.000000,bottom
+"LED_7","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",40.000000,-114.840000,180.000000,bottom
+"LED_8","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",40.000000,-134.890000,0.000000,bottom
+"LED_9","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",60.050000,-134.890000,0.000000,bottom
+"LED_10","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",80.100000,-134.890000,0.000000,bottom
+"LED_11","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",95.190000,-149.875000,-90.000000,bottom
+"LED_12","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",80.100000,-154.940000,180.000000,bottom
+"LED_13","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",60.050000,-154.940000,180.000000,bottom
+"LED_14","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",40.000000,-154.940000,180.000000,bottom
+"LED_15","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",40.000000,-174.990000,0.000000,bottom
+"LED_16","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",60.050000,-174.990000,0.000000,bottom
+"LED_17","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",80.100000,-174.990000,0.000000,bottom
+"LED_18","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",95.190000,-189.975000,-90.000000,bottom
+"LED_19","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",80.100000,-195.040000,180.000000,bottom
+"LED_20","SK6812mini-e","led_SK6812mini-e (per-key, single-side)",50.025000,-195.040000,180.000000,bottom
 "C1","6.3V 1000uF","C_Radial_D6.3mm_H11.0mm_P2.50mm",37.000000,-89.855000,-90.000000,top
 "HOLE1","","MountingHole_2.2mm_M2_Pad_Via",30.975000,-78.462500,0.000000,top
 "HOLE2","","MountingHole_2.2mm_M2_Pad_Via",109.175000,-78.462500,0.000000,top

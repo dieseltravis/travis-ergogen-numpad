@@ -24,3 +24,8 @@ Aliexpress:
 Adafruit:
 * 2 @ Kailh Mechanical Key Switches - Tactile Brown - 10 pack - Cherry MX Brown Compatible https://www.adafruit.com/product/4954
 * Woven USB Cable with USB A to Right Angle USB C https://www.adafruit.com/product/5031
+
+## References ##
+
+* [sadekbaroudi's QMK RGB Matrix configuration](https://github.com/sadekbaroudi/keyboard-guides/blob/master/firmware/qmk/RGB_MATRIX/RGB_MATRIX.md)
+* [my first KB](https://github.com/dieseltravis/travis-ergogen-2024/)

@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * │   0   │ . │   │
      * └───────┴───┴───┘
      */
-    [_BASE] = LAYOUT_numpad_5x4(   KC_MUTE,
+    [_BASE] = LAYOUT_travis(       KC_MUTE,
         TG(1),   KC_PSLS, KC_PAST, KC_PMNS,
         KC_P7,   KC_P8,   KC_P9,
         KC_P4,   KC_P5,   KC_P6,   KC_PPLS,
@@ -66,7 +66,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * │Insert │Del│   │
      * └───────┴───┘───┘
      */
-    [_FUNC] = LAYOUT_numpad_5x4(   _______,
+    [_FUNC] = LAYOUT_travis(       _______,
         TG(2),   _______, _______, _______,
         KC_HOME, KC_UP,   KC_PGUP,
         KC_LEFT, XXXXXXX, KC_RGHT, _______,
@@ -89,7 +89,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * │Insert │Del│   │
      * └───────┴───┘───┘
      */
-    [_RGB] = LAYOUT_numpad_5x4(    RGB_TOG,
+    [_RGB] = LAYOUT_travis(        RGB_TOG,
         TG(0),   _______, _______, _______,
         RGB_M_X, RGB_M_G, RGB_M_T,
         RGB_M_SW,RGB_M_SN,RGB_M_K, RGB_SPI,
