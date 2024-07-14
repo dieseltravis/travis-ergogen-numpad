@@ -3,9 +3,9 @@ function mounting_extrude_4_outline_fn(){
 .union(
     CAG.circle({"center":[109.175,-209.025],"radius":1.5})
 ).union(
-    CAG.circle({"center":[109.175,-83.225],"radius":1.5})
+    CAG.circle({"center":[109.175,-78.4625],"radius":1.5})
 ).union(
-    CAG.circle({"center":[30.975,-83.225],"radius":1.5})
+    CAG.circle({"center":[30.975,-78.4625],"radius":1.5})
 ).extrude({ offset: [0, 0, 4] });
 }
 

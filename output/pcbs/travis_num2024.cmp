@@ -1,0 +1,731 @@
+Cmp-Mod V01 Created by PcbNew   date = 2024-06-24T23:45:03-0400
+
+BeginCmp
+TimeStamp = 09e3d91f-1ef8-49fc-8a0d-b3197efad476
+Path = 
+Reference = STAB2u1;
+ValeurCmp = Stabilizer_MX_2.00u;
+IdModule  = ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 0b60bc5e-cf02-4614-9c09-c3ca9861b6c5
+Path = 
+Reference = S5;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = 14f8c950-fdc0-45a0-bfae-1dfced9fa7ba
+Path = 
+Reference = S14;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = 197f3efd-7d4c-4cfd-9216-ee2235a6341c
+Path = 
+Reference = S2;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = 1ef08f32-2225-41c5-bf2b-47a100d5c119
+Path = 
+Reference = S17;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = 2656dc77-2871-4cac-b61b-3fbeb2652afc
+Path = 
+Reference = HOLE2;
+ValeurCmp = [NoVal];
+IdModule  = travis:MountingHole_2.2mm_M2_Pad_Via;
+EndCmp
+
+BeginCmp
+TimeStamp = 2af706b4-0549-48e3-9d38-a76602fcfe42
+Path = 
+Reference = C1;
+ValeurCmp = 6.3V 1000uF;
+IdModule  = Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 46537cf6-807c-4b5b-b3af-88217a2d2cd8
+Path = 
+Reference = S3;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = 4adca0fd-bbc7-4423-be21-6d9f211c1316
+Path = 
+Reference = S8;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = 4dc33510-6cb3-408d-a494-cf584fb9c9f9
+Path = 
+Reference = S15;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = 53321a6b-a794-4158-a3e1-eaef28ee0a5f
+Path = 
+Reference = MCU1;
+ValeurCmp = Arduino Pro Micro;
+IdModule  = Arduino_Pro_Micro;
+EndCmp
+
+BeginCmp
+TimeStamp = 54306387-19aa-45e3-8ff9-63a6b4cd81d9
+Path = 
+Reference = ROT1;
+ValeurCmp = EC11;
+IdModule  = travis:ec11;
+EndCmp
+
+BeginCmp
+TimeStamp = 643bf00e-9656-4813-8d08-436efaa608a5
+Path = 
+Reference = S6;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = 75002b4d-d0cb-4617-ad00-9ff9a1fe59e7
+Path = 
+Reference = LOGO2;
+ValeurCmp = [NoVal];
+IdModule  = travis:travis;
+EndCmp
+
+BeginCmp
+TimeStamp = 778c20b1-59ca-4d7d-9531-2bd129c6669b
+Path = 
+Reference = S11;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = 8587b57f-cc96-49bd-92e1-3914ca1b255f
+Path = 
+Reference = STAB2u3;
+ValeurCmp = Stabilizer_MX_2.00u;
+IdModule  = ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = 865d7cc4-76b6-4596-98ec-312328ab80c8
+Path = 
+Reference = HOLE1;
+ValeurCmp = [NoVal];
+IdModule  = travis:MountingHole_2.2mm_M2_Pad_Via;
+EndCmp
+
+BeginCmp
+TimeStamp = 868811c1-d314-413f-830e-96d0f17fa2f0
+Path = 
+Reference = HOLE3;
+ValeurCmp = [NoVal];
+IdModule  = travis:MountingHole_2.2mm_M2_Pad_Via;
+EndCmp
+
+BeginCmp
+TimeStamp = 883b67c5-cab5-4eb3-8924-fa1a4adc637c
+Path = 
+Reference = S12;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = c19815fb-0029-4f93-9b7e-ac16e1bbced5
+Path = 
+Reference = S1;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = c84be1c9-9b96-4887-ba4c-251791578a01
+Path = 
+Reference = S9;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = c94b4528-3da5-4331-be76-0bede2f6d135
+Path = 
+Reference = S10;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = cec1f350-501e-467d-a2a0-015dc0cf060f
+Path = 
+Reference = S7;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = ced48fd4-a9b0-4eda-b274-7082ec437fd7
+Path = 
+Reference = S13;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = dfa5a9e4-cb86-438e-9b02-4b12fa4c1024
+Path = 
+Reference = LOGO1;
+ValeurCmp = [NoVal];
+IdModule  = ceoloide:utility_ergogen_logo;
+EndCmp
+
+BeginCmp
+TimeStamp = e3ac6463-cb62-4d6f-987a-b9068476e5e0
+Path = 
+Reference = HOLE4;
+ValeurCmp = [NoVal];
+IdModule  = travis:MountingHole_2.2mm_M2_Pad_Via;
+EndCmp
+
+BeginCmp
+TimeStamp = ea611b59-49c8-4237-abaf-28baaca18a4f
+Path = 
+Reference = STAB2u2;
+ValeurCmp = Stabilizer_MX_2.00u;
+IdModule  = ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u;
+EndCmp
+
+BeginCmp
+TimeStamp = ebecfc04-4b6c-45a9-96a6-e34bf3e501b6
+Path = 
+Reference = OLED1;
+ValeurCmp = OLED;
+IdModule  = lib:OLED_headers;
+EndCmp
+
+BeginCmp
+TimeStamp = f3046583-6096-4034-94e8-4e9767688380
+Path = 
+Reference = S16;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = fc34d06b-6b3b-474f-86c1-7a8ed4bb1e5c
+Path = 
+Reference = S4;
+ValeurCmp = Kailh MX Switch Sockets;
+IdModule  = travis:MX;
+EndCmp
+
+BeginCmp
+TimeStamp = 061e4022-a119-453b-828f-c93e5cf86f64
+Path = 
+Reference = LED_0;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = 0654fa04-7695-4fcd-996d-9851eb85270c
+Path = 
+Reference = C14;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 07c89c5f-3775-436b-967f-24617ee9e1a5
+Path = 
+Reference = C2;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 0c992fe5-3ebc-450f-9203-25bfd6e639a3
+Path = 
+Reference = LED_12;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = 0ec7962e-3ae7-44bd-ab4b-911e0b792c77
+Path = 
+Reference = LED_5;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = 15654a2d-afd6-4905-8fc0-1f2ec6f88042
+Path = 
+Reference = C21;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 1ba649a4-ff0a-4372-b0b3-4fba12b7338a
+Path = 
+Reference = D3;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 219e54f4-b844-4277-b85a-323ffd28c209
+Path = 
+Reference = LED_17;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = 22762b4e-8e8b-4bc7-a70c-32700efc0227
+Path = 
+Reference = LED_3;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = 23fff73c-c40f-4b95-90ca-cef0212c762a
+Path = 
+Reference = D18;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 2bd005fd-1b6a-4c82-8f7b-f821ace3a92c
+Path = 
+Reference = D14;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 3276f24f-cdce-4f7b-a75a-2b0f783e6d71
+Path = 
+Reference = D6;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 32eec6df-9aee-4fd4-8e41-8ecc5ebeaa66
+Path = 
+Reference = D17;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 36f6e8c5-a1eb-4471-9cdb-353f779b970e
+Path = 
+Reference = LED_15;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = 404a6704-3a0a-4783-95d0-eb02f01bdba7
+Path = 
+Reference = C13;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 48704b89-a84c-44c4-a4e4-452abb745707
+Path = 
+Reference = LED_2;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = 4b190a2d-8065-46b6-94f0-8165b2360998
+Path = 
+Reference = LED_1;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = 4fa615e3-8411-4036-bddb-8d77f8086398
+Path = 
+Reference = LED_7;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = 56db24ab-d420-4965-957a-8b5c9639ee86
+Path = 
+Reference = C5;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5a1305e6-aebe-45e9-8035-36b63b7b7423
+Path = 
+Reference = ROC1;
+ValeurCmp = [NoVal];
+IdModule  = travis:travis;
+EndCmp
+
+BeginCmp
+TimeStamp = 5fa347b1-0180-4598-aaf2-95a7c939d782
+Path = 
+Reference = C17;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 613290bd-2d7a-42a7-87a0-32063adf10ec
+Path = 
+Reference = C3;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 630f6049-6224-44b8-b7d8-b63188437195
+Path = 
+Reference = C20;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 66442c7a-bed4-40b4-88c3-be02d8147ae8
+Path = 
+Reference = LED_19;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = 6ced7d44-9120-4825-9e20-a81f2bc14589
+Path = 
+Reference = D8;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 6f619f5b-fc5a-47a5-94cf-c5c605e6e0ca
+Path = 
+Reference = C9;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 737a9c77-26b2-4bbf-b10a-f33ddff17e7c
+Path = 
+Reference = C15;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 74c06d19-9310-4193-b014-18521caab11f
+Path = 
+Reference = LED_18;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = 7533c67b-17fa-4e4e-99be-a4fe759da6e7
+Path = 
+Reference = D1;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 7f98834a-a999-41e1-bb73-aac0ae635b98
+Path = 
+Reference = C11;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 7fb5d022-456c-4449-b369-11c368299e90
+Path = 
+Reference = C8;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 8254bc91-2b92-478e-834f-be4c5e95ec3a
+Path = 
+Reference = LED_8;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = 83670034-755a-4f33-9fff-0621e715e364
+Path = 
+Reference = D16;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 84f8173f-c820-45f4-8a50-198b6dba58e8
+Path = 
+Reference = D12;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 88a689da-2f4e-4fa0-9490-ed65256f6570
+Path = 
+Reference = C7;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 8a66f72d-3388-4308-8e39-f28067401efe
+Path = 
+Reference = D2;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 91300def-8bca-42ad-a168-12f8b5b25397
+Path = 
+Reference = D13;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 9850762d-227f-4f34-8bbc-4fa650b3a821
+Path = 
+Reference = D4;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 98af5ab3-1afd-4ef0-aa47-dcdb11b38293
+Path = 
+Reference = LED_13;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = 99d3c1aa-a085-44ee-81c3-21c243288ad2
+Path = 
+Reference = LED_4;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = 9e95cad2-bf4e-4cea-9f0c-9e69e77347ef
+Path = 
+Reference = C16;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = a0e37c04-a4f3-4d1d-aae7-38a3759a74ba
+Path = 
+Reference = C10;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = b3402761-ce67-4518-ac2a-805a745827e0
+Path = 
+Reference = C18;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = b814643c-2cca-40f1-9ae2-feb66a969437
+Path = 
+Reference = LED_6;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = ba5679ad-d67b-4955-ad7b-d664afa614cb
+Path = 
+Reference = D10;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = baf8906b-e627-4918-8159-44a04547c2fe
+Path = 
+Reference = C4;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = c37aa6b6-ad0f-4aa3-81d7-d6176841534e
+Path = 
+Reference = LED_16;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = c878eb78-d6ed-4ce8-b9f1-caa0b2fe774a
+Path = 
+Reference = C19;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = cada16b6-e9c2-4d15-81ef-51b82559b877
+Path = 
+Reference = LED_9;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = cc007734-c8ff-4f05-b876-2a4871d44fa5
+Path = 
+Reference = C22;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = cf8753d0-f21b-43c4-97a4-322a059117bb
+Path = 
+Reference = C12;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = d286b849-191d-42d4-b53e-e17f13f04b4e
+Path = 
+Reference = LED_20;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = d49bf91d-46ef-41ad-b085-c64c6a4d345e
+Path = 
+Reference = D9;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = db6371a0-e481-4bf7-973a-2a2f40bbd9b7
+Path = 
+Reference = D15;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = e453bce7-624c-49c8-9f3a-df5ce0d14b4c
+Path = 
+Reference = C6;
+ValeurCmp = C_1206_3216Metric;
+IdModule  = C_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = e4bb8e80-c594-47d8-af8a-17b9efeaae0d
+Path = 
+Reference = LED_10;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = e56bd71a-4f7a-4da9-848d-4b58b98e6be6
+Path = 
+Reference = D5;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = f3f8deb6-2f3d-4edc-aa45-51ff72dbfacb
+Path = 
+Reference = LED_14;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = f5c016c8-6c93-4012-b3e1-8c65e664e7a7
+Path = 
+Reference = LED_11;
+ValeurCmp = SK6812mini-e;
+IdModule  = travis:led_SK6812mini-e (per-key, single-side);
+EndCmp
+
+BeginCmp
+TimeStamp = f5f08490-4dbe-440a-b154-a8976cad4735
+Path = 
+Reference = D11;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = fdf6a7b2-c998-4398-8f10-167f8f357340
+Path = 
+Reference = D7;
+ValeurCmp = D_1206_3216Metric;
+IdModule  = D_1206_3216Metric;
+EndCmp
+
+EndListe

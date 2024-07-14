@@ -5,7 +5,7 @@ function xlBoard_extrude_5_6_outline_fn(){
 
 
 function board_extrude_5_6_outline_fn(){
-    return new CSG.Path2D([[27.475,-207.525],[27.475,-84.75]]).appendArc([32.475,-79.75],{"radius":5,"clockwise":true,"large":false}).appendPoint([107.675,-79.75]).appendArc([112.675,-84.75],{"radius":5,"clockwise":true,"large":false}).appendPoint([112.675,-207.525]).appendArc([107.675,-212.525],{"radius":5,"clockwise":true,"large":false}).appendPoint([32.475,-212.525]).appendArc([27.475,-207.525],{"radius":5,"clockwise":true,"large":false}).close().innerToCAG()
+    return new CSG.Path2D([[27.475,-207.525],[27.475,-79.75]]).appendArc([32.475,-74.75],{"radius":5,"clockwise":true,"large":false}).appendPoint([107.675,-74.75]).appendArc([112.675,-79.75],{"radius":5,"clockwise":true,"large":false}).appendPoint([112.675,-207.525]).appendArc([107.675,-212.525],{"radius":5,"clockwise":true,"large":false}).appendPoint([32.475,-212.525]).appendArc([27.475,-207.525],{"radius":5,"clockwise":true,"large":false}).close().innerToCAG()
 .extrude({ offset: [0, 0, 5.6] });
 }
 

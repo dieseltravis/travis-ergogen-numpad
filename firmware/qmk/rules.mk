@@ -1,9 +1,7 @@
 # MCU name
 MCU = atmega32u4
-CONVERT_TO = kb2040
+CONVERT_TO = rp2040_ce
 
 AUDIO_ENABLE = no           # Audio output
 ENCODER_ENABLE = yes        # Use rotary encoder
-#OLED_ENABLE = yes
-
-#SRC += matrix.c
+OLED_ENABLE = yes
