@@ -8,7 +8,8 @@
 enum layers {
     _BASE = 0,
     _FUNC,
-    _RGB
+    _RGB,
+    _FOUR
 };
 
 /* ?
@@ -26,6 +27,15 @@ enum layers {
 	{ K40,   KC_NO, K42,   K43 }  \
 }
 */
+
+#if defined(ENCODER_MAP_ENABLE)
+const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
+    [_BASE] = { ENCODER_CCW_CW(KC_VOLD,     KC_VOLU) },
+    [_FUNC] = { ENCODER_CCW_CW(KC_MS_WH_UP, KC_MS_WH_DOWN) },
+    [_RGB] = { ENCODER_CCW_CW(RGB_VAD, RGB_VAI) },
+    [_FOUR] = { ENCODER_CCW_CW(RGB_VAD, RGB_VAI)}
+};
+#endif
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*              ◜⤺◝
@@ -69,7 +79,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_FUNC] = LAYOUT_travis(       _______,
         TG(2),   _______, _______, _______,
         KC_HOME, KC_UP,   KC_PGUP,
-        KC_LEFT, XXXXXXX, KC_RGHT, _______,
+        KC_LEFT, _______, KC_RGHT, _______,
         KC_END,  KC_DOWN, KC_PGDN,
         KC_INS,           KC_DEL,  _______
     ),
@@ -90,11 +100,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * └───────┴───┘───┘
      */
     [_RGB] = LAYOUT_travis(        RGB_TOG,
-        TG(0),   _______, _______, _______,
+        TG(3),   _______, _______, _______,
         RGB_M_X, RGB_M_G, RGB_M_T,
         RGB_M_SW,RGB_M_SN,RGB_M_K, RGB_SPI,
         RGB_M_P, RGB_M_B, RGB_M_R,
         RGB_RMOD,         RGB_MOD, RGB_SPD
+    ),
+
+    [_FOUR] = LAYOUT_travis(       _______,
+        TG(0),   _______, _______, _______,
+        _______, _______, _______,
+        _______, _______, _______, _______,
+        _______, _______, _______,
+        _______,          _______, _______
     ),
   };
 
