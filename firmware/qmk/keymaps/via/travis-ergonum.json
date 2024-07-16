@@ -1,0 +1,59 @@
+[
+  {
+    "backcolor": "#000000",
+    "name": "travis-ergonum",
+    "author": "Travis Hardiman (@dieseltravis)",
+    "radii": "5",
+    "switchMount": "cherry",
+    "switchBrand": "kailh",
+    "switchType": "PG151101D49/D09",
+    "plate": true,
+    "css": ".rotary .keycap .keyborder,\n.rotary .keycap .keytop,\n.rotary .keycap .keylabels,\n.rotary .keycap .keylabel {\n    border-radius: 100% !important;\n}",
+    "pcb": true
+  },
+  [
+    {
+      "x": 3,
+      "p": "DSA"
+    },
+    "0,3\n\n\n\n\n\n\n\n\ne0"
+  ],
+  [
+    "0,0",
+    "0,1",
+    "0,2",
+    "1,3"
+  ],
+  [
+    "1,0",
+    "1,1",
+    "1,2",
+    {
+      "h": 2
+    },
+    "2,3"
+  ],
+  [
+    "2,0",
+    "2,1",
+    "2,2"
+  ],
+  [
+    "3,0",
+    "3,1",
+    "3,2",
+    {
+      "c": "#777777",
+      "h": 2
+    },
+    "4,3"
+  ],
+  [
+    {
+      "c": "#cccccc",
+      "w": 2
+    },
+    "4,0",
+    "4,2"
+  ]
+]
