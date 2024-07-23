@@ -142,7 +142,7 @@ static void render_status(void) {
       oled_write_ln_P(PSTR("RGB"), false);
       break;
     case _FOUR:
-      oled_write_ln_P(PSTR("extra"), false);
+      oled_write_ln_P(PSTR("Extra"), false);
       break;
     default:
       oled_write_ln_P(PSTR("Undefined"), false);

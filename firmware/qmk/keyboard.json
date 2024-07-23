@@ -23,7 +23,7 @@
         "rgblight": false
     },
     "usb": {
-        "device_version": "1.0.5",
+        "device_version": "1.0.6",
         "pid": "0x2025",
         "vid": "0x1979"
     },
