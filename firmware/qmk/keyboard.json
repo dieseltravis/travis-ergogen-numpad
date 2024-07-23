@@ -19,10 +19,11 @@
         "extrakey": true,
         "mousekey": false,
         "oled": true,
-        "nkro": true
+        "nkro": true,
+        "rgblight": false
     },
     "usb": {
-        "device_version": "1.0.4",
+        "device_version": "1.0.5",
         "pid": "0x2025",
         "vid": "0x1979"
     },
