@@ -12,6 +12,23 @@ enum layers {
     _FOUR
 };
 
+// For custom LED logic
+#define RGB_LED_NUM 0
+#define RGB_LED_CAP 1
+#define RGB_LED_SCR 2
+#define RGB_LED_FUN 3
+#define LED_MAX 4
+//#define RGB_ON_VAL    0, 255,   0
+//#define RGB_OFF_VAL 255,   0,   0
+
+const uint8_t PROGMEM layer_color[4][3] = {
+//    R,   G,   B
+  { LED_MAX,   0,   0 },
+  { 0,   LED_MAX, LED_MAX },
+  { LED_MAX,   0, LED_MAX },
+  { LED_MAX, LED_MAX,   0 }
+};
+
 /* ?
 #define LAYOUT(  K03, \
 	K00, K01, K02, K13, \
@@ -42,7 +59,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      *             ⤹rot⤸
      *              ◟⤻◞
      * ┌───┬───┬───┬───┐
-     * │TG1│ / │ * │ - │
+     * │TO1│ / │ * │ - │
      * ├───┼───┼───┼───┤
      * │ 7 │ 8 │ 9 │   │
      * ├───┼───┼───┤ + │
@@ -54,7 +71,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * └───────┴───┴───┘
      */
     [_BASE] = LAYOUT_travis(       KC_MUTE,
-        TG(1),   KC_PSLS, KC_PAST, KC_PMNS,
+        TO(1),   KC_PSLS, KC_PAST, KC_PMNS,
         KC_P7,   KC_P8,   KC_P9,
         KC_P4,   KC_P5,   KC_P6,   KC_PPLS,
         KC_P1,   KC_P2,   KC_P3,
@@ -65,7 +82,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      *             ⤹rot⤸
      *              ◟⤻◞
      * ┌───┬───┬───┬───┐
-     * │TG2│ / │ * │ - │
+     * │TO2│ / │ * │ - │
      * ├───┼───┼───┼───┤
      * │Hom│ ↑ │PgU│   │
      * ├───┼───┼───┤ + │
@@ -77,7 +94,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * └───────┴───┘───┘
      */
     [_FUNC] = LAYOUT_travis(       _______,
-        TG(2),   _______, _______, _______,
+        TO(2),   _______, _______, _______,
         KC_HOME, KC_UP,   KC_PGUP,
         KC_LEFT, _______, KC_RGHT, _______,
         KC_END,  KC_DOWN, KC_PGDN,
@@ -88,7 +105,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      *             ⤹RGB⤸
      *              ◟⤻◞
      * ┌───┬───┬───┬───┐
-     * │TG0│ / │ * │ - │
+     * │TO3│ / │ * │ - │
      * ├───┼───┼───┼───┤
      * │Hom│ ↑ │PgU│   │
      * ├───┼───┼───┤ + │
@@ -100,7 +117,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * └───────┴───┘───┘
      */
     [_RGB] = LAYOUT_travis(        RGB_TOG,
-        TG(3),   _______, _______, _______,
+        TO(3),   _______, _______, _______,
         RGB_M_X, RGB_M_G, RGB_M_T,
         RGB_M_SW,RGB_M_SN,RGB_M_K, RGB_SPI,
         RGB_M_P, RGB_M_B, RGB_M_R,
@@ -108,7 +125,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [_FOUR] = LAYOUT_travis(       _______,
-        TG(0),   _______, _______, _______,
+        TO(0),   _______, _______, _______,
         _______, _______, _______,
         _______, _______, _______, _______,
         _______, _______, _______,
@@ -171,3 +188,30 @@ bool oled_task_user(void) {
 }
 
 #endif
+
+// Custom indicator LEDs:
+bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
+    led_t led_state = host_keyboard_led_state();
+    if (led_state.num_lock) {
+      RGB_MATRIX_INDICATOR_SET_COLOR(RGB_LED_NUM,   0, LED_MAX,   0);
+    } else {
+      RGB_MATRIX_INDICATOR_SET_COLOR(RGB_LED_NUM, LED_MAX,   0,   0);
+    }
+
+    if (led_state.caps_lock) {
+      RGB_MATRIX_INDICATOR_SET_COLOR(RGB_LED_CAP,   0, LED_MAX,   0);
+    } else {
+      RGB_MATRIX_INDICATOR_SET_COLOR(RGB_LED_CAP, LED_MAX,   0,   0);
+    }
+
+    if (led_state.scroll_lock) {
+      RGB_MATRIX_INDICATOR_SET_COLOR(RGB_LED_SCR,   0, LED_MAX,   0);
+    } else {
+      RGB_MATRIX_INDICATOR_SET_COLOR(RGB_LED_SCR, LED_MAX,   0,   0);
+    }
+
+    uint8_t layer = get_highest_layer(layer_state|default_layer_state);
+    RGB_MATRIX_INDICATOR_SET_COLOR(RGB_LED_FUN, layer_color[layer][0], layer_color[layer][1], layer_color[layer][2]);
+
+    return false;
+}
