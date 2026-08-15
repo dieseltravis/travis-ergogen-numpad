@@ -6,12 +6,12 @@
   "author": "Travis Hardiman <dieseltravis@users.noreply.github.com>",
   "license": "Hippocratic-3.0",
   "dependencies": {
-    "ergogen": "^4.2.1"
+    "ergogen": ">=4.2.1"
   },
   "devDependencies": {
-    "dxf": "^5.3.1",
-    "js-yaml": "^5.2.3",
-    "yaml-lint": "^1.7.0"
+    "dxf": ">=5.3.1",
+    "js-yaml": ">=5.2.3",
+    "yaml-lint": ">=1.7.0"
   },
   "scripts": {
     "test": "npx yamllint config.yaml",

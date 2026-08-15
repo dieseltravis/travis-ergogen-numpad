@@ -20,7 +20,7 @@
     "@nodelib/fs.stat" "2.0.5"
     run-parallel "^1.1.9"
 
-"@nodelib/fs.stat@^2.0.2", "@nodelib/fs.stat@2.0.5":
+"@nodelib/fs.stat@2.0.5", "@nodelib/fs.stat@^2.0.2":
   version "2.0.5"
   resolved "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz"
   integrity sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==
@@ -175,9 +175,9 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
-dxf@^5.3.1:
+dxf@>=5.3.1:
   version "5.3.1"
-  resolved "https://registry.npmjs.org/dxf/-/dxf-5.3.1.tgz"
+  resolved "https://registry.yarnpkg.com/dxf/-/dxf-5.3.1.tgz#6662505029817f9c07e7415f470a980e5a677ca2"
   integrity sha512-20X9WaPisX6ssBoJ0Ek+efGUKBHL5j+VwiyBUrbEN6/dISediyrLDFk98KybqzSMw4EPtH5cHKUFBDgQASx3SQ==
   dependencies:
     commander "^2.20.3"
@@ -189,9 +189,9 @@ emoji-regex@^8.0.0:
   resolved "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz"
   integrity sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==
 
-ergogen@^4.2.1:
+ergogen@>=4.2.1:
   version "4.2.1"
-  resolved "https://registry.npmjs.org/ergogen/-/ergogen-4.2.1.tgz"
+  resolved "https://registry.yarnpkg.com/ergogen/-/ergogen-4.2.1.tgz#d2d17b838632bfc372566b98e5e4832b3d0f2ea2"
   integrity sha512-hmefdWjVuOuxWQWHzVq+piBRP+3BdqwN/wl625ZCZSL/wlKXQaAOMWJOn/n3l1s4/9KLfKVOwcEkOz7M6qJ25Q==
   dependencies:
     fs-extra "^11.3.2"
@@ -350,6 +350,13 @@ javascript-natural-sort@^0.7.1:
   resolved "https://registry.npmjs.org/javascript-natural-sort/-/javascript-natural-sort-0.7.1.tgz"
   integrity sha512-nO6jcEfZWQXDhOiBtG2KvKyEptz7RVbpGP4vTD2hLBdmNQSsCiicO2Ioinv6UI4y9ukqnBpy+XZ9H6uLNgJTlw==
 
+js-yaml@>=5.2.3:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-5.3.0.tgz#526430a6da31065127528ae695ce168cfc5f91f0"
+  integrity sha512-muutsYr+e2+d3rTgUGslq5rxbBlUy3cJ61IsHag2QNDQV+7zXWjkUpmALIajhrlLlrgRUiymj6U3zUr/TMK84Q==
+  dependencies:
+    argparse "^2.0.1"
+
 js-yaml@^3.14.1:
   version "3.15.1"
   resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-3.15.1.tgz"
@@ -362,13 +369,6 @@ js-yaml@^4.1.0:
   version "4.3.1"
   resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-4.3.1.tgz"
   integrity sha512-CY6crGq313MX8GkwvB7tzgp99vjQxY1++5y10/BKN/GUfHqWaOGQMNZkBvqSzsZKWk/ijwHlWzzkLulsGHhjWQ==
-  dependencies:
-    argparse "^2.0.1"
-
-js-yaml@^5.2.3:
-  version "5.2.3"
-  resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-5.2.3.tgz"
-  integrity sha512-n+mUVyUX5bVv7G/G2zyIHOhdxfuU1dY2NOFzTQUWiMUbFss8b57NFlgCCaggU78wSw5KVS9cllzeLyzyR+n5nw==
   dependencies:
     argparse "^2.0.1"
 
@@ -599,13 +599,6 @@ sprintf-js@~1.0.2:
   resolved "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz"
   integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
 
-string_decoder@~1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz"
-  integrity sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
-  dependencies:
-    safe-buffer "~5.1.0"
-
 string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
   resolved "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
@@ -614,6 +607,13 @@ string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
     emoji-regex "^8.0.0"
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.1"
+
+string_decoder@~1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz"
+  integrity sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
+  dependencies:
+    safe-buffer "~5.1.0"
 
 strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
@@ -683,9 +683,9 @@ y18n@^5.0.5:
   resolved "https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz"
   integrity sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==
 
-yaml-lint@^1.7.0:
+yaml-lint@>=1.7.0:
   version "1.7.0"
-  resolved "https://registry.npmjs.org/yaml-lint/-/yaml-lint-1.7.0.tgz"
+  resolved "https://registry.yarnpkg.com/yaml-lint/-/yaml-lint-1.7.0.tgz#4206293571b77292e96640b271ab0abdbec46cf5"
   integrity sha512-zeBC/kskKQo4zuoGQ+IYjw6C9a/YILr2SXoEZA9jM0COrSwvwVbfTiFegT8qYBSBgOwLMWGL8sY137tOmFXGnQ==
   dependencies:
     consola "^2.15.3"
