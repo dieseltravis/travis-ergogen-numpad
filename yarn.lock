@@ -20,7 +20,7 @@
     "@nodelib/fs.stat" "2.0.5"
     run-parallel "^1.1.9"
 
-"@nodelib/fs.stat@^2.0.2", "@nodelib/fs.stat@2.0.5":
+"@nodelib/fs.stat@2.0.5", "@nodelib/fs.stat@^2.0.2":
   version "2.0.5"
   resolved "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz"
   integrity sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==
@@ -37,6 +37,13 @@
   version "0.0.6"
   resolved "https://registry.npmjs.org/@types/bezier-js/-/bezier-js-0.0.6.tgz"
   integrity sha512-kXsAlt8e8N6zt9R6LcMYWB1HkBw3q2g+M9BdI/UE+s4agIONuIscQaRCoInH22+Jas3rw8yLUehL2InaZjyNSA==
+
+"@types/fontkit@^2.0.8":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@types/fontkit/-/fontkit-2.0.9.tgz#36ab81bca3c425115dd96c0dd65dc6183369390c"
+  integrity sha512-qNYerFky3muCmZPq+R+B3cUDRA5OONw/oh6aGGFxx2LOBz6yu8eamKusrhkHnC6rc2fm76+G9z9QoWSB2SaQaw==
+  dependencies:
+    "@types/node" "*"
 
 "@types/node@*":
   version "20.12.11"
@@ -350,6 +357,13 @@ javascript-natural-sort@^0.7.1:
   resolved "https://registry.npmjs.org/javascript-natural-sort/-/javascript-natural-sort-0.7.1.tgz"
   integrity sha512-nO6jcEfZWQXDhOiBtG2KvKyEptz7RVbpGP4vTD2hLBdmNQSsCiicO2Ioinv6UI4y9ukqnBpy+XZ9H6uLNgJTlw==
 
+js-yaml@>=5.3.0:
+  version "5.3.0"
+  resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-5.3.0.tgz"
+  integrity sha512-muutsYr+e2+d3rTgUGslq5rxbBlUy3cJ61IsHag2QNDQV+7zXWjkUpmALIajhrlLlrgRUiymj6U3zUr/TMK84Q==
+  dependencies:
+    argparse "^2.0.1"
+
 js-yaml@^3.14.1:
   version "3.15.1"
   resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-3.15.1.tgz"
@@ -362,13 +376,6 @@ js-yaml@^4.1.0:
   version "4.3.1"
   resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-4.3.1.tgz"
   integrity sha512-CY6crGq313MX8GkwvB7tzgp99vjQxY1++5y10/BKN/GUfHqWaOGQMNZkBvqSzsZKWk/ijwHlWzzkLulsGHhjWQ==
-  dependencies:
-    argparse "^2.0.1"
-
-js-yaml@>=5.3.0:
-  version "5.3.0"
-  resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-5.3.0.tgz"
-  integrity sha512-muutsYr+e2+d3rTgUGslq5rxbBlUy3cJ61IsHag2QNDQV+7zXWjkUpmALIajhrlLlrgRUiymj6U3zUr/TMK84Q==
   dependencies:
     argparse "^2.0.1"
 
@@ -418,6 +425,22 @@ lodash@^4.17.21:
   version "4.18.1"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.18.1.tgz"
   integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
+
+makerjs@>=0.19.2:
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/makerjs/-/makerjs-0.19.2.tgz#bc97001834841494d5c50f4cad05c60a03e0fffc"
+  integrity sha512-+W30jtxgM5ht8jWyxOpoLpz/6u9DEDjW9XXbvkyAba9xIDXnUB4vaB+JajMm7i6QbD7E41rxSl6VFkOcNMwFBA==
+  dependencies:
+    "@danmarshall/jscad-typings" "^1.0.0"
+    "@types/bezier-js" "^0.0.6"
+    "@types/fontkit" "^2.0.8"
+    "@types/node" "^7.0.5"
+    "@types/opentype.js" "^0.7.0"
+    "@types/pdfkit" "^0.7.34"
+    bezier-js "^2.1.0"
+    clone "^1.0.2"
+    graham_scan "^1.0.4"
+    kdbush "^2.0.1"
 
 makerjs@^0.18.1:
   version "0.18.2"
@@ -599,13 +622,6 @@ sprintf-js@~1.0.2:
   resolved "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz"
   integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
 
-string_decoder@~1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz"
-  integrity sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
-  dependencies:
-    safe-buffer "~5.1.0"
-
 string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
   resolved "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
@@ -614,6 +630,13 @@ string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
     emoji-regex "^8.0.0"
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.1"
+
+string_decoder@~1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz"
+  integrity sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
+  dependencies:
+    safe-buffer "~5.1.0"
 
 strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
