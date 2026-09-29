@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "dxf": ">=5.3.1",
-    "js-yaml": ">=5.3.0",
+    "js-yaml": ">=5.4.1",
     "yaml-lint": ">=1.7.0",
     "makerjs": ">=0.19.2"
   },
